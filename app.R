@@ -3,10 +3,11 @@ library(dplyr)
 library(plotly)
 library(here)
 source(here("UI/IHBS/ui_IHBS.R"))
+source(here("Server/IHBS/server_IHBS.R"))
 source(here("Data/IHBS/process/Data_IHBS.R"))
 
-# Credentials
-user_credentials <- list(username = "abcd", password = "1234")
+# Credentials----
+user_credentials <- list(username = "iraneconomydashboard", password = "iraneconomydashboard")
 
 
 # Define UI for login page----
@@ -46,6 +47,10 @@ ui <- fluidPage(
     # Second layer with charts under each button
     tabPanel("Households Expenditure and Income",
              ui_IHBS_expincshare_1(df_IHBS_ExpInc_Share),
+             ui_IHBS_total_expinc(df_IHBS_Total_ExpInc),
+             ui_IHBS_expinc_series(df_IHBS_ExpIncSeries),
+             
+             
     )
   )
 )
@@ -72,31 +77,9 @@ server <- function(input, output, session) {
     }
   })
 
-  output$IHBS_ExpInc_Share <- renderPlotly({
-    # Get the filtered data
-    data <- IHBS_ExpInc_Share_data(df_IHBS_ExpInc_Share, input$IHBS_ExpInc_Share_Year, input$IHBS_ExpInc_Share_Type) %>%
-      group_by(decile) %>%
-      arrange(desc(value)) %>%   # Sort by value in descending order within each Decile
-      mutate(variable = factor(variable, levels = unique(variable))) %>% # Update factor levels
-      ungroup()
-
-
-    plot_ly(data,
-            x = ~decile,
-            y = ~value,
-            color = ~variable,
-            type = 'bar',
-            hovertext = ~paste(variable, "=", round(value,1), "%"),
-            hoverinfo = "text") %>%
-      layout(title = "Expenditure Breakdown by Decile",
-             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$decile)),
-             yaxis = list(title = "Share of Expenditure", tickformat = ",", tickmode = "auto", nticks = 10), 
-             barmode = 'stack',
-             legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
-             ) 
-  })
+  server_IHBS(input, output)
 }
 
 # Run the application
-# shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
-shinyApp(ui = ui, server = server)
+shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
+# shinyApp(ui = ui, server = server)
