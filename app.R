@@ -1,5 +1,6 @@
 library(shiny)
 library(dplyr)
+library(ggplot2)
 library(plotly)
 library(here)
 source(here("UI/IHBS/ui_IHBS.R"))
@@ -81,5 +82,5 @@ server <- function(input, output, session) {
 }
 
 # Run the application
-shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
-# shinyApp(ui = ui, server = server)
+#shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
+shinyApp(ui = ui, server = server)
