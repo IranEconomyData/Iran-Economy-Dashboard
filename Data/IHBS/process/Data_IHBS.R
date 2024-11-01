@@ -28,3 +28,13 @@ IHBS_ExpInc_Series_data <- function(df, region, type, year) {
            Type == type,
            Year == year)
 }
+
+
+
+df_IHBS_FGrams_Per <- read.csv(here("Data/IHBS/raw/FGrams_perSeries.csv"))
+
+IHBS_FGrams_Per_data <- function(df, year) {
+  df |>
+    filter(Year == year,
+           GEO == "Iran")
+}

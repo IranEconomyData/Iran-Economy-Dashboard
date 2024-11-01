@@ -44,4 +44,33 @@ server_IHBS <- function(input, output){
     
   })  
   
+  
+  
+  
+  output$IHBS_FGrams_Per <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_FGrams_Per_data(df_IHBS_FGrams_Per, input$IHBS_FGrams_Per_Year) %>%
+      group_by(decile) %>%
+      arrange(desc(value)) %>%   # Sort by value in descending order within each Decile
+      mutate(variable = factor(variable, levels = unique(variable))) %>% # Update factor levels
+      ungroup()
+    
+    
+    plot_ly(data,
+            x = ~decile,
+            y = ~value,
+            color = ~variable,
+            type = 'bar',
+            hovertext = ~paste(variable, "=", round(value,1), "Grams"),
+            hoverinfo = "text") %>%
+      layout(title = "Food Consumption by Decile",
+             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$decile)),
+             yaxis = list(title = "Grams per month per capita", tickformat = ",", tickmode = "auto", nticks = 10), 
+             #barmode = 'stack',
+             legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
+      ) 
+  })
+  
+  
+  
 }

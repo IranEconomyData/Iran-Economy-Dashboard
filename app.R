@@ -1,6 +1,7 @@
 library(shiny)
 library(dplyr)
 library(ggplot2)
+library(purrr)
 library(plotly)
 library(here)
 source(here("UI/IHBS/ui_IHBS.R"))
@@ -50,6 +51,7 @@ ui <- fluidPage(
              ui_IHBS_expincshare_1(df_IHBS_ExpInc_Share),
              ui_IHBS_total_expinc(df_IHBS_Total_ExpInc),
              ui_IHBS_expinc_series(df_IHBS_ExpIncSeries),
+             ui_IHBS_fgrams_per(df_IHBS_FGrams_Per),
              
              
     )

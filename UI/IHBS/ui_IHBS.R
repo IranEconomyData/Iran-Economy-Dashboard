@@ -43,8 +43,23 @@ ui_IHBS_expinc_series <- function(df){
                  selectInput("IHBS_ExpInc_series_Type", "Type", choices = unique(df$Type))
           ),
           column(4,
-                 selectInput("IHBS_ExpInc_series_Year", "Type", choices = unique(df$Year))
+                 selectInput("IHBS_ExpInc_series_Year", "Year", choices = unique(df$Year))
           )
         )
     )
   )}
+
+
+ui_IHBS_fgrams_per <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header"),
+        plotlyOutput("IHBS_FGrams_Per"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_FGrams_Per_Year", "Year", choices = unique(df$Year))
+          ))
+          )
+        )
+    
+  }
