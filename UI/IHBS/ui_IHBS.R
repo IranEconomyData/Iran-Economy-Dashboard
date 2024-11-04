@@ -63,3 +63,40 @@ ui_IHBS_fgrams_per <- function(df){
         )
     
   }
+
+
+
+ui_IHBS_ginifood <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header"),
+        plotlyOutput("IHBS_GiniFood"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_GiniFood_Year", "Year", choices = unique(df$Year))
+          ))
+    )
+  )
+  
+}
+
+ui_IHBS_foodprice <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header"),
+        plotlyOutput("IHBS_Foodprice"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_Foodprice_year", "year", choices = unique(df$year))
+          )
+        )
+    )
+  )}
+
+
+
+ui_IHBS_blank <- function(df){
+  fluidRow(div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+               h3("Footer"))
+    
+  )}

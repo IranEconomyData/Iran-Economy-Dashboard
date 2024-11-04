@@ -38,3 +38,22 @@ IHBS_FGrams_Per_data <- function(df, year) {
     filter(Year == year,
            GEO == "Iran")
 }
+
+
+df_IHBS_GiniFood <- read.csv(here("Data/IHBS/raw/GiniFoodDataSeries.csv"))
+
+IHBS_GiniFood_data <- function(df, year) {
+  df |>
+    filter(Year == year,
+           GEO == "Iran")
+}
+
+
+
+# Food Price----
+df_IHBS_Foodprice <- read.csv(here("Data/IHBS/raw/FoodpriceSeries.csv"))
+
+IHBS_Foodprice_data <- function(df, year) {
+  df |>
+    filter(year == year)
+}

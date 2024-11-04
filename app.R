@@ -53,6 +53,11 @@ ui <- fluidPage(
              ui_IHBS_total_expinc(df_IHBS_Total_ExpInc),
              ui_IHBS_expinc_series(df_IHBS_ExpIncSeries),
              ui_IHBS_fgrams_per(df_IHBS_FGrams_Per),
+             ui_IHBS_ginifood(df_IHBS_GiniFood),
+             ui_IHBS_foodprice(df_IHBS_Foodprice),
+             ui_IHBS_blank(),
+             
+             
              
              
     )
