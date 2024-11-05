@@ -107,29 +107,63 @@ server_IHBS <- function(input, output){
   # 
 
   #----
-  output$IHBS_Foodprice  <- renderPlotly({
+  # output$IHBS_Foodprice  <- renderPlotly({
+  #   # Get the filtered data
+  #   data <- IHBS_Food_exp_prov_data(df_IHBS_Food_exp_prov, input$IHBS_Food_exp_prov_year) 
+  # 
+  #   plot_ly(data,
+  #           x = ~decile,
+  #           y = ~value,
+  #           color = ~decile,
+  #           type = 'bar',
+  #           hovertext = ~paste(variable, "=", round(value,2)),
+  #           hoverinfo = "text") %>%
+  #     layout(title = "Price 1000Rials per kg",
+  #            xaxis = list(title = "", tickmode = "array", tickvals = unique(data$variable)),
+  #            yaxis = list(title = "Gini coeff.", tickformat = ",", tickmode = "auto", nticks = 10),
+  #            barmode = 'stack',
+  #            legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
+  #     )
+  # })
+
+  #----
+  output$IHBS_Food_exp_prov  <- renderPlotly({
     # Get the filtered data
-    data <- IHBS_Foodprice_data(df_IHBS_Foodprice, input$IHBS_Foodprice_year) %>%
-      group_by(variable) %>%
-      arrange(desc(value)) %>%   # Sort by value in descending order within each Decile
-      #mutate(variable = factor(variable, levels = unique(variable))) %>% # Update factor levels
-      ungroup()
-
-
-    plot_ly(data,
-            x = ~decile,
-            y = ~value,
-            color = ~decile,
-            type = 'bar',
-            hovertext = ~paste(variable, "=", round(value,2)),
-            hoverinfo = "text") %>%
-      layout(title = "Price 1000Rials per kg",
-             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$variable)),
-             yaxis = list(title = "Gini coeff.", tickformat = ",", tickmode = "auto", nticks = 10),
-             barmode = 'stack',
-             legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
-      )
-  })
-
+    data <- iran_map |> select(geometry, Province) %>%
+      left_join(IHBS_Food_exp_prov_data(df_IHBS_Food_exp_prov, input$IHBS_Food_exp_prov_year) |> select (Province, value),
+                by = "Province")
+    p <- ggplot() +
+      geom_sf(data = world, fill = "lightblue", color = NA) + # background for ocean
+      # Plot surrounding countries
+      geom_sf(data = world, fill = "grey80", color = "white") +
+      # Plot water bodies
+      geom_sf(data = water, fill = "lightblue", color = "lightblue") +
+      # Plot Iran provinces with sample data
+      geom_sf(data = data, aes(fill = value), color = "black") + 
+      # Add country names at centroids
+      geom_text(data = neighboring_countries_centroids, 
+                aes(x = st_coordinates(geometry)[,1], y = st_coordinates(geometry)[,2], 
+                    label = admin), color = "darkblue", size = 3) +
+      scale_fill_viridis_c(option = "C", name = "Value") +
+      labs(
+        title = "Sample Values by Province",
+        caption = "Source: Sample Data"
+      ) +
+      theme_minimal() +
+      theme(
+        panel.background = element_rect(fill = "lightblue", color = NA),  # Ocean background
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank()
+      )+
+      coord_sf(xlim = c(42, 64), ylim = c(25, 40)) # Adjust xlim and ylim as needed
+    
+    
+    # Convert to interactive plotly plot
+    ggplotly(p)
+    
+    
+    
+    })
   
 }

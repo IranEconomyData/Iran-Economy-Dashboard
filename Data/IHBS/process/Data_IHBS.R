@@ -57,3 +57,20 @@ IHBS_Foodprice_data <- function(df, year) {
   df |>
     filter(year == year)
 }
+
+# Food Expenditure Province----
+df_IHBS_Food_exp_prov <- read.csv(here("Data/IHBS/raw/TFoodEXPPerProvSeries.csv"))
+df_IHBS_Food_exp_prov <- df_IHBS_Food_exp_prov %>%
+  mutate(Province = recode(Province,
+                           "East Azarbaijan" = "East Azerbaijan",
+                           "West Azarbaijan" = "West Azerbaijan",
+                           "Esfahan" = "Isfahan",
+                           "Kohkiluyeh and Buyer Ahmad" = "Kohgiluyeh and Boyer-Ahmad",
+                           "Sistan and Baluchistan" = "Sistan and Baluchestan",
+                           "Chahar Mahaal and Bakhtiari" = "Chaharmahal and Bakhtiari"))
+                                                            
+
+IHBS_Food_exp_prov_data <- function(df, year) {
+  df |>
+    filter(Year == year)
+}

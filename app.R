@@ -8,6 +8,7 @@ library(here)
 source(here("UI/IHBS/ui_IHBS.R"))
 source(here("Server/IHBS/server_IHBS.R"))
 source(here("Data/IHBS/process/Data_IHBS.R"))
+source(here("Data/Iran_map.R"))
 
 # Credentials----
 user_credentials <- list(username = "iraneconomydashboard", password = "iraneconomydashboard")
@@ -55,6 +56,7 @@ ui <- fluidPage(
              ui_IHBS_fgrams_per(df_IHBS_FGrams_Per),
              ui_IHBS_ginifood(df_IHBS_GiniFood),
              ui_IHBS_foodprice(df_IHBS_Foodprice),
+             ui_IHBS_foodExp_prov(df_IHBS_Food_exp_prov),
              ui_IHBS_blank(),
              
              
@@ -90,5 +92,5 @@ server <- function(input, output, session) {
 }
 
 # Run the application
-#shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
-shinyApp(ui = ui, server = server)
+shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
+# shinyApp(ui = ui, server = server)
