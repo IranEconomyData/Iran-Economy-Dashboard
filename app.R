@@ -2,9 +2,13 @@
 library(shiny)
 library(dplyr)
 library(ggplot2)
+library(sf)
 library(purrr)
 library(plotly)
 library(here)
+library(rnaturalearth)
+library(rnaturalearthdata)
+
 source(here("UI/IHBS/ui_IHBS.R"))
 source(here("Server/IHBS/server_IHBS.R"))
 source(here("Data/IHBS/process/Data_IHBS.R"))
