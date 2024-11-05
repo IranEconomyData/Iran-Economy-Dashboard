@@ -2,7 +2,7 @@
 iran_map <- st_read(here("Data/irn_admbnda_adm1_unhcr_20190514.shp"))
 iran_map <- iran_map %>%
                 mutate( Province = ADM1_EN)
-
+iran_map <- st_set_crs(iran_map, 4326)
 
 # Load world data for surrounding countries
 world <- ne_countries(scale = "medium", returnclass = "sf")
