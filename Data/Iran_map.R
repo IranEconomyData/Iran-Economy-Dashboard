@@ -1,6 +1,5 @@
-# Load or obtain Iran province data (GeoJSON or shapefile)
-iran_map <- st_read("C:/Users/mehdi/Downloads/irn_adm_unhcr_20190514_shp/irn_admbnda_adm1_unhcr_20190514.shp")
 
+iran_map <- st_read(here("Data/irn_admbnda_adm1_unhcr_20190514.shp"))
 iran_map <- iran_map %>%
                 mutate( Province = ADM1_EN)
 
