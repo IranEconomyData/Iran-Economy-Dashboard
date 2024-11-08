@@ -98,7 +98,7 @@ ui_IHBS_foodExp_prov <- function(df){
 ui_IHBS_cumulative_share <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
-        h3("Chart for Header 2"),
+        h3("Chart for Header 7"),
         plotlyOutput("IHBS_Cumulative_Share"),
         fluidRow(
           column(4,

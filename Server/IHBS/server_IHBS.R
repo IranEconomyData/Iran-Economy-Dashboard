@@ -148,9 +148,10 @@ server_IHBS <- function(input, output){
       geom_line(aes(y = value , group =Variable), color = "blue", size = 1.5)+             # Lorenz curve
       geom_bar(aes(y = value), stat = "identity", fill = "skyblue", alpha = 0.5)+  # Bar chart
       geom_abline(slope = 0.1, intercept = 0, linetype = "dashed", color = "red") +       # Line of equality
-      labs(title = "Lorenz Curve with Cumulative Bar Chart",
-           x = "Cumulative Share of Population",
-           y = "Income Share / Cumulative Income") +
+      scale_x_continuous(breaks = seq(1, 10, by = 1)) +
+      labs(title = "Lorenz Curve with Cumulative Bar Chart for Food Items",
+           x = "Cumulative Share of Decile",
+           y = "Lorenz Curve") +
       theme_minimal()
     
     ggplotly(p)
