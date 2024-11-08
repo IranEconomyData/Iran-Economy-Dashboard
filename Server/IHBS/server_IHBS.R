@@ -97,34 +97,6 @@ server_IHBS <- function(input, output){
       ) 
   })
   
-  #----
-  # output$IHBS_Foodprice <- renderPlotly({
-  #   # Get the filtered data
-  #   data <- IHBS_Foodprice_data(df_IHBS_Foodprice, input$IHBS_Foodprice_year)
-  #   plot_ly(data, x = ~decile, y = ~value, type = 'bar')
-  # 
-  # })
-  # 
-
-  #----
-  # output$IHBS_Foodprice  <- renderPlotly({
-  #   # Get the filtered data
-  #   data <- IHBS_Food_exp_prov_data(df_IHBS_Food_exp_prov, input$IHBS_Food_exp_prov_year) 
-  # 
-  #   plot_ly(data,
-  #           x = ~decile,
-  #           y = ~value,
-  #           color = ~decile,
-  #           type = 'bar',
-  #           hovertext = ~paste(variable, "=", round(value,2)),
-  #           hoverinfo = "text") %>%
-  #     layout(title = "Price 1000Rials per kg",
-  #            xaxis = list(title = "", tickmode = "array", tickvals = unique(data$variable)),
-  #            yaxis = list(title = "Gini coeff.", tickformat = ",", tickmode = "auto", nticks = 10),
-  #            barmode = 'stack',
-  #            legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
-  #     )
-  # })
 
   #----
   output$IHBS_Food_exp_prov  <- renderPlotly({
@@ -165,5 +137,25 @@ server_IHBS <- function(input, output){
     
     
     })
+  
+  
+  
+  #---- Cumulative Expenditure Share
+  output$IHBS_Cumulative_Share <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_Cumulative_Share_data(df_IHBS_Cumulative_Share,  input$IHBS_Cumulative_Share_Variable ,input$IHBS_Cumulative_Share_Year)
+    p <- ggplot(data, aes(x = decile)) +
+      geom_line(aes(y = value , group =Variable), color = "blue", size = 1.5)+             # Lorenz curve
+      geom_bar(aes(y = value), stat = "identity", fill = "skyblue", alpha = 0.5)+  # Bar chart
+      geom_abline(slope = 0.1, intercept = 0, linetype = "dashed", color = "red") +       # Line of equality
+      labs(title = "Lorenz Curve with Cumulative Bar Chart",
+           x = "Cumulative Share of Population",
+           y = "Income Share / Cumulative Income") +
+      theme_minimal()
+    
+    ggplotly(p)
+    
+  })  
+  
   
 }

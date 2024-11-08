@@ -80,23 +80,10 @@ ui_IHBS_ginifood <- function(df){
   
 }
 
-ui_IHBS_foodprice <- function(df){
-  fluidRow(
-    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
-        h3("Chart for Header 6"),
-        plotlyOutput("IHBS_Foodprice"),
-        fluidRow(
-          column(4,
-                 selectInput("IHBS_Foodprice_year", "year", choices = unique(df$year))
-          )
-        )
-    )
-  )}
-
 ui_IHBS_foodExp_prov <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
-        h3("Chart for Header 7"),
+        h3("Chart for Header 6"),
         plotlyOutput("IHBS_Food_exp_prov", width = "1600px", height = "700px"),
         fluidRow(
           column(4,
@@ -105,6 +92,25 @@ ui_IHBS_foodExp_prov <- function(df){
         )
     )
   )}
+
+
+
+ui_IHBS_cumulative_share <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 2"),
+        plotlyOutput("IHBS_Cumulative_Share"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_Cumulative_Share_Variable", "Variable", choices = unique(df$Variable))
+          ),
+          column(4,
+                 selectInput("IHBS_Cumulative_Share_Year", "Year", choices = unique(df$Year))
+          )
+        )
+    )
+  )}
+
 
 ui_IHBS_blank <- function(df){
   fluidRow(div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",

@@ -50,14 +50,6 @@ IHBS_GiniFood_data <- function(df, year) {
 
 
 
-# Food Price----
-df_IHBS_Foodprice <- read.csv(here("Data/IHBS/raw/FoodpriceSeries.csv"))
-
-IHBS_Foodprice_data <- function(df, year) {
-  df |>
-    filter(year == year)
-}
-
 # Food Expenditure Province----
 df_IHBS_Food_exp_prov <- read.csv(here("Data/IHBS/raw/TFoodExpPerProvSeries.csv"))
 df_IHBS_Food_exp_prov <- df_IHBS_Food_exp_prov %>%
@@ -74,3 +66,15 @@ IHBS_Food_exp_prov_data <- function(df, year) {
   df |>
     filter(Year == year)
 }
+
+
+# Cumulative Share of food items----
+df_IHBS_Cumulative_Share <- read.csv(here("Data/IHBS/raw/Cumulative Expenditure Food Share Dec Series.csv"))
+
+IHBS_Cumulative_Share_data <- function(df, variable, year) {
+  df |>
+    filter(Variable == variable,
+           Year == year)
+}
+
+
