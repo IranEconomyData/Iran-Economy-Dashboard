@@ -1,0 +1,1801 @@
+Year,GEO,UOM,Variable,Decile,value
+87,Iran,Price Change ,Bread,1,1
+88,Iran,Price Change ,Bread,1,1.292373144
+89,Iran,Price Change ,Bread,1,2.021073514
+90,Iran,Price Change ,Bread,1,5.057714302
+91,Iran,Price Change ,Bread,1,6.241271326
+92,Iran,Price Change ,Bread,1,6.973498953
+93,Iran,Price Change ,Bread,1,7.168009342
+94,Iran,Price Change ,Bread,1,8.569727268
+95,Iran,Price Change ,Bread,1,8.819312727
+96,Iran,Price Change ,Bread,1,9.106508542
+87,Iran,Price Change ,Bread,2,1
+88,Iran,Price Change ,Bread,2,1.230694934
+89,Iran,Price Change ,Bread,2,1.881386328
+90,Iran,Price Change ,Bread,2,4.637771961
+91,Iran,Price Change ,Bread,2,5.697784822
+92,Iran,Price Change ,Bread,2,6.303025156
+93,Iran,Price Change ,Bread,2,6.672688658
+94,Iran,Price Change ,Bread,2,8.082265404
+95,Iran,Price Change ,Bread,2,8.483652707
+96,Iran,Price Change ,Bread,2,8.824296929
+87,Iran,Price Change ,Bread,3,1
+88,Iran,Price Change ,Bread,3,1.298478333
+89,Iran,Price Change ,Bread,3,2.04612695
+90,Iran,Price Change ,Bread,3,4.707150098
+91,Iran,Price Change ,Bread,3,5.890022222
+92,Iran,Price Change ,Bread,3,6.244776233
+93,Iran,Price Change ,Bread,3,6.747626297
+94,Iran,Price Change ,Bread,3,8.138626021
+95,Iran,Price Change ,Bread,3,8.704601036
+96,Iran,Price Change ,Bread,3,9.0296317
+87,Iran,Price Change ,Bread,4,1
+88,Iran,Price Change ,Bread,4,1.269537366
+89,Iran,Price Change ,Bread,4,2.126402932
+90,Iran,Price Change ,Bread,4,4.460473678
+91,Iran,Price Change ,Bread,4,5.555704505
+92,Iran,Price Change ,Bread,4,5.97626453
+93,Iran,Price Change ,Bread,4,6.493169901
+94,Iran,Price Change ,Bread,4,7.967405073
+95,Iran,Price Change ,Bread,4,8.38433671
+96,Iran,Price Change ,Bread,4,8.673754513
+87,Iran,Price Change ,Bread,5,1
+88,Iran,Price Change ,Bread,5,1.308118561
+89,Iran,Price Change ,Bread,5,2.076756628
+90,Iran,Price Change ,Bread,5,4.421354158
+91,Iran,Price Change ,Bread,5,5.413686595
+92,Iran,Price Change ,Bread,5,5.81719588
+93,Iran,Price Change ,Bread,5,6.391777963
+94,Iran,Price Change ,Bread,5,7.876644156
+95,Iran,Price Change ,Bread,5,8.334177187
+96,Iran,Price Change ,Bread,5,8.639889129
+87,Iran,Price Change ,Bread,6,1
+88,Iran,Price Change ,Bread,6,1.372040224
+89,Iran,Price Change ,Bread,6,2.110779662
+90,Iran,Price Change ,Bread,6,4.425718471
+91,Iran,Price Change ,Bread,6,5.466835682
+92,Iran,Price Change ,Bread,6,5.796579458
+93,Iran,Price Change ,Bread,6,6.342432081
+94,Iran,Price Change ,Bread,6,7.794806936
+95,Iran,Price Change ,Bread,6,8.238102815
+96,Iran,Price Change ,Bread,6,8.703603425
+87,Iran,Price Change ,Bread,7,1
+88,Iran,Price Change ,Bread,7,1.266052227
+89,Iran,Price Change ,Bread,7,2.013647856
+90,Iran,Price Change ,Bread,7,4.156498754
+91,Iran,Price Change ,Bread,7,5.109373999
+92,Iran,Price Change ,Bread,7,5.448017702
+93,Iran,Price Change ,Bread,7,5.958714592
+94,Iran,Price Change ,Bread,7,7.557280832
+95,Iran,Price Change ,Bread,7,7.906639113
+96,Iran,Price Change ,Bread,7,8.475123337
+87,Iran,Price Change ,Bread,8,1
+88,Iran,Price Change ,Bread,8,1.284112789
+89,Iran,Price Change ,Bread,8,2.069848508
+90,Iran,Price Change ,Bread,8,5.023402776
+91,Iran,Price Change ,Bread,8,4.97364674
+92,Iran,Price Change ,Bread,8,5.404477265
+93,Iran,Price Change ,Bread,8,5.788773908
+94,Iran,Price Change ,Bread,8,7.085514188
+95,Iran,Price Change ,Bread,8,7.731777947
+96,Iran,Price Change ,Bread,8,8.243576548
+87,Iran,Price Change ,Bread,9,1
+88,Iran,Price Change ,Bread,9,1.362495392
+89,Iran,Price Change ,Bread,9,2.067195028
+90,Iran,Price Change ,Bread,9,3.840905123
+91,Iran,Price Change ,Bread,9,4.869488723
+92,Iran,Price Change ,Bread,9,5.120800748
+93,Iran,Price Change ,Bread,9,5.783888724
+94,Iran,Price Change ,Bread,9,7.021854955
+95,Iran,Price Change ,Bread,9,7.582668633
+96,Iran,Price Change ,Bread,9,8.06356817
+87,Iran,Price Change ,Bread,10,1
+88,Iran,Price Change ,Bread,10,1.350144261
+89,Iran,Price Change ,Bread,10,2.054434873
+90,Iran,Price Change ,Bread,10,3.483716541
+91,Iran,Price Change ,Bread,10,4.476435294
+92,Iran,Price Change ,Bread,10,4.697766805
+93,Iran,Price Change ,Bread,10,5.30080159
+94,Iran,Price Change ,Bread,10,6.544595316
+95,Iran,Price Change ,Bread,10,7.283719485
+96,Iran,Price Change ,Bread,10,7.688892647
+87,Iran,Price Change ,Chicken,1,1
+88,Iran,Price Change ,Chicken,1,1.044331268
+89,Iran,Price Change ,Chicken,1,1.235155928
+90,Iran,Price Change ,Chicken,1,1.375014382
+91,Iran,Price Change ,Chicken,1,2.111395734
+92,Iran,Price Change ,Chicken,1,2.505643052
+93,Iran,Price Change ,Chicken,1,2.747256434
+94,Iran,Price Change ,Chicken,1,2.543024472
+95,Iran,Price Change ,Chicken,1,2.73086731
+96,Iran,Price Change ,Chicken,1,3.008992117
+87,Iran,Price Change ,Chicken,2,1
+88,Iran,Price Change ,Chicken,2,1.024289835
+89,Iran,Price Change ,Chicken,2,1.221278881
+90,Iran,Price Change ,Chicken,2,1.349611274
+91,Iran,Price Change ,Chicken,2,2.068046074
+92,Iran,Price Change ,Chicken,2,2.452991378
+93,Iran,Price Change ,Chicken,2,2.602692644
+94,Iran,Price Change ,Chicken,2,2.468968637
+95,Iran,Price Change ,Chicken,2,2.696907104
+96,Iran,Price Change ,Chicken,2,2.907590589
+87,Iran,Price Change ,Chicken,3,1
+88,Iran,Price Change ,Chicken,3,1.026773785
+89,Iran,Price Change ,Chicken,3,1.207859571
+90,Iran,Price Change ,Chicken,3,1.348171544
+91,Iran,Price Change ,Chicken,3,2.089413766
+92,Iran,Price Change ,Chicken,3,2.437999776
+93,Iran,Price Change ,Chicken,3,2.601480304
+94,Iran,Price Change ,Chicken,3,2.456447501
+95,Iran,Price Change ,Chicken,3,2.668208387
+96,Iran,Price Change ,Chicken,3,2.946464147
+87,Iran,Price Change ,Chicken,4,1
+88,Iran,Price Change ,Chicken,4,1.05364705
+89,Iran,Price Change ,Chicken,4,1.230230456
+90,Iran,Price Change ,Chicken,4,1.357328843
+91,Iran,Price Change ,Chicken,4,2.099282167
+92,Iran,Price Change ,Chicken,4,2.503573262
+93,Iran,Price Change ,Chicken,4,2.627123498
+94,Iran,Price Change ,Chicken,4,2.494260847
+95,Iran,Price Change ,Chicken,4,2.67630328
+96,Iran,Price Change ,Chicken,4,2.973851049
+87,Iran,Price Change ,Chicken,5,1
+88,Iran,Price Change ,Chicken,5,1.019390309
+89,Iran,Price Change ,Chicken,5,1.21688025
+90,Iran,Price Change ,Chicken,5,1.351050725
+91,Iran,Price Change ,Chicken,5,2.07077449
+92,Iran,Price Change ,Chicken,5,2.475075721
+93,Iran,Price Change ,Chicken,5,2.616379706
+94,Iran,Price Change ,Chicken,5,2.486003588
+95,Iran,Price Change ,Chicken,5,2.710296893
+96,Iran,Price Change ,Chicken,5,2.947440761
+87,Iran,Price Change ,Chicken,6,1
+88,Iran,Price Change ,Chicken,6,1.035730122
+89,Iran,Price Change ,Chicken,6,1.223109553
+90,Iran,Price Change ,Chicken,6,1.352309718
+91,Iran,Price Change ,Chicken,6,2.090893807
+92,Iran,Price Change ,Chicken,6,2.477354735
+93,Iran,Price Change ,Chicken,6,2.630520195
+94,Iran,Price Change ,Chicken,6,2.496881956
+95,Iran,Price Change ,Chicken,6,2.744100497
+96,Iran,Price Change ,Chicken,6,2.970087786
+87,Iran,Price Change ,Chicken,7,1
+88,Iran,Price Change ,Chicken,7,1.009088139
+89,Iran,Price Change ,Chicken,7,1.202836744
+90,Iran,Price Change ,Chicken,7,1.347678306
+91,Iran,Price Change ,Chicken,7,2.06904767
+92,Iran,Price Change ,Chicken,7,2.489535905
+93,Iran,Price Change ,Chicken,7,2.644286679
+94,Iran,Price Change ,Chicken,7,2.4679376
+95,Iran,Price Change ,Chicken,7,2.734959883
+96,Iran,Price Change ,Chicken,7,2.950211849
+87,Iran,Price Change ,Chicken,8,1
+88,Iran,Price Change ,Chicken,8,1.017956456
+89,Iran,Price Change ,Chicken,8,1.219790127
+90,Iran,Price Change ,Chicken,8,1.359614512
+91,Iran,Price Change ,Chicken,8,2.081485755
+92,Iran,Price Change ,Chicken,8,2.467543458
+93,Iran,Price Change ,Chicken,8,2.639798942
+94,Iran,Price Change ,Chicken,8,2.501710303
+95,Iran,Price Change ,Chicken,8,2.718845653
+96,Iran,Price Change ,Chicken,8,2.938611616
+87,Iran,Price Change ,Chicken,9,1
+88,Iran,Price Change ,Chicken,9,1.023601071
+89,Iran,Price Change ,Chicken,9,1.211207342
+90,Iran,Price Change ,Chicken,9,1.365357838
+91,Iran,Price Change ,Chicken,9,2.067136835
+92,Iran,Price Change ,Chicken,9,2.492361041
+93,Iran,Price Change ,Chicken,9,2.649762647
+94,Iran,Price Change ,Chicken,9,2.513627449
+95,Iran,Price Change ,Chicken,9,2.786755716
+96,Iran,Price Change ,Chicken,9,2.965151554
+87,Iran,Price Change ,Chicken,10,1
+88,Iran,Price Change ,Chicken,10,1.031579882
+89,Iran,Price Change ,Chicken,10,1.234903546
+90,Iran,Price Change ,Chicken,10,1.404141156
+91,Iran,Price Change ,Chicken,10,2.101979116
+92,Iran,Price Change ,Chicken,10,2.509403797
+93,Iran,Price Change ,Chicken,10,2.712057261
+94,Iran,Price Change ,Chicken,10,2.635703072
+95,Iran,Price Change ,Chicken,10,2.902584778
+96,Iran,Price Change ,Chicken,10,3.068362727
+87,Iran,Price Change ,Fish,1,1
+88,Iran,Price Change ,Fish,1,1.044826899
+89,Iran,Price Change ,Fish,1,1.195049556
+90,Iran,Price Change ,Fish,1,1.449379469
+91,Iran,Price Change ,Fish,1,2.109195909
+92,Iran,Price Change ,Fish,1,2.649220236
+93,Iran,Price Change ,Fish,1,3.534525751
+94,Iran,Price Change ,Fish,1,3.682839565
+95,Iran,Price Change ,Fish,1,3.586632674
+96,Iran,Price Change ,Fish,1,3.885047559
+87,Iran,Price Change ,Fish,2,1
+88,Iran,Price Change ,Fish,2,1.200684761
+89,Iran,Price Change ,Fish,2,1.182343791
+90,Iran,Price Change ,Fish,2,1.414793083
+91,Iran,Price Change ,Fish,2,2.097047956
+92,Iran,Price Change ,Fish,2,2.890467198
+93,Iran,Price Change ,Fish,2,3.181535933
+94,Iran,Price Change ,Fish,2,3.38557861
+95,Iran,Price Change ,Fish,2,3.474633094
+96,Iran,Price Change ,Fish,2,3.623177582
+87,Iran,Price Change ,Fish,3,1
+88,Iran,Price Change ,Fish,3,1.062361031
+89,Iran,Price Change ,Fish,3,1.161518265
+90,Iran,Price Change ,Fish,3,1.369909165
+91,Iran,Price Change ,Fish,3,2.075575074
+92,Iran,Price Change ,Fish,3,2.60534776
+93,Iran,Price Change ,Fish,3,3.231754726
+94,Iran,Price Change ,Fish,3,3.343309787
+95,Iran,Price Change ,Fish,3,3.453240896
+96,Iran,Price Change ,Fish,3,3.832794044
+87,Iran,Price Change ,Fish,4,1
+88,Iran,Price Change ,Fish,4,1.136324229
+89,Iran,Price Change ,Fish,4,1.236250484
+90,Iran,Price Change ,Fish,4,1.470274335
+91,Iran,Price Change ,Fish,4,2.117857076
+92,Iran,Price Change ,Fish,4,2.709330626
+93,Iran,Price Change ,Fish,4,3.187393203
+94,Iran,Price Change ,Fish,4,3.461876657
+95,Iran,Price Change ,Fish,4,3.554220265
+96,Iran,Price Change ,Fish,4,3.828970725
+87,Iran,Price Change ,Fish,5,1
+88,Iran,Price Change ,Fish,5,1.085686753
+89,Iran,Price Change ,Fish,5,1.161317735
+90,Iran,Price Change ,Fish,5,1.342165522
+91,Iran,Price Change ,Fish,5,2.001914674
+92,Iran,Price Change ,Fish,5,2.671440794
+93,Iran,Price Change ,Fish,5,3.100047057
+94,Iran,Price Change ,Fish,5,3.352319287
+95,Iran,Price Change ,Fish,5,3.364727435
+96,Iran,Price Change ,Fish,5,3.575681099
+87,Iran,Price Change ,Fish,6,1
+88,Iran,Price Change ,Fish,6,1.072605817
+89,Iran,Price Change ,Fish,6,1.148587228
+90,Iran,Price Change ,Fish,6,1.341272751
+91,Iran,Price Change ,Fish,6,2.077468681
+92,Iran,Price Change ,Fish,6,2.722322687
+93,Iran,Price Change ,Fish,6,3.113193624
+94,Iran,Price Change ,Fish,6,3.299300747
+95,Iran,Price Change ,Fish,6,3.303429655
+96,Iran,Price Change ,Fish,6,3.633238536
+87,Iran,Price Change ,Fish,7,1
+88,Iran,Price Change ,Fish,7,1.051669734
+89,Iran,Price Change ,Fish,7,1.203913441
+90,Iran,Price Change ,Fish,7,1.35854357
+91,Iran,Price Change ,Fish,7,2.030775748
+92,Iran,Price Change ,Fish,7,2.721805249
+93,Iran,Price Change ,Fish,7,3.083117018
+94,Iran,Price Change ,Fish,7,3.336897197
+95,Iran,Price Change ,Fish,7,3.46461446
+96,Iran,Price Change ,Fish,7,3.59711884
+87,Iran,Price Change ,Fish,8,1
+88,Iran,Price Change ,Fish,8,1.088526283
+89,Iran,Price Change ,Fish,8,1.200961748
+90,Iran,Price Change ,Fish,8,1.40684624
+91,Iran,Price Change ,Fish,8,2.115701824
+92,Iran,Price Change ,Fish,8,2.827909234
+93,Iran,Price Change ,Fish,8,3.166773159
+94,Iran,Price Change ,Fish,8,3.3676593
+95,Iran,Price Change ,Fish,8,3.604503536
+96,Iran,Price Change ,Fish,8,3.604723746
+87,Iran,Price Change ,Fish,9,1
+88,Iran,Price Change ,Fish,9,1.085279034
+89,Iran,Price Change ,Fish,9,1.195670269
+90,Iran,Price Change ,Fish,9,1.376194906
+91,Iran,Price Change ,Fish,9,2.081953363
+92,Iran,Price Change ,Fish,9,2.731986655
+93,Iran,Price Change ,Fish,9,3.285595937
+94,Iran,Price Change ,Fish,9,3.415212418
+95,Iran,Price Change ,Fish,9,3.565238368
+96,Iran,Price Change ,Fish,9,3.549568107
+87,Iran,Price Change ,Fish,10,1
+88,Iran,Price Change ,Fish,10,1.09608035
+89,Iran,Price Change ,Fish,10,1.19633356
+90,Iran,Price Change ,Fish,10,1.391819122
+91,Iran,Price Change ,Fish,10,2.092628759
+92,Iran,Price Change ,Fish,10,2.835916581
+93,Iran,Price Change ,Fish,10,3.245799828
+94,Iran,Price Change ,Fish,10,3.41920438
+95,Iran,Price Change ,Fish,10,3.471869385
+96,Iran,Price Change ,Fish,10,3.585486321
+87,Iran,Price Change ,Fruit,1,1
+88,Iran,Price Change ,Fruit,1,1.267266938
+89,Iran,Price Change ,Fruit,1,1.293085015
+90,Iran,Price Change ,Fruit,1,1.549346833
+91,Iran,Price Change ,Fruit,1,2.162218824
+92,Iran,Price Change ,Fruit,1,3.13053875
+93,Iran,Price Change ,Fruit,1,3.529205364
+94,Iran,Price Change ,Fruit,1,3.83840327
+95,Iran,Price Change ,Fruit,1,3.960382085
+96,Iran,Price Change ,Fruit,1,4.14471372
+87,Iran,Price Change ,Fruit,2,1
+88,Iran,Price Change ,Fruit,2,1.212818286
+89,Iran,Price Change ,Fruit,2,1.308476301
+90,Iran,Price Change ,Fruit,2,1.502515808
+91,Iran,Price Change ,Fruit,2,2.125509458
+92,Iran,Price Change ,Fruit,2,3.077399725
+93,Iran,Price Change ,Fruit,2,3.445950067
+94,Iran,Price Change ,Fruit,2,3.730677533
+95,Iran,Price Change ,Fruit,2,3.816545418
+96,Iran,Price Change ,Fruit,2,4.161033818
+87,Iran,Price Change ,Fruit,3,1
+88,Iran,Price Change ,Fruit,3,1.221959122
+89,Iran,Price Change ,Fruit,3,1.304158703
+90,Iran,Price Change ,Fruit,3,1.523736402
+91,Iran,Price Change ,Fruit,3,2.130679582
+92,Iran,Price Change ,Fruit,3,2.96123675
+93,Iran,Price Change ,Fruit,3,3.521622573
+94,Iran,Price Change ,Fruit,3,3.758038385
+95,Iran,Price Change ,Fruit,3,3.833808698
+96,Iran,Price Change ,Fruit,3,4.164714061
+87,Iran,Price Change ,Fruit,4,1
+88,Iran,Price Change ,Fruit,4,1.237901466
+89,Iran,Price Change ,Fruit,4,1.321923517
+90,Iran,Price Change ,Fruit,4,1.532344078
+91,Iran,Price Change ,Fruit,4,2.14528175
+92,Iran,Price Change ,Fruit,4,2.95338191
+93,Iran,Price Change ,Fruit,4,3.416355189
+94,Iran,Price Change ,Fruit,4,3.752043824
+95,Iran,Price Change ,Fruit,4,3.843748918
+96,Iran,Price Change ,Fruit,4,4.120200688
+87,Iran,Price Change ,Fruit,5,1
+88,Iran,Price Change ,Fruit,5,1.237867485
+89,Iran,Price Change ,Fruit,5,1.302357666
+90,Iran,Price Change ,Fruit,5,1.541181866
+91,Iran,Price Change ,Fruit,5,2.121130771
+92,Iran,Price Change ,Fruit,5,3.005551555
+93,Iran,Price Change ,Fruit,5,3.451260071
+94,Iran,Price Change ,Fruit,5,3.760482876
+95,Iran,Price Change ,Fruit,5,3.900511106
+96,Iran,Price Change ,Fruit,5,4.169510078
+87,Iran,Price Change ,Fruit,6,1
+88,Iran,Price Change ,Fruit,6,1.25467803
+89,Iran,Price Change ,Fruit,6,1.292607385
+90,Iran,Price Change ,Fruit,6,1.528456528
+91,Iran,Price Change ,Fruit,6,2.076455104
+92,Iran,Price Change ,Fruit,6,2.893960236
+93,Iran,Price Change ,Fruit,6,3.383182801
+94,Iran,Price Change ,Fruit,6,3.668079297
+95,Iran,Price Change ,Fruit,6,3.848587254
+96,Iran,Price Change ,Fruit,6,4.244733213
+87,Iran,Price Change ,Fruit,7,1
+88,Iran,Price Change ,Fruit,7,1.208562255
+89,Iran,Price Change ,Fruit,7,1.305144843
+90,Iran,Price Change ,Fruit,7,1.540186971
+91,Iran,Price Change ,Fruit,7,2.083866566
+92,Iran,Price Change ,Fruit,7,2.948740635
+93,Iran,Price Change ,Fruit,7,3.393524111
+94,Iran,Price Change ,Fruit,7,3.759326415
+95,Iran,Price Change ,Fruit,7,3.896659286
+96,Iran,Price Change ,Fruit,7,4.109416189
+87,Iran,Price Change ,Fruit,8,1
+88,Iran,Price Change ,Fruit,8,1.200862066
+89,Iran,Price Change ,Fruit,8,1.285224252
+90,Iran,Price Change ,Fruit,8,1.522117705
+91,Iran,Price Change ,Fruit,8,2.030920253
+92,Iran,Price Change ,Fruit,8,2.882690363
+93,Iran,Price Change ,Fruit,8,3.315485941
+94,Iran,Price Change ,Fruit,8,3.549864452
+95,Iran,Price Change ,Fruit,8,3.788731405
+96,Iran,Price Change ,Fruit,8,4.06684659
+87,Iran,Price Change ,Fruit,9,1
+88,Iran,Price Change ,Fruit,9,1.225419013
+89,Iran,Price Change ,Fruit,9,1.300187284
+90,Iran,Price Change ,Fruit,9,1.517553424
+91,Iran,Price Change ,Fruit,9,2.089367991
+92,Iran,Price Change ,Fruit,9,2.895188924
+93,Iran,Price Change ,Fruit,9,3.409931427
+94,Iran,Price Change ,Fruit,9,3.705445474
+95,Iran,Price Change ,Fruit,9,3.938966965
+96,Iran,Price Change ,Fruit,9,4.112763536
+87,Iran,Price Change ,Fruit,10,1
+88,Iran,Price Change ,Fruit,10,1.196104418
+89,Iran,Price Change ,Fruit,10,1.327020282
+90,Iran,Price Change ,Fruit,10,1.50497895
+91,Iran,Price Change ,Fruit,10,2.132042295
+92,Iran,Price Change ,Fruit,10,2.966692617
+93,Iran,Price Change ,Fruit,10,3.393807973
+94,Iran,Price Change ,Fruit,10,3.726942922
+95,Iran,Price Change ,Fruit,10,4.062469331
+96,Iran,Price Change ,Fruit,10,4.306344357
+87,Iran,Price Change ,Meat,1,1
+88,Iran,Price Change ,Meat,1,1.318195308
+89,Iran,Price Change ,Meat,1,1.557504941
+90,Iran,Price Change ,Meat,1,1.707889379
+91,Iran,Price Change ,Meat,1,2.628205447
+92,Iran,Price Change ,Meat,1,3.70156756
+93,Iran,Price Change ,Meat,1,3.736414797
+94,Iran,Price Change ,Meat,1,3.867515286
+95,Iran,Price Change ,Meat,1,4.222395403
+96,Iran,Price Change ,Meat,1,5.154471827
+87,Iran,Price Change ,Meat,2,1
+88,Iran,Price Change ,Meat,2,1.265832016
+89,Iran,Price Change ,Meat,2,1.529864449
+90,Iran,Price Change ,Meat,2,1.752504929
+91,Iran,Price Change ,Meat,2,2.561544621
+92,Iran,Price Change ,Meat,2,3.55126858
+93,Iran,Price Change ,Meat,2,3.668758511
+94,Iran,Price Change ,Meat,2,3.829183797
+95,Iran,Price Change ,Meat,2,4.19998895
+96,Iran,Price Change ,Meat,2,5.02206607
+87,Iran,Price Change ,Meat,3,1
+88,Iran,Price Change ,Meat,3,1.274058228
+89,Iran,Price Change ,Meat,3,1.642683802
+90,Iran,Price Change ,Meat,3,1.845369351
+91,Iran,Price Change ,Meat,3,2.701647678
+92,Iran,Price Change ,Meat,3,3.689800557
+93,Iran,Price Change ,Meat,3,3.794552787
+94,Iran,Price Change ,Meat,3,3.95148891
+95,Iran,Price Change ,Meat,3,4.367004251
+96,Iran,Price Change ,Meat,3,5.307409956
+87,Iran,Price Change ,Meat,4,1
+88,Iran,Price Change ,Meat,4,1.293598697
+89,Iran,Price Change ,Meat,4,1.643712929
+90,Iran,Price Change ,Meat,4,1.844379197
+91,Iran,Price Change ,Meat,4,2.666092724
+92,Iran,Price Change ,Meat,4,3.666092204
+93,Iran,Price Change ,Meat,4,3.787085803
+94,Iran,Price Change ,Meat,4,3.93884156
+95,Iran,Price Change ,Meat,4,4.281366306
+96,Iran,Price Change ,Meat,4,5.225671833
+87,Iran,Price Change ,Meat,5,1
+88,Iran,Price Change ,Meat,5,1.296864644
+89,Iran,Price Change ,Meat,5,1.638583628
+90,Iran,Price Change ,Meat,5,1.860693201
+91,Iran,Price Change ,Meat,5,2.692557514
+92,Iran,Price Change ,Meat,5,3.677872116
+93,Iran,Price Change ,Meat,5,3.758658612
+94,Iran,Price Change ,Meat,5,3.96089181
+95,Iran,Price Change ,Meat,5,4.357000994
+96,Iran,Price Change ,Meat,5,5.280278979
+87,Iran,Price Change ,Meat,6,1
+88,Iran,Price Change ,Meat,6,1.297716975
+89,Iran,Price Change ,Meat,6,1.652877806
+90,Iran,Price Change ,Meat,6,1.878647817
+91,Iran,Price Change ,Meat,6,2.690458224
+92,Iran,Price Change ,Meat,6,3.683919189
+93,Iran,Price Change ,Meat,6,3.757751864
+94,Iran,Price Change ,Meat,6,3.97511688
+95,Iran,Price Change ,Meat,6,4.284426218
+96,Iran,Price Change ,Meat,6,5.23904592
+87,Iran,Price Change ,Meat,7,1
+88,Iran,Price Change ,Meat,7,1.287707523
+89,Iran,Price Change ,Meat,7,1.66010434
+90,Iran,Price Change ,Meat,7,1.881528182
+91,Iran,Price Change ,Meat,7,2.732136484
+92,Iran,Price Change ,Meat,7,3.666362636
+93,Iran,Price Change ,Meat,7,3.772221101
+94,Iran,Price Change ,Meat,7,3.951304146
+95,Iran,Price Change ,Meat,7,4.369762855
+96,Iran,Price Change ,Meat,7,5.268038238
+87,Iran,Price Change ,Meat,8,1
+88,Iran,Price Change ,Meat,8,1.293656761
+89,Iran,Price Change ,Meat,8,1.666806483
+90,Iran,Price Change ,Meat,8,1.888977833
+91,Iran,Price Change ,Meat,8,2.748048367
+92,Iran,Price Change ,Meat,8,3.669675229
+93,Iran,Price Change ,Meat,8,3.71076148
+94,Iran,Price Change ,Meat,8,3.91447139
+95,Iran,Price Change ,Meat,8,4.398236937
+96,Iran,Price Change ,Meat,8,5.268926983
+87,Iran,Price Change ,Meat,9,1
+88,Iran,Price Change ,Meat,9,1.320779014
+89,Iran,Price Change ,Meat,9,1.694623436
+90,Iran,Price Change ,Meat,9,1.909087302
+91,Iran,Price Change ,Meat,9,2.807081288
+92,Iran,Price Change ,Meat,9,3.660990608
+93,Iran,Price Change ,Meat,9,3.768427704
+94,Iran,Price Change ,Meat,9,3.999454956
+95,Iran,Price Change ,Meat,9,4.435607138
+96,Iran,Price Change ,Meat,9,5.272381828
+87,Iran,Price Change ,Meat,10,1
+88,Iran,Price Change ,Meat,10,1.331252976
+89,Iran,Price Change ,Meat,10,1.726222833
+90,Iran,Price Change ,Meat,10,1.959937934
+91,Iran,Price Change ,Meat,10,2.859112271
+92,Iran,Price Change ,Meat,10,3.688012277
+93,Iran,Price Change ,Meat,10,3.799756545
+94,Iran,Price Change ,Meat,10,4.00949986
+95,Iran,Price Change ,Meat,10,4.532023986
+96,Iran,Price Change ,Meat,10,5.433742357
+87,Iran,Price Change ,Milk,1,1
+88,Iran,Price Change ,Milk,1,0.990034951
+89,Iran,Price Change ,Milk,1,1.380277057
+90,Iran,Price Change ,Milk,1,2.076359516
+91,Iran,Price Change ,Milk,1,4.032233466
+92,Iran,Price Change ,Milk,1,5.260907397
+93,Iran,Price Change ,Milk,1,5.785202244
+94,Iran,Price Change ,Milk,1,6.323649864
+95,Iran,Price Change ,Milk,1,7.441610472
+96,Iran,Price Change ,Milk,1,7.895379218
+87,Iran,Price Change ,Milk,2,1
+88,Iran,Price Change ,Milk,2,1.115881208
+89,Iran,Price Change ,Milk,2,1.396970425
+90,Iran,Price Change ,Milk,2,1.989375538
+91,Iran,Price Change ,Milk,2,3.743100023
+92,Iran,Price Change ,Milk,2,5.225219237
+93,Iran,Price Change ,Milk,2,6.143702988
+94,Iran,Price Change ,Milk,2,6.461807767
+95,Iran,Price Change ,Milk,2,6.697464708
+96,Iran,Price Change ,Milk,2,7.127799518
+87,Iran,Price Change ,Milk,3,1
+88,Iran,Price Change ,Milk,3,1.219616278
+89,Iran,Price Change ,Milk,3,1.501351473
+90,Iran,Price Change ,Milk,3,2.035522533
+91,Iran,Price Change ,Milk,3,3.729263042
+92,Iran,Price Change ,Milk,3,5.079232621
+93,Iran,Price Change ,Milk,3,5.589307597
+94,Iran,Price Change ,Milk,3,5.981909478
+95,Iran,Price Change ,Milk,3,6.372141268
+96,Iran,Price Change ,Milk,3,7.182100892
+87,Iran,Price Change ,Milk,4,1
+88,Iran,Price Change ,Milk,4,0.98290509
+89,Iran,Price Change ,Milk,4,1.26434659
+90,Iran,Price Change ,Milk,4,1.795736664
+91,Iran,Price Change ,Milk,4,3.453310868
+92,Iran,Price Change ,Milk,4,4.495487212
+93,Iran,Price Change ,Milk,4,5.031592017
+94,Iran,Price Change ,Milk,4,5.35692204
+95,Iran,Price Change ,Milk,4,6.140189742
+96,Iran,Price Change ,Milk,4,6.790497917
+87,Iran,Price Change ,Milk,5,1
+88,Iran,Price Change ,Milk,5,1.079622725
+89,Iran,Price Change ,Milk,5,1.345002268
+90,Iran,Price Change ,Milk,5,1.764494626
+91,Iran,Price Change ,Milk,5,3.137547704
+92,Iran,Price Change ,Milk,5,4.239848802
+93,Iran,Price Change ,Milk,5,5.036280996
+94,Iran,Price Change ,Milk,5,5.550074696
+95,Iran,Price Change ,Milk,5,6.058966683
+96,Iran,Price Change ,Milk,5,6.301662993
+87,Iran,Price Change ,Milk,6,1
+88,Iran,Price Change ,Milk,6,0.930899749
+89,Iran,Price Change ,Milk,6,1.088668173
+90,Iran,Price Change ,Milk,6,1.679208563
+91,Iran,Price Change ,Milk,6,2.727130482
+92,Iran,Price Change ,Milk,6,3.950071001
+93,Iran,Price Change ,Milk,6,4.476573267
+94,Iran,Price Change ,Milk,6,4.808476602
+95,Iran,Price Change ,Milk,6,5.109681133
+96,Iran,Price Change ,Milk,6,5.625846704
+87,Iran,Price Change ,Milk,7,1
+88,Iran,Price Change ,Milk,7,0.926253643
+89,Iran,Price Change ,Milk,7,1.083256661
+90,Iran,Price Change ,Milk,7,1.67904144
+91,Iran,Price Change ,Milk,7,2.851134401
+92,Iran,Price Change ,Milk,7,4.177001025
+93,Iran,Price Change ,Milk,7,4.436581587
+94,Iran,Price Change ,Milk,7,4.872865575
+95,Iran,Price Change ,Milk,7,5.446505278
+96,Iran,Price Change ,Milk,7,5.894619509
+87,Iran,Price Change ,Milk,8,1
+88,Iran,Price Change ,Milk,8,0.993602971
+89,Iran,Price Change ,Milk,8,1.25437523
+90,Iran,Price Change ,Milk,8,1.729007347
+91,Iran,Price Change ,Milk,8,2.955953139
+92,Iran,Price Change ,Milk,8,4.189206024
+93,Iran,Price Change ,Milk,8,4.589289097
+94,Iran,Price Change ,Milk,8,5.25443144
+95,Iran,Price Change ,Milk,8,5.299175833
+96,Iran,Price Change ,Milk,8,5.546390742
+87,Iran,Price Change ,Milk,9,1
+88,Iran,Price Change ,Milk,9,1.006465636
+89,Iran,Price Change ,Milk,9,1.157880569
+90,Iran,Price Change ,Milk,9,1.595754007
+91,Iran,Price Change ,Milk,9,2.717642475
+92,Iran,Price Change ,Milk,9,3.784407314
+93,Iran,Price Change ,Milk,9,4.324992128
+94,Iran,Price Change ,Milk,9,4.829473946
+95,Iran,Price Change ,Milk,9,4.88972883
+96,Iran,Price Change ,Milk,9,5.862112102
+87,Iran,Price Change ,Milk,10,1
+88,Iran,Price Change ,Milk,10,1.0910053
+89,Iran,Price Change ,Milk,10,1.170143517
+90,Iran,Price Change ,Milk,10,1.673671163
+91,Iran,Price Change ,Milk,10,2.916184964
+92,Iran,Price Change ,Milk,10,3.939658565
+93,Iran,Price Change ,Milk,10,4.474759023
+94,Iran,Price Change ,Milk,10,4.775419927
+95,Iran,Price Change ,Milk,10,4.906286621
+96,Iran,Price Change ,Milk,10,5.33978096
+87,Iran,Price Change ,Rice,1,1
+88,Iran,Price Change ,Rice,1,0.970665047
+89,Iran,Price Change ,Rice,1,1.029245372
+90,Iran,Price Change ,Rice,1,1.234988816
+91,Iran,Price Change ,Rice,1,1.827563098
+92,Iran,Price Change ,Rice,1,2.819773936
+93,Iran,Price Change ,Rice,1,2.905800006
+94,Iran,Price Change ,Rice,1,3.00053221
+95,Iran,Price Change ,Rice,1,3.316609323
+96,Iran,Price Change ,Rice,1,3.901655389
+87,Iran,Price Change ,Rice,2,1
+88,Iran,Price Change ,Rice,2,0.932093459
+89,Iran,Price Change ,Rice,2,0.964523842
+90,Iran,Price Change ,Rice,2,1.144080713
+91,Iran,Price Change ,Rice,2,1.700095519
+92,Iran,Price Change ,Rice,2,2.655162247
+93,Iran,Price Change ,Rice,2,2.777738365
+94,Iran,Price Change ,Rice,2,2.863753402
+95,Iran,Price Change ,Rice,2,3.169306521
+96,Iran,Price Change ,Rice,2,3.690350053
+87,Iran,Price Change ,Rice,3,1
+88,Iran,Price Change ,Rice,3,0.905670653
+89,Iran,Price Change ,Rice,3,0.946887377
+90,Iran,Price Change ,Rice,3,1.125996199
+91,Iran,Price Change ,Rice,3,1.687013829
+92,Iran,Price Change ,Rice,3,2.563419996
+93,Iran,Price Change ,Rice,3,2.78519098
+94,Iran,Price Change ,Rice,3,2.852524048
+95,Iran,Price Change ,Rice,3,3.10840997
+96,Iran,Price Change ,Rice,3,3.780005002
+87,Iran,Price Change ,Rice,4,1
+88,Iran,Price Change ,Rice,4,0.889571221
+89,Iran,Price Change ,Rice,4,0.938346997
+90,Iran,Price Change ,Rice,4,1.12079663
+91,Iran,Price Change ,Rice,4,1.660856876
+92,Iran,Price Change ,Rice,4,2.585951827
+93,Iran,Price Change ,Rice,4,2.761759922
+94,Iran,Price Change ,Rice,4,2.768631071
+95,Iran,Price Change ,Rice,4,3.15454928
+96,Iran,Price Change ,Rice,4,3.641861832
+87,Iran,Price Change ,Rice,5,1
+88,Iran,Price Change ,Rice,5,0.904197248
+89,Iran,Price Change ,Rice,5,0.93170661
+90,Iran,Price Change ,Rice,5,1.143406128
+91,Iran,Price Change ,Rice,5,1.675062465
+92,Iran,Price Change ,Rice,5,2.503960505
+93,Iran,Price Change ,Rice,5,2.701418596
+94,Iran,Price Change ,Rice,5,2.724908788
+95,Iran,Price Change ,Rice,5,3.125698121
+96,Iran,Price Change ,Rice,5,3.643120305
+87,Iran,Price Change ,Rice,6,1
+88,Iran,Price Change ,Rice,6,0.907733318
+89,Iran,Price Change ,Rice,6,0.927185936
+90,Iran,Price Change ,Rice,6,1.102101558
+91,Iran,Price Change ,Rice,6,1.664696676
+92,Iran,Price Change ,Rice,6,2.512513631
+93,Iran,Price Change ,Rice,6,2.723713868
+94,Iran,Price Change ,Rice,6,2.750428156
+95,Iran,Price Change ,Rice,6,3.069523824
+96,Iran,Price Change ,Rice,6,3.660473821
+87,Iran,Price Change ,Rice,7,1
+88,Iran,Price Change ,Rice,7,0.900363529
+89,Iran,Price Change ,Rice,7,0.93025749
+90,Iran,Price Change ,Rice,7,1.083402403
+91,Iran,Price Change ,Rice,7,1.614994857
+92,Iran,Price Change ,Rice,7,2.438293054
+93,Iran,Price Change ,Rice,7,2.678005431
+94,Iran,Price Change ,Rice,7,2.723402619
+95,Iran,Price Change ,Rice,7,3.088092246
+96,Iran,Price Change ,Rice,7,3.636614784
+87,Iran,Price Change ,Rice,8,1
+88,Iran,Price Change ,Rice,8,0.877585052
+89,Iran,Price Change ,Rice,8,0.900653452
+90,Iran,Price Change ,Rice,8,1.068532131
+91,Iran,Price Change ,Rice,8,1.633622544
+92,Iran,Price Change ,Rice,8,2.441052427
+93,Iran,Price Change ,Rice,8,2.577556211
+94,Iran,Price Change ,Rice,8,2.644644504
+95,Iran,Price Change ,Rice,8,3.07929125
+96,Iran,Price Change ,Rice,8,3.629044348
+87,Iran,Price Change ,Rice,9,1
+88,Iran,Price Change ,Rice,9,0.885360763
+89,Iran,Price Change ,Rice,9,0.904681255
+90,Iran,Price Change ,Rice,9,1.074706901
+91,Iran,Price Change ,Rice,9,1.641444025
+92,Iran,Price Change ,Rice,9,2.430564734
+93,Iran,Price Change ,Rice,9,2.638952731
+94,Iran,Price Change ,Rice,9,2.738547149
+95,Iran,Price Change ,Rice,9,3.225268892
+96,Iran,Price Change ,Rice,9,3.713830288
+87,Iran,Price Change ,Rice,10,1
+88,Iran,Price Change ,Rice,10,0.893972361
+89,Iran,Price Change ,Rice,10,0.918219588
+90,Iran,Price Change ,Rice,10,1.0891139
+91,Iran,Price Change ,Rice,10,1.681614541
+92,Iran,Price Change ,Rice,10,2.39910626
+93,Iran,Price Change ,Rice,10,2.606687187
+94,Iran,Price Change ,Rice,10,2.769563552
+95,Iran,Price Change ,Rice,10,3.432114603
+96,Iran,Price Change ,Rice,10,3.947108535
+87,Iran,Price Change ,Sugar,1,1
+88,Iran,Price Change ,Sugar,1,1.146318787
+89,Iran,Price Change ,Sugar,1,1.792011053
+90,Iran,Price Change ,Sugar,1,2.198414153
+91,Iran,Price Change ,Sugar,1,2.707855644
+92,Iran,Price Change ,Sugar,1,3.732653911
+93,Iran,Price Change ,Sugar,1,4.315418804
+94,Iran,Price Change ,Sugar,1,5.029804355
+95,Iran,Price Change ,Sugar,1,5.985117994
+96,Iran,Price Change ,Sugar,1,7.18688476
+87,Iran,Price Change ,Sugar,2,1
+88,Iran,Price Change ,Sugar,2,1.232732513
+89,Iran,Price Change ,Sugar,2,1.829023206
+90,Iran,Price Change ,Sugar,2,2.059104826
+91,Iran,Price Change ,Sugar,2,2.657566345
+92,Iran,Price Change ,Sugar,2,4.021142976
+93,Iran,Price Change ,Sugar,2,4.599657472
+94,Iran,Price Change ,Sugar,2,4.949983704
+95,Iran,Price Change ,Sugar,2,6.11579223
+96,Iran,Price Change ,Sugar,2,7.026343435
+87,Iran,Price Change ,Sugar,3,1
+88,Iran,Price Change ,Sugar,3,1.11851426
+89,Iran,Price Change ,Sugar,3,1.672267351
+90,Iran,Price Change ,Sugar,3,1.914762581
+91,Iran,Price Change ,Sugar,3,2.540070949
+92,Iran,Price Change ,Sugar,3,3.670511136
+93,Iran,Price Change ,Sugar,3,4.281278656
+94,Iran,Price Change ,Sugar,3,4.700392652
+95,Iran,Price Change ,Sugar,3,5.620389242
+96,Iran,Price Change ,Sugar,3,6.397967994
+87,Iran,Price Change ,Sugar,4,1
+88,Iran,Price Change ,Sugar,4,1.087438775
+89,Iran,Price Change ,Sugar,4,1.641824533
+90,Iran,Price Change ,Sugar,4,1.892557133
+91,Iran,Price Change ,Sugar,4,2.495838589
+92,Iran,Price Change ,Sugar,4,3.609892251
+93,Iran,Price Change ,Sugar,4,4.35552348
+94,Iran,Price Change ,Sugar,4,4.787227259
+95,Iran,Price Change ,Sugar,4,5.895172244
+96,Iran,Price Change ,Sugar,4,6.293125598
+87,Iran,Price Change ,Sugar,5,1
+88,Iran,Price Change ,Sugar,5,1.173807458
+89,Iran,Price Change ,Sugar,5,1.550379462
+90,Iran,Price Change ,Sugar,5,1.888210294
+91,Iran,Price Change ,Sugar,5,2.565633633
+92,Iran,Price Change ,Sugar,5,3.546481091
+93,Iran,Price Change ,Sugar,5,4.032638547
+94,Iran,Price Change ,Sugar,5,4.621044423
+95,Iran,Price Change ,Sugar,5,5.572621633
+96,Iran,Price Change ,Sugar,5,5.973041288
+87,Iran,Price Change ,Sugar,6,1
+88,Iran,Price Change ,Sugar,6,1.172505523
+89,Iran,Price Change ,Sugar,6,1.51960686
+90,Iran,Price Change ,Sugar,6,1.876877938
+91,Iran,Price Change ,Sugar,6,2.402802749
+92,Iran,Price Change ,Sugar,6,3.394980804
+93,Iran,Price Change ,Sugar,6,4.071604721
+94,Iran,Price Change ,Sugar,6,4.49004853
+95,Iran,Price Change ,Sugar,6,5.176525761
+96,Iran,Price Change ,Sugar,6,6.122327109
+87,Iran,Price Change ,Sugar,7,1
+88,Iran,Price Change ,Sugar,7,1.221894034
+89,Iran,Price Change ,Sugar,7,1.606611377
+90,Iran,Price Change ,Sugar,7,1.92005837
+91,Iran,Price Change ,Sugar,7,2.532135703
+92,Iran,Price Change ,Sugar,7,3.445639091
+93,Iran,Price Change ,Sugar,7,3.993460665
+94,Iran,Price Change ,Sugar,7,4.515104843
+95,Iran,Price Change ,Sugar,7,5.327787488
+96,Iran,Price Change ,Sugar,7,5.91066
+87,Iran,Price Change ,Sugar,8,1
+88,Iran,Price Change ,Sugar,8,1.160042869
+89,Iran,Price Change ,Sugar,8,1.539780507
+90,Iran,Price Change ,Sugar,8,1.840567387
+91,Iran,Price Change ,Sugar,8,2.454499073
+92,Iran,Price Change ,Sugar,8,3.320842234
+93,Iran,Price Change ,Sugar,8,3.842466629
+94,Iran,Price Change ,Sugar,8,4.409013612
+95,Iran,Price Change ,Sugar,8,5.208786806
+96,Iran,Price Change ,Sugar,8,5.673256153
+87,Iran,Price Change ,Sugar,9,1
+88,Iran,Price Change ,Sugar,9,1.20166424
+89,Iran,Price Change ,Sugar,9,1.513280212
+90,Iran,Price Change ,Sugar,9,1.788784239
+91,Iran,Price Change ,Sugar,9,2.401215878
+92,Iran,Price Change ,Sugar,9,3.339586446
+93,Iran,Price Change ,Sugar,9,3.902065856
+94,Iran,Price Change ,Sugar,9,4.260784968
+95,Iran,Price Change ,Sugar,9,5.018625644
+96,Iran,Price Change ,Sugar,9,5.597209877
+87,Iran,Price Change ,Sugar,10,1
+88,Iran,Price Change ,Sugar,10,1.226957871
+89,Iran,Price Change ,Sugar,10,1.512098458
+90,Iran,Price Change ,Sugar,10,1.793968499
+91,Iran,Price Change ,Sugar,10,2.515649946
+92,Iran,Price Change ,Sugar,10,3.399617835
+93,Iran,Price Change ,Sugar,10,3.95146724
+94,Iran,Price Change ,Sugar,10,4.609754599
+95,Iran,Price Change ,Sugar,10,5.298131855
+96,Iran,Price Change ,Sugar,10,6.139418926
+87,Iran,Price Change ,Yogurt,1,1
+88,Iran,Price Change ,Yogurt,1,1.154298876
+89,Iran,Price Change ,Yogurt,1,1.202998859
+90,Iran,Price Change ,Yogurt,1,1.433979626
+91,Iran,Price Change ,Yogurt,1,2.278423777
+92,Iran,Price Change ,Yogurt,1,2.954255574
+93,Iran,Price Change ,Yogurt,1,3.251779748
+94,Iran,Price Change ,Yogurt,1,3.520424695
+95,Iran,Price Change ,Yogurt,1,3.721568023
+96,Iran,Price Change ,Yogurt,1,3.987460482
+87,Iran,Price Change ,Yogurt,2,1
+88,Iran,Price Change ,Yogurt,2,1.157750002
+89,Iran,Price Change ,Yogurt,2,1.207811915
+90,Iran,Price Change ,Yogurt,2,1.414984921
+91,Iran,Price Change ,Yogurt,2,2.26739949
+92,Iran,Price Change ,Yogurt,2,2.870817652
+93,Iran,Price Change ,Yogurt,2,3.215274392
+94,Iran,Price Change ,Yogurt,2,3.446315827
+95,Iran,Price Change ,Yogurt,2,3.608476236
+96,Iran,Price Change ,Yogurt,2,3.815672624
+87,Iran,Price Change ,Yogurt,3,1
+88,Iran,Price Change ,Yogurt,3,1.133690475
+89,Iran,Price Change ,Yogurt,3,1.23454524
+90,Iran,Price Change ,Yogurt,3,1.437293813
+91,Iran,Price Change ,Yogurt,3,2.335018344
+92,Iran,Price Change ,Yogurt,3,2.871779115
+93,Iran,Price Change ,Yogurt,3,3.24121272
+94,Iran,Price Change ,Yogurt,3,3.526309273
+95,Iran,Price Change ,Yogurt,3,3.641964284
+96,Iran,Price Change ,Yogurt,3,3.942355968
+87,Iran,Price Change ,Yogurt,4,1
+88,Iran,Price Change ,Yogurt,4,1.168158676
+89,Iran,Price Change ,Yogurt,4,1.21470036
+90,Iran,Price Change ,Yogurt,4,1.45439907
+91,Iran,Price Change ,Yogurt,4,2.338338223
+92,Iran,Price Change ,Yogurt,4,2.922322272
+93,Iran,Price Change ,Yogurt,4,3.222798769
+94,Iran,Price Change ,Yogurt,4,3.564018589
+95,Iran,Price Change ,Yogurt,4,3.63877456
+96,Iran,Price Change ,Yogurt,4,3.949046283
+87,Iran,Price Change ,Yogurt,5,1
+88,Iran,Price Change ,Yogurt,5,1.123098689
+89,Iran,Price Change ,Yogurt,5,1.205273785
+90,Iran,Price Change ,Yogurt,5,1.402301067
+91,Iran,Price Change ,Yogurt,5,2.249459163
+92,Iran,Price Change ,Yogurt,5,2.89842044
+93,Iran,Price Change ,Yogurt,5,3.155429449
+94,Iran,Price Change ,Yogurt,5,3.434056874
+95,Iran,Price Change ,Yogurt,5,3.545867066
+96,Iran,Price Change ,Yogurt,5,3.822569785
+87,Iran,Price Change ,Yogurt,6,1
+88,Iran,Price Change ,Yogurt,6,1.107930095
+89,Iran,Price Change ,Yogurt,6,1.194500448
+90,Iran,Price Change ,Yogurt,6,1.392455233
+91,Iran,Price Change ,Yogurt,6,2.233464704
+92,Iran,Price Change ,Yogurt,6,2.870143588
+93,Iran,Price Change ,Yogurt,6,3.193698404
+94,Iran,Price Change ,Yogurt,6,3.495904657
+95,Iran,Price Change ,Yogurt,6,3.543079046
+96,Iran,Price Change ,Yogurt,6,3.821323862
+87,Iran,Price Change ,Yogurt,7,1
+88,Iran,Price Change ,Yogurt,7,1.110895001
+89,Iran,Price Change ,Yogurt,7,1.214710021
+90,Iran,Price Change ,Yogurt,7,1.432686126
+91,Iran,Price Change ,Yogurt,7,2.269746478
+92,Iran,Price Change ,Yogurt,7,2.943312332
+93,Iran,Price Change ,Yogurt,7,3.267499286
+94,Iran,Price Change ,Yogurt,7,3.545315166
+95,Iran,Price Change ,Yogurt,7,3.640635274
+96,Iran,Price Change ,Yogurt,7,3.91547079
+87,Iran,Price Change ,Yogurt,8,1
+88,Iran,Price Change ,Yogurt,8,1.103478437
+89,Iran,Price Change ,Yogurt,8,1.182807326
+90,Iran,Price Change ,Yogurt,8,1.397091026
+91,Iran,Price Change ,Yogurt,8,2.296017246
+92,Iran,Price Change ,Yogurt,8,2.921398806
+93,Iran,Price Change ,Yogurt,8,3.196136321
+94,Iran,Price Change ,Yogurt,8,3.490072537
+95,Iran,Price Change ,Yogurt,8,3.636225975
+96,Iran,Price Change ,Yogurt,8,3.849103212
+87,Iran,Price Change ,Yogurt,9,1
+88,Iran,Price Change ,Yogurt,9,1.111770537
+89,Iran,Price Change ,Yogurt,9,1.176376062
+90,Iran,Price Change ,Yogurt,9,1.375836157
+91,Iran,Price Change ,Yogurt,9,2.313657641
+92,Iran,Price Change ,Yogurt,9,2.849860073
+93,Iran,Price Change ,Yogurt,9,3.224265269
+94,Iran,Price Change ,Yogurt,9,3.493258187
+95,Iran,Price Change ,Yogurt,9,3.629704362
+96,Iran,Price Change ,Yogurt,9,3.899249357
+87,Iran,Price Change ,Yogurt,10,1
+88,Iran,Price Change ,Yogurt,10,1.097079384
+89,Iran,Price Change ,Yogurt,10,1.189498607
+90,Iran,Price Change ,Yogurt,10,1.394292235
+91,Iran,Price Change ,Yogurt,10,2.312344474
+92,Iran,Price Change ,Yogurt,10,2.897446585
+93,Iran,Price Change ,Yogurt,10,3.232135181
+94,Iran,Price Change ,Yogurt,10,3.543294436
+95,Iran,Price Change ,Yogurt,10,3.705362165
+96,Iran,Price Change ,Yogurt,10,3.910974668
+96,Iran,Consumption Change,Bread,1,0.848477722
+95,Iran,Consumption Change,Bread,1,0.83057128
+94,Iran,Consumption Change,Bread,1,0.855361379
+93,Iran,Consumption Change,Bread,1,0.843463891
+92,Iran,Consumption Change,Bread,1,0.821385668
+91,Iran,Consumption Change,Bread,1,0.827165426
+90,Iran,Consumption Change,Bread,1,0.865508734
+89,Iran,Consumption Change,Bread,1,0.906934054
+88,Iran,Consumption Change,Bread,1,0.915598697
+87,Iran,Consumption Change,Bread,1,1
+96,Iran,Consumption Change,Bread,2,0.857339339
+95,Iran,Consumption Change,Bread,2,0.882380978
+94,Iran,Consumption Change,Bread,2,0.901254717
+93,Iran,Consumption Change,Bread,2,0.90771362
+92,Iran,Consumption Change,Bread,2,0.878308296
+91,Iran,Consumption Change,Bread,2,0.884086559
+90,Iran,Consumption Change,Bread,2,0.908476391
+89,Iran,Consumption Change,Bread,2,0.922547145
+88,Iran,Consumption Change,Bread,2,0.960840792
+87,Iran,Consumption Change,Bread,2,1
+96,Iran,Consumption Change,Bread,3,0.861580898
+95,Iran,Consumption Change,Bread,3,0.868044664
+94,Iran,Consumption Change,Bread,3,0.880053268
+93,Iran,Consumption Change,Bread,3,0.917863957
+92,Iran,Consumption Change,Bread,3,0.899418083
+91,Iran,Consumption Change,Bread,3,0.899396582
+90,Iran,Consumption Change,Bread,3,0.932621428
+89,Iran,Consumption Change,Bread,3,0.917677519
+88,Iran,Consumption Change,Bread,3,0.935331372
+87,Iran,Consumption Change,Bread,3,1
+96,Iran,Consumption Change,Bread,4,0.891780604
+95,Iran,Consumption Change,Bread,4,0.923561716
+94,Iran,Consumption Change,Bread,4,0.908548448
+93,Iran,Consumption Change,Bread,4,0.932217661
+92,Iran,Consumption Change,Bread,4,0.964912563
+91,Iran,Consumption Change,Bread,4,0.927541404
+90,Iran,Consumption Change,Bread,4,0.970320161
+89,Iran,Consumption Change,Bread,4,0.969391054
+88,Iran,Consumption Change,Bread,4,0.952386713
+87,Iran,Consumption Change,Bread,4,1
+96,Iran,Consumption Change,Bread,5,0.925068596
+95,Iran,Consumption Change,Bread,5,0.95992533
+94,Iran,Consumption Change,Bread,5,0.956477536
+93,Iran,Consumption Change,Bread,5,0.976576081
+92,Iran,Consumption Change,Bread,5,0.978757942
+91,Iran,Consumption Change,Bread,5,0.968746574
+90,Iran,Consumption Change,Bread,5,1.003803931
+89,Iran,Consumption Change,Bread,5,1.006775206
+88,Iran,Consumption Change,Bread,5,1.011475846
+87,Iran,Consumption Change,Bread,5,1
+96,Iran,Consumption Change,Bread,6,0.942539191
+95,Iran,Consumption Change,Bread,6,0.961562413
+94,Iran,Consumption Change,Bread,6,0.963594223
+93,Iran,Consumption Change,Bread,6,0.959285446
+92,Iran,Consumption Change,Bread,6,0.997281827
+91,Iran,Consumption Change,Bread,6,0.9909978
+90,Iran,Consumption Change,Bread,6,0.999895753
+89,Iran,Consumption Change,Bread,6,0.976601302
+88,Iran,Consumption Change,Bread,6,0.990531964
+87,Iran,Consumption Change,Bread,6,1
+96,Iran,Consumption Change,Bread,7,0.950117265
+95,Iran,Consumption Change,Bread,7,0.990787887
+94,Iran,Consumption Change,Bread,7,0.945505699
+93,Iran,Consumption Change,Bread,7,0.99505331
+92,Iran,Consumption Change,Bread,7,1.023049024
+91,Iran,Consumption Change,Bread,7,1.016018195
+90,Iran,Consumption Change,Bread,7,1.023717669
+89,Iran,Consumption Change,Bread,7,0.981450036
+88,Iran,Consumption Change,Bread,7,1.04138131
+87,Iran,Consumption Change,Bread,7,1
+96,Iran,Consumption Change,Bread,8,0.964273733
+95,Iran,Consumption Change,Bread,8,0.987009807
+94,Iran,Consumption Change,Bread,8,1.001364922
+93,Iran,Consumption Change,Bread,8,1.007556201
+92,Iran,Consumption Change,Bread,8,1.02325789
+91,Iran,Consumption Change,Bread,8,1.041057744
+90,Iran,Consumption Change,Bread,8,1.047415241
+89,Iran,Consumption Change,Bread,8,1.006539259
+88,Iran,Consumption Change,Bread,8,1.007446571
+87,Iran,Consumption Change,Bread,8,1
+96,Iran,Consumption Change,Bread,9,1.002793979
+95,Iran,Consumption Change,Bread,9,0.971931348
+94,Iran,Consumption Change,Bread,9,0.991156676
+93,Iran,Consumption Change,Bread,9,0.994475661
+92,Iran,Consumption Change,Bread,9,1.041800248
+91,Iran,Consumption Change,Bread,9,1.045306996
+90,Iran,Consumption Change,Bread,9,1.012128314
+89,Iran,Consumption Change,Bread,9,0.988536911
+88,Iran,Consumption Change,Bread,9,0.992719969
+87,Iran,Consumption Change,Bread,9,1
+96,Iran,Consumption Change,Bread,10,0.976688723
+95,Iran,Consumption Change,Bread,10,0.966002229
+94,Iran,Consumption Change,Bread,10,0.980304605
+93,Iran,Consumption Change,Bread,10,1.00438993
+92,Iran,Consumption Change,Bread,10,1.034505454
+91,Iran,Consumption Change,Bread,10,1.049697952
+90,Iran,Consumption Change,Bread,10,0.984126589
+89,Iran,Consumption Change,Bread,10,0.956846869
+88,Iran,Consumption Change,Bread,10,1.00763522
+87,Iran,Consumption Change,Bread,10,1
+96,Iran,Consumption Change,Chicken,1,1.194617464
+95,Iran,Consumption Change,Chicken,1,1.167080894
+94,Iran,Consumption Change,Chicken,1,1.160555802
+93,Iran,Consumption Change,Chicken,1,1.105579489
+92,Iran,Consumption Change,Chicken,1,1.198754046
+91,Iran,Consumption Change,Chicken,1,1.158704177
+90,Iran,Consumption Change,Chicken,1,1.139907039
+89,Iran,Consumption Change,Chicken,1,1.062597441
+88,Iran,Consumption Change,Chicken,1,1.072424738
+87,Iran,Consumption Change,Chicken,1,1
+96,Iran,Consumption Change,Chicken,2,1.166573339
+95,Iran,Consumption Change,Chicken,2,1.120994412
+94,Iran,Consumption Change,Chicken,2,1.12620268
+93,Iran,Consumption Change,Chicken,2,1.125724226
+92,Iran,Consumption Change,Chicken,2,1.149349415
+91,Iran,Consumption Change,Chicken,2,1.086716167
+90,Iran,Consumption Change,Chicken,2,1.105158343
+89,Iran,Consumption Change,Chicken,2,1.055065145
+88,Iran,Consumption Change,Chicken,2,0.998833744
+87,Iran,Consumption Change,Chicken,2,1
+96,Iran,Consumption Change,Chicken,3,1.092219007
+95,Iran,Consumption Change,Chicken,3,1.107673336
+94,Iran,Consumption Change,Chicken,3,1.081517724
+93,Iran,Consumption Change,Chicken,3,1.084467793
+92,Iran,Consumption Change,Chicken,3,1.136256485
+91,Iran,Consumption Change,Chicken,3,1.06177962
+90,Iran,Consumption Change,Chicken,3,1.087560685
+89,Iran,Consumption Change,Chicken,3,1.073805698
+88,Iran,Consumption Change,Chicken,3,1.071437964
+87,Iran,Consumption Change,Chicken,3,1
+96,Iran,Consumption Change,Chicken,4,1.101645428
+95,Iran,Consumption Change,Chicken,4,1.138997517
+94,Iran,Consumption Change,Chicken,4,1.111049175
+93,Iran,Consumption Change,Chicken,4,1.102897278
+92,Iran,Consumption Change,Chicken,4,1.086850711
+91,Iran,Consumption Change,Chicken,4,1.080313238
+90,Iran,Consumption Change,Chicken,4,1.11993525
+89,Iran,Consumption Change,Chicken,4,1.063318737
+88,Iran,Consumption Change,Chicken,4,1.05033142
+87,Iran,Consumption Change,Chicken,4,1
+96,Iran,Consumption Change,Chicken,5,1.058843902
+95,Iran,Consumption Change,Chicken,5,1.108479029
+94,Iran,Consumption Change,Chicken,5,1.054561936
+93,Iran,Consumption Change,Chicken,5,1.051319755
+92,Iran,Consumption Change,Chicken,5,1.087845425
+91,Iran,Consumption Change,Chicken,5,1.028687396
+90,Iran,Consumption Change,Chicken,5,1.081791166
+89,Iran,Consumption Change,Chicken,5,1.074943092
+88,Iran,Consumption Change,Chicken,5,1.03161313
+87,Iran,Consumption Change,Chicken,5,1
+96,Iran,Consumption Change,Chicken,6,1.094823691
+95,Iran,Consumption Change,Chicken,6,1.102641953
+94,Iran,Consumption Change,Chicken,6,1.120754837
+93,Iran,Consumption Change,Chicken,6,1.102630983
+92,Iran,Consumption Change,Chicken,6,1.132441736
+91,Iran,Consumption Change,Chicken,6,1.102849905
+90,Iran,Consumption Change,Chicken,6,1.154638168
+89,Iran,Consumption Change,Chicken,6,1.115702422
+88,Iran,Consumption Change,Chicken,6,1.066925738
+87,Iran,Consumption Change,Chicken,6,1
+96,Iran,Consumption Change,Chicken,7,1.059818529
+95,Iran,Consumption Change,Chicken,7,1.096069309
+94,Iran,Consumption Change,Chicken,7,1.079022121
+93,Iran,Consumption Change,Chicken,7,1.048537805
+92,Iran,Consumption Change,Chicken,7,1.100849975
+91,Iran,Consumption Change,Chicken,7,1.093725941
+90,Iran,Consumption Change,Chicken,7,1.126524172
+89,Iran,Consumption Change,Chicken,7,1.100427793
+88,Iran,Consumption Change,Chicken,7,1.034568896
+87,Iran,Consumption Change,Chicken,7,1
+96,Iran,Consumption Change,Chicken,8,0.980045619
+95,Iran,Consumption Change,Chicken,8,1.020434674
+94,Iran,Consumption Change,Chicken,8,0.998944145
+93,Iran,Consumption Change,Chicken,8,0.991817095
+92,Iran,Consumption Change,Chicken,8,1.029898048
+91,Iran,Consumption Change,Chicken,8,1.042737328
+90,Iran,Consumption Change,Chicken,8,1.043702548
+89,Iran,Consumption Change,Chicken,8,1.002535766
+88,Iran,Consumption Change,Chicken,8,1.059229376
+87,Iran,Consumption Change,Chicken,8,1
+96,Iran,Consumption Change,Chicken,9,0.960796853
+95,Iran,Consumption Change,Chicken,9,0.976475811
+94,Iran,Consumption Change,Chicken,9,1.005038688
+93,Iran,Consumption Change,Chicken,9,1.005061906
+92,Iran,Consumption Change,Chicken,9,1.050313519
+91,Iran,Consumption Change,Chicken,9,1.033497114
+90,Iran,Consumption Change,Chicken,9,1.065356155
+89,Iran,Consumption Change,Chicken,9,1.074348884
+88,Iran,Consumption Change,Chicken,9,1.060194701
+87,Iran,Consumption Change,Chicken,9,1
+96,Iran,Consumption Change,Chicken,10,0.940366187
+95,Iran,Consumption Change,Chicken,10,0.881745281
+94,Iran,Consumption Change,Chicken,10,0.942525478
+93,Iran,Consumption Change,Chicken,10,0.960196964
+92,Iran,Consumption Change,Chicken,10,1.003079286
+91,Iran,Consumption Change,Chicken,10,1.056384413
+90,Iran,Consumption Change,Chicken,10,1.082612017
+89,Iran,Consumption Change,Chicken,10,1.101796441
+88,Iran,Consumption Change,Chicken,10,1.032292687
+87,Iran,Consumption Change,Chicken,10,1
+96,Iran,Consumption Change,Fish,1,1.074929996
+95,Iran,Consumption Change,Fish,1,1.094250734
+94,Iran,Consumption Change,Fish,1,1.015127946
+93,Iran,Consumption Change,Fish,1,1.020386177
+92,Iran,Consumption Change,Fish,1,1.297444133
+91,Iran,Consumption Change,Fish,1,1.199253422
+90,Iran,Consumption Change,Fish,1,1.293905614
+89,Iran,Consumption Change,Fish,1,1.107340627
+88,Iran,Consumption Change,Fish,1,1.10099548
+87,Iran,Consumption Change,Fish,1,1
+96,Iran,Consumption Change,Fish,2,1.137336895
+95,Iran,Consumption Change,Fish,2,1.060109374
+94,Iran,Consumption Change,Fish,2,1.055145827
+93,Iran,Consumption Change,Fish,2,1.025958649
+92,Iran,Consumption Change,Fish,2,0.974779941
+91,Iran,Consumption Change,Fish,2,1.05110073
+90,Iran,Consumption Change,Fish,2,1.222564851
+89,Iran,Consumption Change,Fish,2,1.190929579
+88,Iran,Consumption Change,Fish,2,0.870842812
+87,Iran,Consumption Change,Fish,2,1
+96,Iran,Consumption Change,Fish,3,1.01790594
+95,Iran,Consumption Change,Fish,3,0.96745702
+94,Iran,Consumption Change,Fish,3,1.039819072
+93,Iran,Consumption Change,Fish,3,1.072052523
+92,Iran,Consumption Change,Fish,3,1.146970858
+91,Iran,Consumption Change,Fish,3,1.135386847
+90,Iran,Consumption Change,Fish,3,1.242911199
+89,Iran,Consumption Change,Fish,3,1.210619566
+88,Iran,Consumption Change,Fish,3,1.047843441
+87,Iran,Consumption Change,Fish,3,1
+96,Iran,Consumption Change,Fish,4,0.956391252
+95,Iran,Consumption Change,Fish,4,1.021582451
+94,Iran,Consumption Change,Fish,4,1.050065143
+93,Iran,Consumption Change,Fish,4,0.932120108
+92,Iran,Consumption Change,Fish,4,1.108032222
+91,Iran,Consumption Change,Fish,4,1.043835929
+90,Iran,Consumption Change,Fish,4,1.040746292
+89,Iran,Consumption Change,Fish,4,1.122062233
+88,Iran,Consumption Change,Fish,4,1.051122089
+87,Iran,Consumption Change,Fish,4,1
+96,Iran,Consumption Change,Fish,5,0.977166508
+95,Iran,Consumption Change,Fish,5,1.141771933
+94,Iran,Consumption Change,Fish,5,1.042150533
+93,Iran,Consumption Change,Fish,5,1.030571904
+92,Iran,Consumption Change,Fish,5,1.160064384
+91,Iran,Consumption Change,Fish,5,1.044159278
+90,Iran,Consumption Change,Fish,5,1.157839025
+89,Iran,Consumption Change,Fish,5,1.02386281
+88,Iran,Consumption Change,Fish,5,0.964260854
+87,Iran,Consumption Change,Fish,5,1
+96,Iran,Consumption Change,Fish,6,1.003899993
+95,Iran,Consumption Change,Fish,6,1.085319443
+94,Iran,Consumption Change,Fish,6,1.028899308
+93,Iran,Consumption Change,Fish,6,1.066895968
+92,Iran,Consumption Change,Fish,6,1.209602159
+91,Iran,Consumption Change,Fish,6,1.129084401
+90,Iran,Consumption Change,Fish,6,1.184666916
+89,Iran,Consumption Change,Fish,6,1.137606544
+88,Iran,Consumption Change,Fish,6,1.162439833
+87,Iran,Consumption Change,Fish,6,1
+96,Iran,Consumption Change,Fish,7,0.924354668
+95,Iran,Consumption Change,Fish,7,0.978043632
+94,Iran,Consumption Change,Fish,7,1.00567921
+93,Iran,Consumption Change,Fish,7,0.994595222
+92,Iran,Consumption Change,Fish,7,1.042323719
+91,Iran,Consumption Change,Fish,7,0.911273402
+90,Iran,Consumption Change,Fish,7,1.00539534
+89,Iran,Consumption Change,Fish,7,1.000314248
+88,Iran,Consumption Change,Fish,7,0.968768176
+87,Iran,Consumption Change,Fish,7,1
+96,Iran,Consumption Change,Fish,8,0.944934165
+95,Iran,Consumption Change,Fish,8,0.932713195
+94,Iran,Consumption Change,Fish,8,0.950267133
+93,Iran,Consumption Change,Fish,8,0.976656444
+92,Iran,Consumption Change,Fish,8,1.02192255
+91,Iran,Consumption Change,Fish,8,0.989636449
+90,Iran,Consumption Change,Fish,8,1.060385818
+89,Iran,Consumption Change,Fish,8,1.024607166
+88,Iran,Consumption Change,Fish,8,1.02219411
+87,Iran,Consumption Change,Fish,8,1
+96,Iran,Consumption Change,Fish,9,1.00879384
+95,Iran,Consumption Change,Fish,9,0.891829395
+94,Iran,Consumption Change,Fish,9,0.896053805
+93,Iran,Consumption Change,Fish,9,0.921516949
+92,Iran,Consumption Change,Fish,9,1.016275908
+91,Iran,Consumption Change,Fish,9,0.996045283
+90,Iran,Consumption Change,Fish,9,1.011440802
+89,Iran,Consumption Change,Fish,9,1.026545468
+88,Iran,Consumption Change,Fish,9,0.983044279
+87,Iran,Consumption Change,Fish,9,1
+96,Iran,Consumption Change,Fish,10,0.973125832
+95,Iran,Consumption Change,Fish,10,0.983357387
+94,Iran,Consumption Change,Fish,10,0.969919715
+93,Iran,Consumption Change,Fish,10,0.941944039
+92,Iran,Consumption Change,Fish,10,1.058746216
+91,Iran,Consumption Change,Fish,10,1.115680471
+90,Iran,Consumption Change,Fish,10,1.030550008
+89,Iran,Consumption Change,Fish,10,1.028411859
+88,Iran,Consumption Change,Fish,10,0.981949613
+87,Iran,Consumption Change,Fish,10,1
+96,Iran,Consumption Change,Fruit,1,1.120930779
+95,Iran,Consumption Change,Fruit,1,0.931128947
+94,Iran,Consumption Change,Fruit,1,0.903634192
+93,Iran,Consumption Change,Fruit,1,1.023566084
+92,Iran,Consumption Change,Fruit,1,0.993410306
+91,Iran,Consumption Change,Fruit,1,1.051227759
+90,Iran,Consumption Change,Fruit,1,1.193485487
+89,Iran,Consumption Change,Fruit,1,1.131035784
+88,Iran,Consumption Change,Fruit,1,0.995156538
+87,Iran,Consumption Change,Fruit,1,1
+96,Iran,Consumption Change,Fruit,2,0.988199031
+95,Iran,Consumption Change,Fruit,2,0.903699534
+94,Iran,Consumption Change,Fruit,2,0.888200129
+93,Iran,Consumption Change,Fruit,2,0.918789105
+92,Iran,Consumption Change,Fruit,2,0.916676823
+91,Iran,Consumption Change,Fruit,2,0.966312409
+90,Iran,Consumption Change,Fruit,2,1.06181877
+89,Iran,Consumption Change,Fruit,2,1.044017295
+88,Iran,Consumption Change,Fruit,2,0.942483303
+87,Iran,Consumption Change,Fruit,2,1
+96,Iran,Consumption Change,Fruit,3,0.92209647
+95,Iran,Consumption Change,Fruit,3,0.876932088
+94,Iran,Consumption Change,Fruit,3,0.83452509
+93,Iran,Consumption Change,Fruit,3,0.894193041
+92,Iran,Consumption Change,Fruit,3,0.865469642
+91,Iran,Consumption Change,Fruit,3,0.966612124
+90,Iran,Consumption Change,Fruit,3,1.015061425
+89,Iran,Consumption Change,Fruit,3,0.973219011
+88,Iran,Consumption Change,Fruit,3,0.909506101
+87,Iran,Consumption Change,Fruit,3,1
+96,Iran,Consumption Change,Fruit,4,0.975076645
+95,Iran,Consumption Change,Fruit,4,0.982998854
+94,Iran,Consumption Change,Fruit,4,0.88763413
+93,Iran,Consumption Change,Fruit,4,0.930231932
+92,Iran,Consumption Change,Fruit,4,0.900206086
+91,Iran,Consumption Change,Fruit,4,1.013604521
+90,Iran,Consumption Change,Fruit,4,1.044110942
+89,Iran,Consumption Change,Fruit,4,1.051353619
+88,Iran,Consumption Change,Fruit,4,0.990585873
+87,Iran,Consumption Change,Fruit,4,1
+96,Iran,Consumption Change,Fruit,5,0.929424564
+95,Iran,Consumption Change,Fruit,5,0.930141482
+94,Iran,Consumption Change,Fruit,5,0.904516615
+93,Iran,Consumption Change,Fruit,5,0.905363434
+92,Iran,Consumption Change,Fruit,5,0.900164327
+91,Iran,Consumption Change,Fruit,5,1.004016085
+90,Iran,Consumption Change,Fruit,5,1.014264113
+89,Iran,Consumption Change,Fruit,5,1.028657529
+88,Iran,Consumption Change,Fruit,5,0.892868798
+87,Iran,Consumption Change,Fruit,5,1
+96,Iran,Consumption Change,Fruit,6,0.971756612
+95,Iran,Consumption Change,Fruit,6,0.901207993
+94,Iran,Consumption Change,Fruit,6,0.90615504
+93,Iran,Consumption Change,Fruit,6,0.960427163
+92,Iran,Consumption Change,Fruit,6,0.911737836
+91,Iran,Consumption Change,Fruit,6,0.993721063
+90,Iran,Consumption Change,Fruit,6,1.03834774
+89,Iran,Consumption Change,Fruit,6,1.08681951
+88,Iran,Consumption Change,Fruit,6,0.950385746
+87,Iran,Consumption Change,Fruit,6,1
+96,Iran,Consumption Change,Fruit,7,0.979324156
+95,Iran,Consumption Change,Fruit,7,0.943735289
+94,Iran,Consumption Change,Fruit,7,0.946169127
+93,Iran,Consumption Change,Fruit,7,0.931427567
+92,Iran,Consumption Change,Fruit,7,0.92397362
+91,Iran,Consumption Change,Fruit,7,1.00653025
+90,Iran,Consumption Change,Fruit,7,1.067163209
+89,Iran,Consumption Change,Fruit,7,1.087401453
+88,Iran,Consumption Change,Fruit,7,0.994986545
+87,Iran,Consumption Change,Fruit,7,1
+96,Iran,Consumption Change,Fruit,8,0.880713806
+95,Iran,Consumption Change,Fruit,8,0.869924086
+94,Iran,Consumption Change,Fruit,8,0.871748691
+93,Iran,Consumption Change,Fruit,8,0.899429523
+92,Iran,Consumption Change,Fruit,8,0.891406328
+91,Iran,Consumption Change,Fruit,8,0.964827692
+90,Iran,Consumption Change,Fruit,8,1.010920013
+89,Iran,Consumption Change,Fruit,8,1.009579019
+88,Iran,Consumption Change,Fruit,8,0.976248503
+87,Iran,Consumption Change,Fruit,8,1
+96,Iran,Consumption Change,Fruit,9,0.959611447
+95,Iran,Consumption Change,Fruit,9,0.937058029
+94,Iran,Consumption Change,Fruit,9,0.909645455
+93,Iran,Consumption Change,Fruit,9,0.935267193
+92,Iran,Consumption Change,Fruit,9,0.948306091
+91,Iran,Consumption Change,Fruit,9,1.066985031
+90,Iran,Consumption Change,Fruit,9,1.027695032
+89,Iran,Consumption Change,Fruit,9,1.123953861
+88,Iran,Consumption Change,Fruit,9,1.021448142
+87,Iran,Consumption Change,Fruit,9,1
+96,Iran,Consumption Change,Fruit,10,0.942767913
+95,Iran,Consumption Change,Fruit,10,0.839983907
+94,Iran,Consumption Change,Fruit,10,0.914779285
+93,Iran,Consumption Change,Fruit,10,0.983892341
+92,Iran,Consumption Change,Fruit,10,0.861966083
+91,Iran,Consumption Change,Fruit,10,1.034049185
+90,Iran,Consumption Change,Fruit,10,0.976486347
+89,Iran,Consumption Change,Fruit,10,1.05016238
+88,Iran,Consumption Change,Fruit,10,0.991397617
+87,Iran,Consumption Change,Fruit,10,1
+96,Iran,Consumption Change,Meat,1,0.928551445
+95,Iran,Consumption Change,Meat,1,0.883161857
+94,Iran,Consumption Change,Meat,1,0.994632777
+93,Iran,Consumption Change,Meat,1,0.994212184
+92,Iran,Consumption Change,Meat,1,1.026902984
+91,Iran,Consumption Change,Meat,1,1.045184207
+90,Iran,Consumption Change,Meat,1,1.063861963
+89,Iran,Consumption Change,Meat,1,0.973820355
+88,Iran,Consumption Change,Meat,1,1.147809341
+87,Iran,Consumption Change,Meat,1,1
+96,Iran,Consumption Change,Meat,2,0.854504018
+95,Iran,Consumption Change,Meat,2,0.915753453
+94,Iran,Consumption Change,Meat,2,0.798785025
+93,Iran,Consumption Change,Meat,2,0.830291422
+92,Iran,Consumption Change,Meat,2,0.853038096
+91,Iran,Consumption Change,Meat,2,0.875268514
+90,Iran,Consumption Change,Meat,2,0.967102017
+89,Iran,Consumption Change,Meat,2,0.931166985
+88,Iran,Consumption Change,Meat,2,0.96218371
+87,Iran,Consumption Change,Meat,2,1
+96,Iran,Consumption Change,Meat,3,0.752138411
+95,Iran,Consumption Change,Meat,3,0.723381126
+94,Iran,Consumption Change,Meat,3,0.754785713
+93,Iran,Consumption Change,Meat,3,0.734520054
+92,Iran,Consumption Change,Meat,3,0.742648713
+91,Iran,Consumption Change,Meat,3,0.80025367
+90,Iran,Consumption Change,Meat,3,0.849323047
+89,Iran,Consumption Change,Meat,3,0.825348787
+88,Iran,Consumption Change,Meat,3,0.909574413
+87,Iran,Consumption Change,Meat,3,1
+96,Iran,Consumption Change,Meat,4,0.757766171
+95,Iran,Consumption Change,Meat,4,0.790128486
+94,Iran,Consumption Change,Meat,4,0.74971274
+93,Iran,Consumption Change,Meat,4,0.760866274
+92,Iran,Consumption Change,Meat,4,0.722688538
+91,Iran,Consumption Change,Meat,4,0.78550849
+90,Iran,Consumption Change,Meat,4,0.850965926
+89,Iran,Consumption Change,Meat,4,0.787300153
+88,Iran,Consumption Change,Meat,4,0.881008988
+87,Iran,Consumption Change,Meat,4,1
+96,Iran,Consumption Change,Meat,5,0.710300397
+95,Iran,Consumption Change,Meat,5,0.788163912
+94,Iran,Consumption Change,Meat,5,0.799494179
+93,Iran,Consumption Change,Meat,5,0.686654323
+92,Iran,Consumption Change,Meat,5,0.734144879
+91,Iran,Consumption Change,Meat,5,0.874550388
+90,Iran,Consumption Change,Meat,5,0.810713395
+89,Iran,Consumption Change,Meat,5,0.844138913
+88,Iran,Consumption Change,Meat,5,0.884649733
+87,Iran,Consumption Change,Meat,5,1
+96,Iran,Consumption Change,Meat,6,0.768704613
+95,Iran,Consumption Change,Meat,6,0.813299487
+94,Iran,Consumption Change,Meat,6,0.786604525
+93,Iran,Consumption Change,Meat,6,0.767792353
+92,Iran,Consumption Change,Meat,6,0.762468985
+91,Iran,Consumption Change,Meat,6,0.840909594
+90,Iran,Consumption Change,Meat,6,0.851354624
+89,Iran,Consumption Change,Meat,6,0.832161345
+88,Iran,Consumption Change,Meat,6,0.92669632
+87,Iran,Consumption Change,Meat,6,1
+96,Iran,Consumption Change,Meat,7,0.71999627
+95,Iran,Consumption Change,Meat,7,0.750558738
+94,Iran,Consumption Change,Meat,7,0.780135666
+93,Iran,Consumption Change,Meat,7,0.686735401
+92,Iran,Consumption Change,Meat,7,0.699196765
+91,Iran,Consumption Change,Meat,7,0.804221892
+90,Iran,Consumption Change,Meat,7,0.833099631
+89,Iran,Consumption Change,Meat,7,0.879724537
+88,Iran,Consumption Change,Meat,7,0.820509869
+87,Iran,Consumption Change,Meat,7,1
+96,Iran,Consumption Change,Meat,8,0.696308655
+95,Iran,Consumption Change,Meat,8,0.751068621
+94,Iran,Consumption Change,Meat,8,0.750410465
+93,Iran,Consumption Change,Meat,8,0.719691108
+92,Iran,Consumption Change,Meat,8,0.766832668
+91,Iran,Consumption Change,Meat,8,0.814458691
+90,Iran,Consumption Change,Meat,8,0.807761781
+89,Iran,Consumption Change,Meat,8,0.872115114
+88,Iran,Consumption Change,Meat,8,0.890032896
+87,Iran,Consumption Change,Meat,8,1
+96,Iran,Consumption Change,Meat,9,0.716565681
+95,Iran,Consumption Change,Meat,9,0.732148712
+94,Iran,Consumption Change,Meat,9,0.737699813
+93,Iran,Consumption Change,Meat,9,0.739237369
+92,Iran,Consumption Change,Meat,9,0.769734017
+91,Iran,Consumption Change,Meat,9,0.839776119
+90,Iran,Consumption Change,Meat,9,0.871549628
+89,Iran,Consumption Change,Meat,9,0.937522708
+88,Iran,Consumption Change,Meat,9,0.864303872
+87,Iran,Consumption Change,Meat,9,1
+96,Iran,Consumption Change,Meat,10,0.831595249
+95,Iran,Consumption Change,Meat,10,0.740758999
+94,Iran,Consumption Change,Meat,10,0.784688137
+93,Iran,Consumption Change,Meat,10,0.765341998
+92,Iran,Consumption Change,Meat,10,0.790954912
+91,Iran,Consumption Change,Meat,10,0.928705215
+90,Iran,Consumption Change,Meat,10,0.882727285
+89,Iran,Consumption Change,Meat,10,1.034633481
+88,Iran,Consumption Change,Meat,10,0.908490689
+87,Iran,Consumption Change,Meat,10,1
+96,Iran,Consumption Change,Milk,1,0.525059906
+95,Iran,Consumption Change,Milk,1,0.52726226
+94,Iran,Consumption Change,Milk,1,0.555418255
+93,Iran,Consumption Change,Milk,1,0.607873118
+92,Iran,Consumption Change,Milk,1,0.591965054
+91,Iran,Consumption Change,Milk,1,0.642978539
+90,Iran,Consumption Change,Milk,1,0.776842908
+89,Iran,Consumption Change,Milk,1,0.923068541
+88,Iran,Consumption Change,Milk,1,0.922243308
+87,Iran,Consumption Change,Milk,1,1
+96,Iran,Consumption Change,Milk,2,0.546840627
+95,Iran,Consumption Change,Milk,2,0.503481276
+94,Iran,Consumption Change,Milk,2,0.537276603
+93,Iran,Consumption Change,Milk,2,0.600595968
+92,Iran,Consumption Change,Milk,2,0.57039893
+91,Iran,Consumption Change,Milk,2,0.601315657
+90,Iran,Consumption Change,Milk,2,0.697211068
+89,Iran,Consumption Change,Milk,2,0.858575054
+88,Iran,Consumption Change,Milk,2,0.890684372
+87,Iran,Consumption Change,Milk,2,1
+96,Iran,Consumption Change,Milk,3,0.610950034
+95,Iran,Consumption Change,Milk,3,0.61812587
+94,Iran,Consumption Change,Milk,3,0.592765933
+93,Iran,Consumption Change,Milk,3,0.658973705
+92,Iran,Consumption Change,Milk,3,0.687871539
+91,Iran,Consumption Change,Milk,3,0.718503613
+90,Iran,Consumption Change,Milk,3,0.839524905
+89,Iran,Consumption Change,Milk,3,0.99761364
+88,Iran,Consumption Change,Milk,3,1.060804183
+87,Iran,Consumption Change,Milk,3,1
+96,Iran,Consumption Change,Milk,4,0.618118509
+95,Iran,Consumption Change,Milk,4,0.576418271
+94,Iran,Consumption Change,Milk,4,0.586054125
+93,Iran,Consumption Change,Milk,4,0.615505953
+92,Iran,Consumption Change,Milk,4,0.645141523
+91,Iran,Consumption Change,Milk,4,0.693318072
+90,Iran,Consumption Change,Milk,4,0.834619294
+89,Iran,Consumption Change,Milk,4,0.956170839
+88,Iran,Consumption Change,Milk,4,0.985431478
+87,Iran,Consumption Change,Milk,4,1
+96,Iran,Consumption Change,Milk,5,0.596548578
+95,Iran,Consumption Change,Milk,5,0.620074475
+94,Iran,Consumption Change,Milk,5,0.63124661
+93,Iran,Consumption Change,Milk,5,0.638163234
+92,Iran,Consumption Change,Milk,5,0.658709822
+91,Iran,Consumption Change,Milk,5,0.729734256
+90,Iran,Consumption Change,Milk,5,0.811665097
+89,Iran,Consumption Change,Milk,5,0.963709067
+88,Iran,Consumption Change,Milk,5,0.970365604
+87,Iran,Consumption Change,Milk,5,1
+96,Iran,Consumption Change,Milk,6,0.707347079
+95,Iran,Consumption Change,Milk,6,0.681549146
+94,Iran,Consumption Change,Milk,6,0.676880163
+93,Iran,Consumption Change,Milk,6,0.708730285
+92,Iran,Consumption Change,Milk,6,0.761976338
+91,Iran,Consumption Change,Milk,6,0.835476451
+90,Iran,Consumption Change,Milk,6,0.891405588
+89,Iran,Consumption Change,Milk,6,1.078790455
+88,Iran,Consumption Change,Milk,6,1.014125548
+87,Iran,Consumption Change,Milk,6,1
+96,Iran,Consumption Change,Milk,7,0.703866475
+95,Iran,Consumption Change,Milk,7,0.724714221
+94,Iran,Consumption Change,Milk,7,0.718122339
+93,Iran,Consumption Change,Milk,7,0.773691961
+92,Iran,Consumption Change,Milk,7,0.787758686
+91,Iran,Consumption Change,Milk,7,0.869656676
+90,Iran,Consumption Change,Milk,7,0.941221831
+89,Iran,Consumption Change,Milk,7,1.07555579
+88,Iran,Consumption Change,Milk,7,1.062997804
+87,Iran,Consumption Change,Milk,7,1
+96,Iran,Consumption Change,Milk,8,0.677918232
+95,Iran,Consumption Change,Milk,8,0.751847671
+94,Iran,Consumption Change,Milk,8,0.726406638
+93,Iran,Consumption Change,Milk,8,0.731532198
+92,Iran,Consumption Change,Milk,8,0.808378032
+91,Iran,Consumption Change,Milk,8,0.869462764
+90,Iran,Consumption Change,Milk,8,0.922471906
+89,Iran,Consumption Change,Milk,8,1.105119917
+88,Iran,Consumption Change,Milk,8,1.088466331
+87,Iran,Consumption Change,Milk,8,1
+96,Iran,Consumption Change,Milk,9,0.709982922
+95,Iran,Consumption Change,Milk,9,0.732351341
+94,Iran,Consumption Change,Milk,9,0.73611156
+93,Iran,Consumption Change,Milk,9,0.77514475
+92,Iran,Consumption Change,Milk,9,0.860704218
+91,Iran,Consumption Change,Milk,9,0.879009304
+90,Iran,Consumption Change,Milk,9,0.90940137
+89,Iran,Consumption Change,Milk,9,1.073045488
+88,Iran,Consumption Change,Milk,9,1.075518339
+87,Iran,Consumption Change,Milk,9,1
+96,Iran,Consumption Change,Milk,10,0.767166857
+95,Iran,Consumption Change,Milk,10,0.802596303
+94,Iran,Consumption Change,Milk,10,0.829425638
+93,Iran,Consumption Change,Milk,10,0.858606075
+92,Iran,Consumption Change,Milk,10,0.839957968
+91,Iran,Consumption Change,Milk,10,0.948274026
+90,Iran,Consumption Change,Milk,10,0.918619404
+89,Iran,Consumption Change,Milk,10,1.04744631
+88,Iran,Consumption Change,Milk,10,1.038204737
+87,Iran,Consumption Change,Milk,10,1
+96,Iran,Consumption Change,Rice,1,1.027313745
+95,Iran,Consumption Change,Rice,1,1.015749612
+94,Iran,Consumption Change,Rice,1,1.07793403
+93,Iran,Consumption Change,Rice,1,1.052279766
+92,Iran,Consumption Change,Rice,1,1.179902422
+91,Iran,Consumption Change,Rice,1,1.247660646
+90,Iran,Consumption Change,Rice,1,1.205026156
+89,Iran,Consumption Change,Rice,1,1.118163139
+88,Iran,Consumption Change,Rice,1,1.082785113
+87,Iran,Consumption Change,Rice,1,1
+96,Iran,Consumption Change,Rice,2,0.88266317
+95,Iran,Consumption Change,Rice,2,0.872857459
+94,Iran,Consumption Change,Rice,2,0.897504612
+93,Iran,Consumption Change,Rice,2,0.900950287
+92,Iran,Consumption Change,Rice,2,0.960882972
+91,Iran,Consumption Change,Rice,2,1.013651348
+90,Iran,Consumption Change,Rice,2,1.071963876
+89,Iran,Consumption Change,Rice,2,1.038203687
+88,Iran,Consumption Change,Rice,2,0.989565382
+87,Iran,Consumption Change,Rice,2,1
+96,Iran,Consumption Change,Rice,3,0.77654198
+95,Iran,Consumption Change,Rice,3,0.774735139
+94,Iran,Consumption Change,Rice,3,0.830247967
+93,Iran,Consumption Change,Rice,3,0.817270927
+92,Iran,Consumption Change,Rice,3,0.831006139
+91,Iran,Consumption Change,Rice,3,0.989857965
+90,Iran,Consumption Change,Rice,3,0.974396872
+89,Iran,Consumption Change,Rice,3,0.958749467
+88,Iran,Consumption Change,Rice,3,0.963788481
+87,Iran,Consumption Change,Rice,3,1
+96,Iran,Consumption Change,Rice,4,0.801052206
+95,Iran,Consumption Change,Rice,4,0.799727664
+94,Iran,Consumption Change,Rice,4,0.841840685
+93,Iran,Consumption Change,Rice,4,0.824924718
+92,Iran,Consumption Change,Rice,4,0.858422508
+91,Iran,Consumption Change,Rice,4,0.925698248
+90,Iran,Consumption Change,Rice,4,0.971493956
+89,Iran,Consumption Change,Rice,4,0.897050814
+88,Iran,Consumption Change,Rice,4,0.978303983
+87,Iran,Consumption Change,Rice,4,1
+96,Iran,Consumption Change,Rice,5,0.803324517
+95,Iran,Consumption Change,Rice,5,0.786934827
+94,Iran,Consumption Change,Rice,5,0.858905808
+93,Iran,Consumption Change,Rice,5,0.858848008
+92,Iran,Consumption Change,Rice,5,0.920592943
+91,Iran,Consumption Change,Rice,5,0.929363046
+90,Iran,Consumption Change,Rice,5,1.031508786
+89,Iran,Consumption Change,Rice,5,0.968908748
+88,Iran,Consumption Change,Rice,5,1.035555975
+87,Iran,Consumption Change,Rice,5,1
+96,Iran,Consumption Change,Rice,6,0.838287545
+95,Iran,Consumption Change,Rice,6,0.789462968
+94,Iran,Consumption Change,Rice,6,0.855603397
+93,Iran,Consumption Change,Rice,6,0.840622529
+92,Iran,Consumption Change,Rice,6,0.873075571
+91,Iran,Consumption Change,Rice,6,1.01948021
+90,Iran,Consumption Change,Rice,6,1.031433323
+89,Iran,Consumption Change,Rice,6,1.005433004
+88,Iran,Consumption Change,Rice,6,0.984804738
+87,Iran,Consumption Change,Rice,6,1
+96,Iran,Consumption Change,Rice,7,0.788028839
+95,Iran,Consumption Change,Rice,7,0.796502015
+94,Iran,Consumption Change,Rice,7,0.822290499
+93,Iran,Consumption Change,Rice,7,0.874317876
+92,Iran,Consumption Change,Rice,7,0.904386004
+91,Iran,Consumption Change,Rice,7,0.961956223
+90,Iran,Consumption Change,Rice,7,1.007854889
+89,Iran,Consumption Change,Rice,7,1.021439228
+88,Iran,Consumption Change,Rice,7,1.002485806
+87,Iran,Consumption Change,Rice,7,1
+96,Iran,Consumption Change,Rice,8,0.837564052
+95,Iran,Consumption Change,Rice,8,0.781037721
+94,Iran,Consumption Change,Rice,8,0.838465614
+93,Iran,Consumption Change,Rice,8,0.825718229
+92,Iran,Consumption Change,Rice,8,0.906227731
+91,Iran,Consumption Change,Rice,8,0.985170737
+90,Iran,Consumption Change,Rice,8,0.973324723
+89,Iran,Consumption Change,Rice,8,1.01136512
+88,Iran,Consumption Change,Rice,8,1.042136252
+87,Iran,Consumption Change,Rice,8,1
+96,Iran,Consumption Change,Rice,9,0.833007706
+95,Iran,Consumption Change,Rice,9,0.757182228
+94,Iran,Consumption Change,Rice,9,0.808242836
+93,Iran,Consumption Change,Rice,9,0.859070847
+92,Iran,Consumption Change,Rice,9,0.893051323
+91,Iran,Consumption Change,Rice,9,0.92467327
+90,Iran,Consumption Change,Rice,9,0.931626191
+89,Iran,Consumption Change,Rice,9,1.037769248
+88,Iran,Consumption Change,Rice,9,0.976827052
+87,Iran,Consumption Change,Rice,9,1
+96,Iran,Consumption Change,Rice,10,0.862938863
+95,Iran,Consumption Change,Rice,10,0.801840887
+94,Iran,Consumption Change,Rice,10,0.892728888
+93,Iran,Consumption Change,Rice,10,0.782094366
+92,Iran,Consumption Change,Rice,10,0.850758054
+91,Iran,Consumption Change,Rice,10,0.933396123
+90,Iran,Consumption Change,Rice,10,0.849483731
+89,Iran,Consumption Change,Rice,10,0.980134082
+88,Iran,Consumption Change,Rice,10,0.953277669
+87,Iran,Consumption Change,Rice,10,1
+96,Iran,Consumption Change,Sugar,1,0.795528085
+95,Iran,Consumption Change,Sugar,1,0.784338581
+94,Iran,Consumption Change,Sugar,1,0.841006817
+93,Iran,Consumption Change,Sugar,1,0.855863551
+92,Iran,Consumption Change,Sugar,1,0.969664807
+91,Iran,Consumption Change,Sugar,1,1.06749163
+90,Iran,Consumption Change,Sugar,1,1.060510256
+89,Iran,Consumption Change,Sugar,1,0.929454707
+88,Iran,Consumption Change,Sugar,1,0.947781545
+87,Iran,Consumption Change,Sugar,1,1
+96,Iran,Consumption Change,Sugar,2,0.818481882
+95,Iran,Consumption Change,Sugar,2,0.78847143
+94,Iran,Consumption Change,Sugar,2,0.835732821
+93,Iran,Consumption Change,Sugar,2,0.873795614
+92,Iran,Consumption Change,Sugar,2,0.92810218
+91,Iran,Consumption Change,Sugar,2,1.033361086
+90,Iran,Consumption Change,Sugar,2,1.061324357
+89,Iran,Consumption Change,Sugar,2,0.956907985
+88,Iran,Consumption Change,Sugar,2,0.957301926
+87,Iran,Consumption Change,Sugar,2,1
+96,Iran,Consumption Change,Sugar,3,0.803948146
+95,Iran,Consumption Change,Sugar,3,0.800155317
+94,Iran,Consumption Change,Sugar,3,0.833110976
+93,Iran,Consumption Change,Sugar,3,0.878466751
+92,Iran,Consumption Change,Sugar,3,0.976965183
+91,Iran,Consumption Change,Sugar,3,1.075695076
+90,Iran,Consumption Change,Sugar,3,1.026813151
+89,Iran,Consumption Change,Sugar,3,0.982877381
+88,Iran,Consumption Change,Sugar,3,0.97568284
+87,Iran,Consumption Change,Sugar,3,1
+96,Iran,Consumption Change,Sugar,4,0.855790232
+95,Iran,Consumption Change,Sugar,4,0.848273287
+94,Iran,Consumption Change,Sugar,4,0.847667801
+93,Iran,Consumption Change,Sugar,4,0.88468642
+92,Iran,Consumption Change,Sugar,4,0.961128122
+91,Iran,Consumption Change,Sugar,4,1.082194538
+90,Iran,Consumption Change,Sugar,4,1.014359191
+89,Iran,Consumption Change,Sugar,4,0.991904503
+88,Iran,Consumption Change,Sugar,4,0.979955545
+87,Iran,Consumption Change,Sugar,4,1
+96,Iran,Consumption Change,Sugar,5,0.844195657
+95,Iran,Consumption Change,Sugar,5,0.867094332
+94,Iran,Consumption Change,Sugar,5,0.879867234
+93,Iran,Consumption Change,Sugar,5,0.891269879
+92,Iran,Consumption Change,Sugar,5,0.972853093
+91,Iran,Consumption Change,Sugar,5,1.021288119
+90,Iran,Consumption Change,Sugar,5,1.019604603
+89,Iran,Consumption Change,Sugar,5,0.994278834
+88,Iran,Consumption Change,Sugar,5,0.95981295
+87,Iran,Consumption Change,Sugar,5,1
+96,Iran,Consumption Change,Sugar,6,0.884691732
+95,Iran,Consumption Change,Sugar,6,0.845269036
+94,Iran,Consumption Change,Sugar,6,0.900395456
+93,Iran,Consumption Change,Sugar,6,0.93405201
+92,Iran,Consumption Change,Sugar,6,1.003153357
+91,Iran,Consumption Change,Sugar,6,1.093093638
+90,Iran,Consumption Change,Sugar,6,1.125316491
+89,Iran,Consumption Change,Sugar,6,1.059241451
+88,Iran,Consumption Change,Sugar,6,1.006039147
+87,Iran,Consumption Change,Sugar,6,1
+96,Iran,Consumption Change,Sugar,7,0.853342606
+95,Iran,Consumption Change,Sugar,7,0.810880019
+94,Iran,Consumption Change,Sugar,7,0.879875049
+93,Iran,Consumption Change,Sugar,7,0.901595522
+92,Iran,Consumption Change,Sugar,7,0.960718139
+91,Iran,Consumption Change,Sugar,7,1.078920511
+90,Iran,Consumption Change,Sugar,7,1.066952635
+89,Iran,Consumption Change,Sugar,7,1.011015652
+88,Iran,Consumption Change,Sugar,7,1.011901244
+87,Iran,Consumption Change,Sugar,7,1
+96,Iran,Consumption Change,Sugar,8,0.878243031
+95,Iran,Consumption Change,Sugar,8,0.853009309
+94,Iran,Consumption Change,Sugar,8,0.861607508
+93,Iran,Consumption Change,Sugar,8,0.90735358
+92,Iran,Consumption Change,Sugar,8,0.96295003
+91,Iran,Consumption Change,Sugar,8,1.047877328
+90,Iran,Consumption Change,Sugar,8,1.088365324
+89,Iran,Consumption Change,Sugar,8,1.040942111
+88,Iran,Consumption Change,Sugar,8,1.051662992
+87,Iran,Consumption Change,Sugar,8,1
+96,Iran,Consumption Change,Sugar,9,0.892294662
+95,Iran,Consumption Change,Sugar,9,0.837116617
+94,Iran,Consumption Change,Sugar,9,0.881889671
+93,Iran,Consumption Change,Sugar,9,0.908263423
+92,Iran,Consumption Change,Sugar,9,1.006334314
+91,Iran,Consumption Change,Sugar,9,1.106940408
+90,Iran,Consumption Change,Sugar,9,1.101882856
+89,Iran,Consumption Change,Sugar,9,1.094550491
+88,Iran,Consumption Change,Sugar,9,1.011361852
+87,Iran,Consumption Change,Sugar,9,1
+96,Iran,Consumption Change,Sugar,10,0.876613791
+95,Iran,Consumption Change,Sugar,10,0.810638629
+94,Iran,Consumption Change,Sugar,10,0.854088185
+93,Iran,Consumption Change,Sugar,10,0.945988427
+92,Iran,Consumption Change,Sugar,10,0.98217857
+91,Iran,Consumption Change,Sugar,10,1.166111845
+90,Iran,Consumption Change,Sugar,10,1.103910468
+89,Iran,Consumption Change,Sugar,10,1.102402975
+88,Iran,Consumption Change,Sugar,10,1.016938912
+87,Iran,Consumption Change,Sugar,10,1
+96,Iran,Consumption Change,Yogurt,1,0.958673603
+95,Iran,Consumption Change,Yogurt,1,0.82945592
+94,Iran,Consumption Change,Yogurt,1,0.889518969
+93,Iran,Consumption Change,Yogurt,1,0.982800433
+92,Iran,Consumption Change,Yogurt,1,0.989866755
+91,Iran,Consumption Change,Yogurt,1,1.136316377
+90,Iran,Consumption Change,Yogurt,1,1.081157401
+89,Iran,Consumption Change,Yogurt,1,0.949005834
+88,Iran,Consumption Change,Yogurt,1,1.006671819
+87,Iran,Consumption Change,Yogurt,1,1
+96,Iran,Consumption Change,Yogurt,2,0.85661479
+95,Iran,Consumption Change,Yogurt,2,0.814597901
+94,Iran,Consumption Change,Yogurt,2,0.847723466
+93,Iran,Consumption Change,Yogurt,2,0.902217298
+92,Iran,Consumption Change,Yogurt,2,0.965587892
+91,Iran,Consumption Change,Yogurt,2,1.086540397
+90,Iran,Consumption Change,Yogurt,2,1.012495127
+89,Iran,Consumption Change,Yogurt,2,0.914622298
+88,Iran,Consumption Change,Yogurt,2,0.870538192
+87,Iran,Consumption Change,Yogurt,2,1
+96,Iran,Consumption Change,Yogurt,3,0.810073
+95,Iran,Consumption Change,Yogurt,3,0.784859635
+94,Iran,Consumption Change,Yogurt,3,0.814575962
+93,Iran,Consumption Change,Yogurt,3,0.898942824
+92,Iran,Consumption Change,Yogurt,3,0.959042612
+91,Iran,Consumption Change,Yogurt,3,1.029704109
+90,Iran,Consumption Change,Yogurt,3,1.01902695
+89,Iran,Consumption Change,Yogurt,3,0.93398622
+88,Iran,Consumption Change,Yogurt,3,0.975283064
+87,Iran,Consumption Change,Yogurt,3,1
+96,Iran,Consumption Change,Yogurt,4,0.84506262
+95,Iran,Consumption Change,Yogurt,4,0.823610791
+94,Iran,Consumption Change,Yogurt,4,0.876782653
+93,Iran,Consumption Change,Yogurt,4,0.878390853
+92,Iran,Consumption Change,Yogurt,4,0.982994219
+91,Iran,Consumption Change,Yogurt,4,1.048645873
+90,Iran,Consumption Change,Yogurt,4,1.027779295
+89,Iran,Consumption Change,Yogurt,4,0.960901533
+88,Iran,Consumption Change,Yogurt,4,0.990131748
+87,Iran,Consumption Change,Yogurt,4,1
+96,Iran,Consumption Change,Yogurt,5,0.786879619
+95,Iran,Consumption Change,Yogurt,5,0.828156581
+94,Iran,Consumption Change,Yogurt,5,0.873563759
+93,Iran,Consumption Change,Yogurt,5,0.868752177
+92,Iran,Consumption Change,Yogurt,5,0.930965821
+91,Iran,Consumption Change,Yogurt,5,0.960939074
+90,Iran,Consumption Change,Yogurt,5,1.014640867
+89,Iran,Consumption Change,Yogurt,5,0.931198299
+88,Iran,Consumption Change,Yogurt,5,0.883688156
+87,Iran,Consumption Change,Yogurt,5,1
+96,Iran,Consumption Change,Yogurt,6,0.867839773
+95,Iran,Consumption Change,Yogurt,6,0.851674247
+94,Iran,Consumption Change,Yogurt,6,0.860022689
+93,Iran,Consumption Change,Yogurt,6,0.918721866
+92,Iran,Consumption Change,Yogurt,6,0.982061055
+91,Iran,Consumption Change,Yogurt,6,1.066288446
+90,Iran,Consumption Change,Yogurt,6,1.010978677
+89,Iran,Consumption Change,Yogurt,6,0.998759824
+88,Iran,Consumption Change,Yogurt,6,0.976775303
+87,Iran,Consumption Change,Yogurt,6,1
+96,Iran,Consumption Change,Yogurt,7,0.784899581
+95,Iran,Consumption Change,Yogurt,7,0.800744866
+94,Iran,Consumption Change,Yogurt,7,0.838061351
+93,Iran,Consumption Change,Yogurt,7,0.827834022
+92,Iran,Consumption Change,Yogurt,7,0.921479875
+91,Iran,Consumption Change,Yogurt,7,0.956210332
+90,Iran,Consumption Change,Yogurt,7,0.930266564
+89,Iran,Consumption Change,Yogurt,7,0.895213046
+88,Iran,Consumption Change,Yogurt,7,0.881410609
+87,Iran,Consumption Change,Yogurt,7,1
+96,Iran,Consumption Change,Yogurt,8,0.801150173
+95,Iran,Consumption Change,Yogurt,8,0.79423629
+94,Iran,Consumption Change,Yogurt,8,0.80907864
+93,Iran,Consumption Change,Yogurt,8,0.844795052
+92,Iran,Consumption Change,Yogurt,8,0.937515322
+91,Iran,Consumption Change,Yogurt,8,0.977327872
+90,Iran,Consumption Change,Yogurt,8,0.959593524
+89,Iran,Consumption Change,Yogurt,8,0.880021897
+88,Iran,Consumption Change,Yogurt,8,0.913477807
+87,Iran,Consumption Change,Yogurt,8,1
+96,Iran,Consumption Change,Yogurt,9,0.776275256
+95,Iran,Consumption Change,Yogurt,9,0.776918205
+94,Iran,Consumption Change,Yogurt,9,0.825843258
+93,Iran,Consumption Change,Yogurt,9,0.854255807
+92,Iran,Consumption Change,Yogurt,9,0.993624419
+91,Iran,Consumption Change,Yogurt,9,0.956073005
+90,Iran,Consumption Change,Yogurt,9,0.926908607
+89,Iran,Consumption Change,Yogurt,9,0.945480354
+88,Iran,Consumption Change,Yogurt,9,0.902016799
+87,Iran,Consumption Change,Yogurt,9,1
+96,Iran,Consumption Change,Yogurt,10,0.852271277
+95,Iran,Consumption Change,Yogurt,10,0.80887526
+94,Iran,Consumption Change,Yogurt,10,0.842331611
+93,Iran,Consumption Change,Yogurt,10,0.878469076
+92,Iran,Consumption Change,Yogurt,10,0.981329662
+91,Iran,Consumption Change,Yogurt,10,1.043781424
+90,Iran,Consumption Change,Yogurt,10,0.915976573
+89,Iran,Consumption Change,Yogurt,10,0.963941571
+88,Iran,Consumption Change,Yogurt,10,1.002823685
+87,Iran,Consumption Change,Yogurt,10,1

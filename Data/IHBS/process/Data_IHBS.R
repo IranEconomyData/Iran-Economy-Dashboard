@@ -78,3 +78,12 @@ IHBS_Cumulative_Share_data <- function(df, variable, year) {
 }
 
 
+# Change price and consumption of food items based on year 1387----
+df_IHBS_ChangeFoodItems <- read.csv(here("Data/IHBS/raw/ChangeFoodItems.csv"))
+
+IHBS_ChangeFoodItems_data <- function(df, variable, decile) {
+  df |>
+    filter(Variable == variable,
+           Decile == decile)
+}
+

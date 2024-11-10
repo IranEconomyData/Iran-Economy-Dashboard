@@ -159,4 +159,27 @@ server_IHBS <- function(input, output){
   })  
   
   
+  
+  #---- Cumulative Expenditure Share
+  output$IHBS_ChangeFoodItems <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_ChangeFoodItems_data(df_IHBS_ChangeFoodItems,  input$IHBS_ChangeFoodItems_Variable ,input$IHBS_ChangeFoodItems_Decile)
+    p <- ggplot(data, aes(x = Year , y=value , fill=UOM)) +
+        geom_bar(stat = "identity", position = "dodge") +
+      scale_x_continuous(breaks = seq(87, 96, by = 1)) +
+      scale_y_continuous(breaks = seq(0, 10, by = 1)) +
+      
+        labs(title = "Food Price and consumption change compare to base year",
+           x = "Year",
+           y = "Change level") +
+        theme_minimal()
+     
+    
+    ggplotly(p)
+    
+  })  
+  
+  
+  
+  
 }

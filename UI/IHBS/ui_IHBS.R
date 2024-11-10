@@ -112,6 +112,26 @@ ui_IHBS_cumulative_share <- function(df){
   )}
 
 
+
+ui_IHBS_changefooditems <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 8"),
+        plotlyOutput("IHBS_ChangeFoodItems"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_ChangeFoodItems_Variable", "Variable", choices = unique(df$Variable))
+          ),
+          column(4,
+                 selectInput("IHBS_ChangeFoodItems_Decile", "Decile", choices = unique(df$Decile))
+          )
+        )
+    )
+  )}
+
+
+
+
 ui_IHBS_blank <- function(df){
   fluidRow(div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
                h3("Footer"))
