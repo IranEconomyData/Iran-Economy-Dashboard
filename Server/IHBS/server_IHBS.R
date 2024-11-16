@@ -179,6 +179,26 @@ server_IHBS <- function(input, output){
     
   })  
   
+  #---- Cumulative Expenditure Share
+  output$IHBS_PriceElastisity <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_PriceElastisity_data(df_IHBS_PriceElastisity,  input$IHBS_PriceElastisity_Category ,input$IHBS_PriceElastisity_Type)
+    p <- ggplot(data, aes(x = Cross , y=value )) +
+      geom_bar(stat = "identity", position = "dodge",fill = "darkgreen") +
+      #scale_x_continuous(breaks = seq(87, 96, by = 1)) +
+      #scale_y_continuous(breaks = seq(0, 10, by = 1)) +
+      
+      labs(title = "Price Elasticity of food items",
+           x = "Items",
+           y = "Elasticity") +
+      theme_minimal()
+    
+    
+    ggplotly(p)
+    
+  })  
+  
+  
   
   
   

@@ -62,6 +62,7 @@ ui <- fluidPage(
              ui_IHBS_foodExp_prov(df_IHBS_Food_exp_prov),
              ui_IHBS_cumulative_share(df_IHBS_Cumulative_Share),
              ui_IHBS_changefooditems(df_IHBS_ChangeFoodItems),
+             ui_IHBS_priceelastisity(df_IHBS_PriceElastisity),
              ui_IHBS_blank(),
              
              
@@ -97,5 +98,5 @@ server <- function(input, output, session) {
 }
 
 # Run the application
-shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
-# shinyApp(ui = ui, server = server)
+#shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
+shinyApp(ui = ui, server = server)

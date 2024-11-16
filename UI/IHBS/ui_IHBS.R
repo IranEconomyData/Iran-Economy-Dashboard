@@ -130,6 +130,24 @@ ui_IHBS_changefooditems <- function(df){
   )}
 
 
+ui_IHBS_priceelastisity <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 9"),
+        plotlyOutput("IHBS_PriceElastisity"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_PriceElastisity_Category", "Category", choices = unique(df$Category))
+          ),
+          column(4,
+                 selectInput("IHBS_PriceElastisity_Type", "Type", choices = unique(df$Type))
+          )
+        )
+    )
+  )}
+
+
+
 
 
 ui_IHBS_blank <- function(df){

@@ -87,3 +87,12 @@ IHBS_ChangeFoodItems_data <- function(df, variable, decile) {
            Decile == decile)
 }
 
+# Price Elasticity----
+df_IHBS_PriceElastisity <- read.csv(here("Data/IHBS/raw/PriceElastisity.csv"))
+
+IHBS_PriceElastisity_data <- function(df, category, type) {
+  df |>
+    filter(Category == category,
+           Type == type)
+}
+
