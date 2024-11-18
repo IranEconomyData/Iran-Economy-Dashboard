@@ -179,7 +179,7 @@ server_IHBS <- function(input, output){
     
   })  
   
-  #---- Cumulative Expenditure Share
+  #---- Price Elasticity
   output$IHBS_PriceElastisity <- renderPlotly({
     # Get the filtered data
     data <- IHBS_PriceElastisity_data(df_IHBS_PriceElastisity,  input$IHBS_PriceElastisity_Category ,input$IHBS_PriceElastisity_Type)
@@ -198,6 +198,46 @@ server_IHBS <- function(input, output){
     
   })  
   
+  #---- Expenditure Elasticity
+  output$IHBS_ExpenditureElasticity <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_ExpenditureElastisity_data
+    p <- ggplot(data, aes(x = Category , y=value )) +
+      geom_bar(stat = "identity", position = "dodge",fill = "lightgreen") +
+      #scale_x_continuous(breaks = seq(87, 96, by = 1)) +
+      #scale_y_continuous(breaks = seq(0, 10, by = 1)) +
+      
+      labs(title = "Expenditure Elasticity of food items",
+           x = "Items",
+           y = "Elasticity") +
+      theme_minimal()+
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+    
+    
+    ggplotly(p)
+    
+  })  
+  
+  
+  #---- Expenditure Elasticity
+  output$IHBS_ExpenditureElasticityNew <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_ExpenditureElastisityNew_data
+    p <- ggplot(data, aes(x = Category , y=value )) +
+      geom_bar(stat = "identity", position = "dodge",fill = "lightgreen") +
+      #scale_x_continuous(breaks = seq(87, 96, by = 1)) +
+      #scale_y_continuous(breaks = seq(0, 10, by = 1)) +
+      
+      labs(title = "Expenditure Elasticity of food items",
+           x = "Items",
+           y = "Elasticity") +
+      theme_minimal()+
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+    
+    
+    ggplotly(p)
+    
+  })  
   
   
   

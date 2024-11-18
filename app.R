@@ -63,6 +63,9 @@ ui <- fluidPage(
              ui_IHBS_cumulative_share(df_IHBS_Cumulative_Share),
              ui_IHBS_changefooditems(df_IHBS_ChangeFoodItems),
              ui_IHBS_priceelastisity(df_IHBS_PriceElastisity),
+             ui_IHBS_expenditureelasticity(df_IHBS_ExpenditureElasticity),
+             ui_IHBS_expenditureelasticitynew(df_IHBS_ExpenditureElasticityNew),
+             
              ui_IHBS_blank(),
              
              

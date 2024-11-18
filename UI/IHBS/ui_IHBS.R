@@ -148,6 +148,22 @@ ui_IHBS_priceelastisity <- function(df){
 
 
 
+ui_IHBS_expenditureelasticity <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 10"),
+        plotlyOutput("IHBS_ExpenditureElasticity")
+    )
+  )}
+
+
+ui_IHBS_expenditureelasticitynew <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 11"),
+        plotlyOutput("IHBS_ExpenditureElasticityNew")
+    )
+  )}
 
 
 ui_IHBS_blank <- function(df){

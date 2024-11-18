@@ -96,3 +96,16 @@ IHBS_PriceElastisity_data <- function(df, category, type) {
            Type == type)
 }
 
+
+
+# Expenditure Elasticity----
+df_IHBS_ExpenditureElasticity <- read.csv(here("Data/IHBS/raw/ExpenditureElasticity.csv"))
+
+IHBS_ExpenditureElastisity_data <- df_IHBS_ExpenditureElasticity 
+
+
+
+# Expenditure Elasticity----
+df_IHBS_ExpenditureElasticityNew <- read.csv(here("Data/IHBS/raw/ExpenditureElasticityNew.csv"))
+
+IHBS_ExpenditureElastisityNew_data <- df_IHBS_ExpenditureElasticityNew 
