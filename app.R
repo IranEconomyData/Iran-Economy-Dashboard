@@ -65,6 +65,7 @@ ui <- fluidPage(
              ui_IHBS_priceelastisity(df_IHBS_PriceElastisity),
              ui_IHBS_expenditureelasticity(df_IHBS_ExpenditureElasticity),
              ui_IHBS_expenditureelasticitynew(df_IHBS_ExpenditureElasticityNew),
+             ui_IHBS_priceelastisitynew(df_IHBS_PriceElastisityNew),
              
              ui_IHBS_blank(),
              

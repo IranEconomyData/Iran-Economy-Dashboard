@@ -239,6 +239,24 @@ server_IHBS <- function(input, output){
     
   })  
   
+  #---- Price Elasticity
+  output$IHBS_PriceElastisityNew <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_PriceElastisityNew_data(df_IHBS_PriceElastisityNew,  input$IHBS_PriceElastisityNew_Category ,input$IHBS_PriceElastisityNew_Type)
+    p <- ggplot(data, aes(x = Cross , y=value )) +
+      geom_bar(stat = "identity", position = "dodge",fill = "darkgreen") +
+      #scale_x_continuous(breaks = seq(87, 96, by = 1)) +
+      #scale_y_continuous(breaks = seq(0, 10, by = 1)) +
+      
+      labs(title = "Price Elasticity of food items",
+           x = "Items",
+           y = "Elasticity") +
+      theme_minimal()
+    
+    
+    ggplotly(p)
+    
+  })  
   
   
   

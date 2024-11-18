@@ -1,0 +1,649 @@
+GEO,UOM,Time,Type,Category,Cross,value
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,CerealsBreadFlour,-0.774510094
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,Meatdomesticanimals,-0.069333205
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,PoultryMeat,-0.327999422
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,DairyProducts,-0.199344476
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,BirdEggs,0.094215142
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,Fruit,0.214604004
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,Vegetables,-0.260262055
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,NutsLegumes,0.155586199
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,Sugar,0.041217257
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,OtherCombinations,-0.134820556
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,VegetableOils,0.224546368
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,TeaCoffee,-0.185628066
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,Spices,-0.028545811
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,Milk,0.268636968
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,AnimalOilsFats,0.045413047
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,SweetsJams,-0.078129805
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,SeafoodMeat,0.18301222
+Iran,Price Elasticity,1387-1396,Uncompensated,Cereals,PreparedVegetables,-0.057027066
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,CerealsBreadFlour,-0.318966527
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,Meatdomesticanimals,-0.730442007
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,PoultryMeat,0.130971746
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,DairyProducts,0.04669234
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,BirdEggs,-0.052608181
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,Fruit,-0.052421075
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,Vegetables,0.029074219
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,NutsLegumes,-0.059189323
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,Sugar,-0.122094621
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,OtherCombinations,0.113857699
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,VegetableOils,-0.023727543
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,TeaCoffee,-0.14433298
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,Spices,-0.135911921
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,Milk,-0.269542061
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,AnimalOilsFats,-0.048474537
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,SweetsJams,-0.021983072
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,SeafoodMeat,0.044058534
+Iran,Price Elasticity,1387-1396,Uncompensated,Meat,PreparedVegetables,0.049138108
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,CerealsBreadFlour,-0.905681312
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,Meatdomesticanimals,0.239909192
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,PoultryMeat,-0.434425901
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,DairyProducts,-0.132983378
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,BirdEggs,-0.029092981
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,Fruit,0.251463263
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,Vegetables,-0.01940738
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,NutsLegumes,0.011147498
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,Sugar,0.056340315
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,OtherCombinations,0.012124182
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,VegetableOils,-0.137832984
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,TeaCoffee,-0.031273408
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,Spices,-0.007913616
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,Milk,0.057716522
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,AnimalOilsFats,0.057320496
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,SweetsJams,0.001747517
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,SeafoodMeat,-0.004425744
+Iran,Price Elasticity,1387-1396,Uncompensated,PoultryMeat,PreparedVegetables,0.038573074
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,CerealsBreadFlour,-0.85585782
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,Meatdomesticanimals,0.189194963
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,PoultryMeat,-0.201353214
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,DairyProducts,-0.309509228
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,BirdEggs,0.120916728
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,Fruit,-0.219892343
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,Vegetables,-0.243686227
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,NutsLegumes,-0.06756137
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,Sugar,-0.018968741
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,OtherCombinations,0.037663896
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,VegetableOils,0.149316819
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,TeaCoffee,0.188191178
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,Spices,0.027388645
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,Milk,0.168713446
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,AnimalOilsFats,-0.049127692
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,SweetsJams,0.14090903
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,SeafoodMeat,0.16418915
+Iran,Price Elasticity,1387-1396,Uncompensated,Dairy products,PreparedVegetables,-0.035777656
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,CerealsBreadFlour,1.067720186
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,Meatdomesticanimals,-0.146420468
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,PoultryMeat,-0.078047001
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,DairyProducts,0.303287816
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,BirdEggs,-0.359348206
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,Fruit,-0.705827143
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,Vegetables,-0.146638727
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,NutsLegumes,-0.098958795
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,Sugar,0.072425417
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,OtherCombinations,0.14027861
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,VegetableOils,-0.288151064
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,TeaCoffee,0.192985755
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,Spices,0.14705872
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,Milk,-0.254221971
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,AnimalOilsFats,-0.138663413
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,SweetsJams,-0.046816018
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,SeafoodMeat,-0.232703009
+Iran,Price Elasticity,1387-1396,Uncompensated,Bird eggs,PreparedVegetables,-0.026952607
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,CerealsBreadFlour,0.528638117
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,Meatdomesticanimals,-0.012353086
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,PoultryMeat,0.242079305
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,DairyProducts,-0.153788258
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,BirdEggs,-0.194848316
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,Fruit,-0.692106005
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,Vegetables,-0.129270823
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,NutsLegumes,-0.15855673
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,Sugar,-0.049599986
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,OtherCombinations,0.015916755
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,VegetableOils,-0.264295806
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,TeaCoffee,0.062190781
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,Spices,0.079425363
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,Milk,-0.217802653
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,AnimalOilsFats,-0.003227336
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,SweetsJams,-0.07076858
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,SeafoodMeat,-0.115587148
+Iran,Price Elasticity,1387-1396,Uncompensated,Fruit,PreparedVegetables,0.025033867
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,CerealsBreadFlour,-0.593553476
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,Meatdomesticanimals,0.131352994
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,PoultryMeat,0.003053682
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,DairyProducts,-0.130471881
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,BirdEggs,-0.037398696
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,Fruit,-0.081462944
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,Vegetables,-0.172067703
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,NutsLegumes,-0.092183823
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,Sugar,-0.025106349
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,OtherCombinations,0.083823854
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,VegetableOils,0.025478708
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,TeaCoffee,0.250025196
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,Spices,0.035830777
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,Milk,-0.203088223
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,AnimalOilsFats,0.030361564
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,SweetsJams,0.096775741
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,SeafoodMeat,-0.087107883
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetables,PreparedVegetables,0.003429961
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,CerealsBreadFlour,1.601089417
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,Meatdomesticanimals,-0.219234537
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,PoultryMeat,0.044902073
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,DairyProducts,-0.168526645
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,BirdEggs,-0.10633138
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,Fruit,-0.590860784
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,Vegetables,-0.419657111
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,NutsLegumes,-0.489211859
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,Sugar,-0.194817066
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,OtherCombinations,-0.511237249
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,VegetableOils,-0.273560355
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,TeaCoffee,0.376613659
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,Spices,0.069306356
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,Milk,-0.127507796
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,AnimalOilsFats,-0.074316355
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,SweetsJams,0.102962495
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,SeafoodMeat,-0.020665705
+Iran,Price Elasticity,1387-1396,Uncompensated,Nuts and legumes,PreparedVegetables,0.043515964
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,CerealsBreadFlour,0.463127439
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,Meatdomesticanimals,-0.516521204
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,PoultryMeat,0.239598694
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,DairyProducts,-0.043232722
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,BirdEggs,0.068063715
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,Fruit,-0.160354601
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,Vegetables,-0.111406927
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,NutsLegumes,-0.192788388
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,Sugar,-0.125273438
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,OtherCombinations,-0.106036545
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,VegetableOils,-0.142311668
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,TeaCoffee,0.120236627
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,Spices,0.105992226
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,Milk,-0.054290382
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,AnimalOilsFats,-0.01912916
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,SweetsJams,-0.086228453
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,SeafoodMeat,-0.211777421
+Iran,Price Elasticity,1387-1396,Uncompensated,Sugar,PreparedVegetables,-0.00320078
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,CerealsBreadFlour,-1.373158766
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,Meatdomesticanimals,0.62308088
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,PoultryMeat,0.048660665
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,DairyProducts,0.079132473
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,BirdEggs,0.1257687
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,Fruit,0.074492679
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,Vegetables,0.332288392
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,NutsLegumes,-0.495038051
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,Sugar,-0.105533854
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,OtherCombinations,-0.41757422
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,VegetableOils,-0.529364275
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,TeaCoffee,0.421353713
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,Spices,0.17190378
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,Milk,-0.032655393
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,AnimalOilsFats,-0.122812468
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,SweetsJams,0.168161175
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,SeafoodMeat,0.00371698
+Iran,Price Elasticity,1387-1396,Uncompensated,Condiments and other food combinations,PreparedVegetables,0.085128106
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,CerealsBreadFlour,1.3592143
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,Meatdomesticanimals,0.058795698
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,PoultryMeat,-0.250779615
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,DairyProducts,0.208207672
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,BirdEggs,-0.154093364
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,Fruit,-0.498512968
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,Vegetables,0.081908725
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,NutsLegumes,-0.139411968
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,Sugar,-0.071387775
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,OtherCombinations,-0.288266374
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,VegetableOils,-0.163124945
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,TeaCoffee,-0.185423852
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,Spices,-0.05544007
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,Milk,0.082868096
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,AnimalOilsFats,-0.309333438
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,SweetsJams,-0.229760724
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,SeafoodMeat,-0.002094201
+Iran,Price Elasticity,1387-1396,Uncompensated,Vegetable oils,PreparedVegetables,-0.001273182
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",CerealsBreadFlour,-1.794526928
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",Meatdomesticanimals,-0.585007583
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",PoultryMeat,-0.111990016
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",DairyProducts,0.398381559
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",BirdEggs,0.164806131
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",Fruit,0.228392096
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",Vegetables,0.96618335
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",NutsLegumes,0.34400238
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",Sugar,0.103489121
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",OtherCombinations,0.396881617
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",VegetableOils,-0.330702481
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",TeaCoffee,-1.106207837
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",Spices,0.093313864
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",Milk,0.315868976
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",AnimalOilsFats,0.110430633
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",SweetsJams,-0.016696852
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",SeafoodMeat,-0.20343882
+Iran,Price Elasticity,1387-1396,Uncompensated,"Tea, coffee, and cocoa",PreparedVegetables,0.036088343
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,CerealsBreadFlour,-1.503258867
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,Meatdomesticanimals,-3.296089726
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,PoultryMeat,-0.151156746
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,DairyProducts,0.316556634
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,BirdEggs,0.716927854
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,Fruit,1.530189137
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,Vegetables,0.754629709
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,NutsLegumes,0.34664044
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,Sugar,0.519122535
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,OtherCombinations,0.886880958
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,VegetableOils,-0.526292407
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,TeaCoffee,0.510643315
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,Spices,-1.039502065
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,Milk,0.775251681
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,AnimalOilsFats,0.216923637
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,SweetsJams,-0.075822074
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,SeafoodMeat,-0.981080545
+Iran,Price Elasticity,1387-1396,Uncompensated,Spices,PreparedVegetables,0.041737463
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,CerealsBreadFlour,1.895085376
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,Meatdomesticanimals,-0.814267667
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,PoultryMeat,0.162427073
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,DairyProducts,0.267826226
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,BirdEggs,-0.175303397
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,Fruit,-0.536468194
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,Vegetables,-0.602224197
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,NutsLegumes,-0.083391658
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,Sugar,-0.038000814
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,OtherCombinations,-0.020408486
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,VegetableOils,0.089249373
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,TeaCoffee,0.236486402
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,Spices,0.10508642
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,Milk,-1.014421162
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,AnimalOilsFats,-0.089386411
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,SweetsJams,-0.135197208
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,SeafoodMeat,-0.117299705
+Iran,Price Elasticity,1387-1396,Uncompensated,Milk,PreparedVegetables,0.01928816
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,CerealsBreadFlour,1.132107448
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,Meatdomesticanimals,-0.591834415
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,PoultryMeat,0.548910046
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,DairyProducts,-0.330937846
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,BirdEggs,-0.373280909
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,Fruit,-0.048139885
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,Vegetables,0.287539672
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,NutsLegumes,-0.20173586
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,Sugar,-0.061515943
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,OtherCombinations,-0.339080048
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,VegetableOils,-1.511233153
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,TeaCoffee,0.306789971
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,Spices,0.111524699
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,Milk,-0.361200137
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,AnimalOilsFats,-0.319718272
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,SweetsJams,0.816121297
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,SeafoodMeat,-0.278970485
+Iran,Price Elasticity,1387-1396,Uncompensated,Animal oils and fats,PreparedVegetables,-0.064869715
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,CerealsBreadFlour,-1.246355209
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,Meatdomesticanimals,-0.153832533
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,PoultryMeat,-0.058190301
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,DairyProducts,0.378607167
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,BirdEggs,-0.08553849
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,Fruit,-0.400357179
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,Vegetables,0.439956599
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,NutsLegumes,0.11442688
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,Sugar,-0.131313468
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,OtherCombinations,0.204086464
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,VegetableOils,-0.591327446
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,TeaCoffee,-0.041933881
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,Spices,-0.02301669
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,Milk,-0.28755859
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,AnimalOilsFats,0.398021103
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,SweetsJams,0.297014131
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,SeafoodMeat,-0.481285191
+Iran,Price Elasticity,1387-1396,Uncompensated,Sweets and jams,PreparedVegetables,-0.011188597
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,CerealsBreadFlour,1.56370288
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,Meatdomesticanimals,0.204200736
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,PoultryMeat,-0.066463761
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,DairyProducts,0.311745136
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,BirdEggs,-0.229984714
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,Fruit,-0.437193976
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,Vegetables,-0.421071779
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,NutsLegumes,-0.032369537
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,Sugar,-0.207230038
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,OtherCombinations,-0.011011317
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,VegetableOils,-0.046544174
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,TeaCoffee,-0.215156717
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,Spices,-0.18028157
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,Milk,-0.181537435
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,AnimalOilsFats,-0.099026468
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,SweetsJams,-0.336097122
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,SeafoodMeat,-1.147872642
+Iran,Price Elasticity,1387-1396,Uncompensated,Seafood meat,PreparedVegetables,0.01938731
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,CerealsBreadFlour,-37.55920145
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,Meatdomesticanimals,14.60216132
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,PoultryMeat,8.811411349
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,DairyProducts,-5.461608833
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,BirdEggs,-1.74106007
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,Fruit,5.531357656
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,Vegetables,0.477688767
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,NutsLegumes,2.584000997
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,Sugar,-0.293949165
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,OtherCombinations,5.310842147
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,VegetableOils,-0.337785542
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,TeaCoffee,2.323525469
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,Spices,0.49473348
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,Milk,1.614685549
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,AnimalOilsFats,-1.565710549
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,SweetsJams,-0.597640172
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,SeafoodMeat,1.228106434
+Iran,Price Elasticity,1387-1396,Uncompensated,Prepared or preserved vegetables,PreparedVegetables,-0.281968052
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,CerealsBreadFlour,-0.547064001
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,Meatdomesticanimals,0.039048383
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,PoultryMeat,-0.243518711
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,DairyProducts,-0.147502202
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,BirdEggs,0.115781344
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,Fruit,0.298026358
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,Vegetables,-0.165674484
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,NutsLegumes,0.177446537
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,Sugar,0.062806102
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,OtherCombinations,-0.112261798
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,VegetableOils,0.264615328
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,TeaCoffee,-0.161752073
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,Spices,-0.024175165
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,Milk,0.301042439
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,AnimalOilsFats,0.053795269
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,SweetsJams,-0.061104053
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,SeafoodMeat,0.207162846
+Iran,Price Elasticity,1387-1396,Compensated,Cereals,PreparedVegetables,-0.056672119
+Iran,Price Elasticity,1387-1396,Compensated,Meat,CerealsBreadFlour,0.081945672
+Iran,Price Elasticity,1387-1396,Compensated,Meat,Meatdomesticanimals,-0.539401132
+Iran,Price Elasticity,1387-1396,Compensated,Meat,PoultryMeat,0.279883285
+Iran,Price Elasticity,1387-1396,Compensated,Meat,DairyProducts,0.138073113
+Iran,Price Elasticity,1387-1396,Compensated,Meat,BirdEggs,-0.014594103
+Iran,Price Elasticity,1387-1396,Compensated,Meat,Fruit,0.094624932
+Iran,Price Elasticity,1387-1396,Compensated,Meat,Vegetables,0.195800807
+Iran,Price Elasticity,1387-1396,Compensated,Meat,NutsLegumes,-0.020656782
+Iran,Price Elasticity,1387-1396,Compensated,Meat,Sugar,-0.084040631
+Iran,Price Elasticity,1387-1396,Compensated,Meat,OtherCombinations,0.153621324
+Iran,Price Elasticity,1387-1396,Compensated,Meat,VegetableOils,0.046900775
+Iran,Price Elasticity,1387-1396,Compensated,Meat,TeaCoffee,-0.102247505
+Iran,Price Elasticity,1387-1396,Compensated,Meat,Spices,-0.128207917
+Iran,Price Elasticity,1387-1396,Compensated,Meat,Milk,-0.212421938
+Iran,Price Elasticity,1387-1396,Compensated,Meat,AnimalOilsFats,-0.033699454
+Iran,Price Elasticity,1387-1396,Compensated,Meat,SweetsJams,0.008027696
+Iran,Price Elasticity,1387-1396,Compensated,Meat,SeafoodMeat,0.086628096
+Iran,Price Elasticity,1387-1396,Compensated,Meat,PreparedVegetables,0.049763763
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,CerealsBreadFlour,-0.655621604
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,Meatdomesticanimals,0.359066518
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,PoultryMeat,-0.341545774
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,DairyProducts,-0.075986735
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,BirdEggs,-0.005382579
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,Fruit,0.343179807
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,Vegetables,0.084584472
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,NutsLegumes,0.035181279
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,Sugar,0.080075611
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,OtherCombinations,0.036925823
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,VegetableOils,-0.093780205
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,TeaCoffee,-0.005023566
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,Spices,-0.003108422
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,Milk,0.093343877
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,AnimalOilsFats,0.066536112
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,SweetsJams,0.020466039
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,SeafoodMeat,0.022126034
+Iran,Price Elasticity,1387-1396,Compensated,PoultryMeat,PreparedVegetables,0.038963312
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,CerealsBreadFlour,-0.647132107
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,Meatdomesticanimals,0.288656
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,PoultryMeat,-0.123825847
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,DairyProducts,-0.261933931
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,BirdEggs,0.140707883
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,Fruit,-0.143336223
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,Vegetables,-0.156883865
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,NutsLegumes,-0.047500289
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,Sugar,0.000843193
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,OtherCombinations,0.058365912
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,VegetableOils,0.186087827
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,TeaCoffee,0.210102013
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,Spices,0.031399557
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,Milk,0.198451724
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,AnimalOilsFats,-0.041435385
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,SweetsJams,0.156533446
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,SeafoodMeat,0.186352013
+Iran,Price Elasticity,1387-1396,Compensated,Dairy products,PreparedVegetables,-0.035451923
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,CerealsBreadFlour,1.221077989
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,Meatdomesticanimals,-0.073343098
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,PoultryMeat,-0.021085036
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,DairyProducts,0.338242987
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,BirdEggs,-0.344806979
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,Fruit,-0.649578787
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,Vegetables,-0.082862111
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,NutsLegumes,-0.084219244
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,Sugar,0.086981911
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,OtherCombinations,0.155489078
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,VegetableOils,-0.261134167
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,TeaCoffee,0.209084382
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,Spices,0.150005672
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,Milk,-0.232372258
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,AnimalOilsFats,-0.133011616
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,SweetsJams,-0.035336234
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,SeafoodMeat,-0.216419208
+Iran,Price Elasticity,1387-1396,Compensated,Bird eggs,PreparedVegetables,-0.02671328
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,CerealsBreadFlour,0.812551158
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,Meatdomesticanimals,0.122935878
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,PoultryMeat,0.347533636
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,DairyProducts,-0.089075353
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,BirdEggs,-0.167927977
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,Fruit,-0.587972784
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,Vegetables,-0.011200451
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,NutsLegumes,-0.131269232
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,Sugar,-0.022651382
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,OtherCombinations,0.044076067
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,VegetableOils,-0.214279118
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,TeaCoffee,0.091994352
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,Spices,0.084881089
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,Milk,-0.177352031
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,AnimalOilsFats,0.007235899
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,SweetsJams,-0.049515926
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,SeafoodMeat,-0.085440762
+Iran,Price Elasticity,1387-1396,Compensated,Fruit,PreparedVegetables,0.025476936
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,CerealsBreadFlour,-0.398382301
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,Meatdomesticanimals,0.224355084
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,PoultryMeat,0.075546462
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,DairyProducts,-0.085986099
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,BirdEggs,-0.018892768
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,Fruit,-0.009878338
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,Vegetables,-0.090902241
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,NutsLegumes,-0.073425498
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,Sugar,-0.006580992
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,OtherCombinations,0.103181493
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,VegetableOils,0.059861827
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,TeaCoffee,0.270513152
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,Spices,0.039581222
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,Milk,-0.175281133
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,AnimalOilsFats,0.037554336
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,SweetsJams,0.111385516
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,SeafoodMeat,-0.066384264
+Iran,Price Elasticity,1387-1396,Compensated,Vegetables,PreparedVegetables,0.003734541
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,CerealsBreadFlour,1.84624423
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,Meatdomesticanimals,-0.10241447
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,PoultryMeat,0.135960366
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,DairyProducts,-0.112647985
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,BirdEggs,-0.083086056
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,Fruit,-0.50094325
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,Vegetables,-0.317705049
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,NutsLegumes,-0.465649498
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,Sugar,-0.171547336
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,OtherCombinations,-0.486922089
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,VegetableOils,-0.230371667
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,TeaCoffee,0.402348612
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,Spices,0.074017296
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,Milk,-0.092579268
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,AnimalOilsFats,-0.065281502
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,SweetsJams,0.121313855
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,SeafoodMeat,0.005365263
+Iran,Price Elasticity,1387-1396,Compensated,Nuts and legumes,PreparedVegetables,0.043898547
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,CerealsBreadFlour,0.661684434
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,Meatdomesticanimals,-0.421905719
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,PoultryMeat,0.313349075
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,DairyProducts,0.002024798
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,BirdEggs,0.086890682
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,Fruit,-0.087528149
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,Vegetables,-0.028833411
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,NutsLegumes,-0.173704645
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,Sugar,-0.106426703
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,OtherCombinations,-0.086343091
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,VegetableOils,-0.107332072
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,TeaCoffee,0.141080008
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,Spices,0.109807735
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,Milk,-0.026000896
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,AnimalOilsFats,-0.011811607
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,SweetsJams,-0.071365229
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,SeafoodMeat,-0.190694291
+Iran,Price Elasticity,1387-1396,Compensated,Sugar,PreparedVegetables,-0.002890916
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,CerealsBreadFlour,-1.131866726
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,Meatdomesticanimals,0.738060276
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,PoultryMeat,0.138284201
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,DairyProducts,0.134130682
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,BirdEggs,0.14864776
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,Fruit,0.16299343
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,Vegetables,0.432634051
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,NutsLegumes,-0.47184695
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,Sugar,-0.082630773
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,OtherCombinations,-0.393642181
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,VegetableOils,-0.486856088
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,TeaCoffee,0.446683175
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,Spices,0.176540493
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,Milk,0.001722785
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,AnimalOilsFats,-0.113919972
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,SweetsJams,0.186223383
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,SeafoodMeat,0.029337793
+Iran,Price Elasticity,1387-1396,Compensated,Condiments and other food combinations,PreparedVegetables,0.085504661
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,CerealsBreadFlour,1.502053527
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,Meatdomesticanimals,0.126860804
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,PoultryMeat,-0.197724584
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,DairyProducts,0.240765322
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,BirdEggs,-0.140549497
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,Fruit,-0.4461226
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,Vegetables,0.141311001
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,NutsLegumes,-0.12568338
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,Sugar,-0.057829688
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,OtherCombinations,-0.274099169
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,VegetableOils,-0.137961095
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,TeaCoffee,-0.170429405
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,Spices,-0.052695245
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,Milk,0.10321917
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,AnimalOilsFats,-0.304069289
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,SweetsJams,-0.219068321
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,SeafoodMeat,0.013072719
+Iran,Price Elasticity,1387-1396,Compensated,Vegetable oils,PreparedVegetables,-0.00105027
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",CerealsBreadFlour,-1.54087317
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",Meatdomesticanimals,-0.464137636
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",PoultryMeat,-0.017774945
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",DairyProducts,0.456197401
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",BirdEggs,0.188857316
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",Fruit,0.32142686
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",Vegetables,1.071669853
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",NutsLegumes,0.368381593
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",Sugar,0.127565558
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",OtherCombinations,0.422039726
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",VegetableOils,-0.286016542
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",TeaCoffee,-1.079580713
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",Spices,0.098188122
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",Milk,0.352008394
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",AnimalOilsFats,0.119778703
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",SweetsJams,0.002290707
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",SeafoodMeat,-0.176505418
+Iran,Price Elasticity,1387-1396,Compensated,"Tea, coffee, and cocoa",PreparedVegetables,0.036484189
+Iran,Price Elasticity,1387-1396,Compensated,Spices,CerealsBreadFlour,-1.25806253
+Iran,Price Elasticity,1387-1396,Compensated,Spices,Meatdomesticanimals,-3.179249872
+Iran,Price Elasticity,1387-1396,Compensated,Spices,PoultryMeat,-0.060083029
+Iran,Price Elasticity,1387-1396,Compensated,Spices,DairyProducts,0.372444759
+Iran,Price Elasticity,1387-1396,Compensated,Spices,BirdEggs,0.740177116
+Iran,Price Elasticity,1387-1396,Compensated,Spices,Fruit,1.620121901
+Iran,Price Elasticity,1387-1396,Compensated,Spices,Vegetables,0.856599039
+Iran,Price Elasticity,1387-1396,Compensated,Spices,NutsLegumes,0.370206791
+Iran,Price Elasticity,1387-1396,Compensated,Spices,Sugar,0.542396207
+Iran,Price Elasticity,1387-1396,Compensated,Spices,OtherCombinations,0.911200237
+Iran,Price Elasticity,1387-1396,Compensated,Spices,VegetableOils,-0.483096404
+Iran,Price Elasticity,1387-1396,Compensated,Spices,TeaCoffee,0.536382628
+Iran,Price Elasticity,1387-1396,Compensated,Spices,Spices,-1.034790326
+Iran,Price Elasticity,1387-1396,Compensated,Spices,Milk,0.810186125
+Iran,Price Elasticity,1387-1396,Compensated,Spices,AnimalOilsFats,0.22596002
+Iran,Price Elasticity,1387-1396,Compensated,Spices,SweetsJams,-0.057467606
+Iran,Price Elasticity,1387-1396,Compensated,Spices,SeafoodMeat,-0.955045167
+Iran,Price Elasticity,1387-1396,Compensated,Spices,PreparedVegetables,0.042120111
+Iran,Price Elasticity,1387-1396,Compensated,Milk,CerealsBreadFlour,2.112943409
+Iran,Price Elasticity,1387-1396,Compensated,Milk,Meatdomesticanimals,-0.710454938
+Iran,Price Elasticity,1387-1396,Compensated,Milk,PoultryMeat,0.243346474
+Iran,Price Elasticity,1387-1396,Compensated,Milk,DairyProducts,0.317483072
+Iran,Price Elasticity,1387-1396,Compensated,Milk,BirdEggs,-0.154646325
+Iran,Price Elasticity,1387-1396,Compensated,Milk,Fruit,-0.456562534
+Iran,Price Elasticity,1387-1396,Compensated,Milk,Vegetables,-0.511623994
+Iran,Price Elasticity,1387-1396,Compensated,Milk,NutsLegumes,-0.06245285
+Iran,Price Elasticity,1387-1396,Compensated,Milk,Sugar,-0.017322054
+Iran,Price Elasticity,1387-1396,Compensated,Milk,OtherCombinations,0.0011993
+Iran,Price Elasticity,1387-1396,Compensated,Milk,VegetableOils,0.127629214
+Iran,Price Elasticity,1387-1396,Compensated,Milk,TeaCoffee,0.259355895
+Iran,Price Elasticity,1387-1396,Compensated,Milk,Spices,0.109272821
+Iran,Price Elasticity,1387-1396,Compensated,Milk,Milk,-0.983381754
+Iran,Price Elasticity,1387-1396,Compensated,Milk,AnimalOilsFats,-0.081357544
+Iran,Price Elasticity,1387-1396,Compensated,Milk,SweetsJams,-0.118889181
+Iran,Price Elasticity,1387-1396,Compensated,Milk,SeafoodMeat,-0.094167156
+Iran,Price Elasticity,1387-1396,Compensated,Milk,PreparedVegetables,0.019628145
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,CerealsBreadFlour,1.459699377
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,Meatdomesticanimals,-0.435731784
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,PoultryMeat,0.670588105
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,DairyProducts,-0.256269118
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,BirdEggs,-0.342218984
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,Fruit,0.072013817
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,Vegetables,0.423774699
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,NutsLegumes,-0.170250289
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,Sugar,-0.030421405
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,OtherCombinations,-0.306588538
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,VegetableOils,-1.453521597
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,TeaCoffee,0.341178702
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,Spices,0.117819767
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,Milk,-0.314526348
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,AnimalOilsFats,-0.307645309
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,SweetsJams,0.840643587
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,SeafoodMeat,-0.244186199
+Iran,Price Elasticity,1387-1396,Compensated,Animal oils and fats,PreparedVegetables,-0.064358482
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,CerealsBreadFlour,-0.81628568
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,Meatdomesticanimals,0.051102263
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,PoultryMeat,0.101551197
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,DairyProducts,0.476633832
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,BirdEggs,-0.044759745
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,Fruit,-0.242616889
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,Vegetables,0.61880879
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,NutsLegumes,0.155761795
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,Sugar,-0.090491908
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,OtherCombinations,0.246741997
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,VegetableOils,-0.51556251
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,TeaCoffee,0.003212364
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,Spices,-0.014752393
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,Milk,-0.226284266
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,AnimalOilsFats,0.413870741
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,SweetsJams,0.329207506
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,SeafoodMeat,-0.435619654
+Iran,Price Elasticity,1387-1396,Compensated,Sweets and jams,PreparedVegetables,-0.01051744
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,CerealsBreadFlour,1.951021093
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,Meatdomesticanimals,0.388763867
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,PoultryMeat,0.077398539
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,DairyProducts,0.400027403
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,BirdEggs,-0.193259604
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,Fruit,-0.295133952
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,Vegetables,-0.259998496
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,NutsLegumes,0.004856456
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,Sugar,-0.170466369
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,OtherCombinations,0.027404017
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,VegetableOils,0.021689304
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,TeaCoffee,-0.174498261
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,Spices,-0.172838791
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,Milk,-0.126354121
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,AnimalOilsFats,-0.084752373
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,SweetsJams,-0.307103948
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,SeafoodMeat,-1.106746514
+Iran,Price Elasticity,1387-1396,Compensated,Seafood meat,PreparedVegetables,0.01999175
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,CerealsBreadFlour,-36.31480753
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,Meatdomesticanimals,15.19513431
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,PoultryMeat,9.273618819
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,DairyProducts,-5.177971472
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,BirdEggs,-1.623067934
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,Fruit,5.987774686
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,Vegetables,0.99519248
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,NutsLegumes,2.703602395
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,Sugar,-0.175833146
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,OtherCombinations,5.434264716
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,VegetableOils,-0.11856186
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,TeaCoffee,2.454154842
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,Spices,0.518645985
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,Milk,1.79198106
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,AnimalOilsFats,-1.519850075
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,SweetsJams,-0.504489559
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,SeafoodMeat,1.360238365
+Iran,Price Elasticity,1387-1396,Compensated,Prepared or preserved vegetables,PreparedVegetables,-0.280026077

@@ -109,3 +109,14 @@ IHBS_ExpenditureElastisity_data <- df_IHBS_ExpenditureElasticity
 df_IHBS_ExpenditureElasticityNew <- read.csv(here("Data/IHBS/raw/ExpenditureElasticityNew.csv"))
 
 IHBS_ExpenditureElastisityNew_data <- df_IHBS_ExpenditureElasticityNew 
+
+
+
+# Price Elasticity----
+df_IHBS_PriceElastisityNew <- read.csv(here("Data/IHBS/raw/PriceElastisityNew.csv"))
+
+IHBS_PriceElastisityNew_data <- function(df, category, type) {
+  df |>
+    filter(Category == category,
+           Type == type)
+}

@@ -166,6 +166,25 @@ ui_IHBS_expenditureelasticitynew <- function(df){
   )}
 
 
+ui_IHBS_priceelastisitynew <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 12"),
+        plotlyOutput("IHBS_PriceElastisityNew"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_PriceElastisityNew_Category", "Category", choices = unique(df$Category))
+          ),
+          column(4,
+                 selectInput("IHBS_PriceElastisityNew_Type", "Type", choices = unique(df$Type))
+          )
+        )
+    )
+  )}
+
+
+
+
 ui_IHBS_blank <- function(df){
   fluidRow(div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
                h3("Footer"))
