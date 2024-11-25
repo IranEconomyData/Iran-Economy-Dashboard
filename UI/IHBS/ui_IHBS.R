@@ -185,6 +185,47 @@ ui_IHBS_priceelastisitynew <- function(df){
 
 
 
+
+ui_IHBS_expseries <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 13"),
+        plotlyOutput("IHBS_ExpSeries"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_ExpSeries_Year", "Year", choices = unique(df$Year))
+          ),
+          column(4,
+                 selectInput("IHBS_ExpSeries_Category1", "Category1", choices = unique(df$Category1))
+          ),
+          column(4,
+                 selectInput("IHBS_ExpSeries_Category2", "Category2", choices = unique(df$Category2))
+          )
+        )
+    )
+  )}
+
+
+
+ui_IHBS_expsharerdecseries <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 14"),
+        plotlyOutput("IHBS_ExpShareRDecSeries"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_ExpShareRDecSeries_Decile", "Decile", choices = unique(df$Decile))
+          ),
+          column(4,
+                 selectInput("IHBS_ExpShareRDecSeries_Variable", "Variable", choices = unique(df$Variable))
+          )
+        )
+    )
+  )}
+
+
+
+
 ui_IHBS_blank <- function(df){
   fluidRow(div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
                h3("Footer"))

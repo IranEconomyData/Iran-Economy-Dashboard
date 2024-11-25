@@ -1,0 +1,1601 @@
+Year,Decile,value,Variable
+87,1,33.01188679,Food
+87,2,31.42840107,Food
+87,3,32.25058583,Food
+87,4,31.55372464,Food
+87,5,29.78962786,Food
+87,6,29.43820584,Food
+87,7,29.37378813,Food
+87,8,28.77345789,Food
+87,9,25.39694077,Food
+87,10,21.75438732,Food
+88,1,32.70597335,Food
+88,2,33.81945705,Food
+88,3,31.94892262,Food
+88,4,30.15543474,Food
+88,5,29.21589377,Food
+88,6,28.88299921,Food
+88,7,29.94722309,Food
+88,8,28.97623513,Food
+88,9,28.25488885,Food
+88,10,25.46420395,Food
+89,1,33.87852051,Food
+89,2,33.73896805,Food
+89,3,38.90676016,Food
+89,4,31.09969842,Food
+89,5,36.29344616,Food
+89,6,30.28564451,Food
+89,7,29.75451236,Food
+89,8,28.63188255,Food
+89,9,28.5374975,Food
+89,10,25.33166238,Food
+90,1,37.92228088,Food
+90,2,35.99197234,Food
+90,3,35.3942447,Food
+90,4,35.16339028,Food
+90,5,32.66381789,Food
+90,6,31.13640998,Food
+90,7,31.06009469,Food
+90,8,30.01730794,Food
+90,9,29.1931538,Food
+90,10,26.333431,Food
+91,1,36.64545783,Food
+91,2,36.8152193,Food
+91,3,36.22549266,Food
+91,4,35.21852884,Food
+91,5,34.10874292,Food
+91,6,24.4744109,Food
+91,7,32.33233151,Food
+91,8,31.15864026,Food
+91,9,32.08873254,Food
+91,10,30.58504129,Food
+92,1,36.2392251,Food
+92,2,34.21712942,Food
+92,3,34.9995724,Food
+92,4,34.80774215,Food
+92,5,34.7108184,Food
+92,6,34.58175703,Food
+92,7,32.26670139,Food
+92,8,33.51738097,Food
+92,9,31.75720947,Food
+92,10,31.12242406,Food
+93,1,36.91267399,Food
+93,2,35.4956109,Food
+93,3,52.80515622,Food
+93,4,30.72796548,Food
+93,5,32.3332002,Food
+93,6,31.45061779,Food
+93,7,30.94557988,Food
+93,8,29.32186446,Food
+93,9,29.89571366,Food
+93,10,25.52749189,Food
+94,1,34.86316567,Food
+94,2,33.99617665,Food
+94,3,31.14676004,Food
+94,4,31.68422134,Food
+94,5,30.40610787,Food
+94,6,30.42679214,Food
+94,7,29.91318854,Food
+94,8,30.9680558,Food
+94,9,28.44558349,Food
+94,10,26.87053821,Food
+95,1,34.00979709,Food
+95,2,31.07429148,Food
+95,3,30.67775496,Food
+95,4,34.07608542,Food
+95,5,30.473333,Food
+95,6,29.11819179,Food
+95,7,29.29446279,Food
+95,8,27.87584524,Food
+95,9,26.75561284,Food
+95,10,24.97356277,Food
+96,1,34.41994981,Food
+96,2,31.88976458,Food
+96,3,29.71634106,Food
+96,4,30.30091916,Food
+96,5,28.95395855,Food
+96,6,28.34725645,Food
+96,7,28.02295741,Food
+96,8,26.69005258,Food
+96,9,26.90284687,Food
+96,10,24.12884845,Food
+87,1,2.326418098,Cloth and footwear
+87,2,3.33224566,Cloth and footwear
+87,3,3.710191871,Cloth and footwear
+87,4,4.028210373,Cloth and footwear
+87,5,4.768894626,Cloth and footwear
+87,6,5.034173782,Cloth and footwear
+87,7,5.610249824,Cloth and footwear
+87,8,6.001929069,Cloth and footwear
+87,9,6.439503868,Cloth and footwear
+87,10,6.226080827,Cloth and footwear
+88,1,1.649583977,Cloth and footwear
+88,2,4.089134526,Cloth and footwear
+88,3,3.311758032,Cloth and footwear
+88,4,3.47096391,Cloth and footwear
+88,5,4.119292389,Cloth and footwear
+88,6,4.530473689,Cloth and footwear
+88,7,5.667525427,Cloth and footwear
+88,8,6.23708085,Cloth and footwear
+88,9,6.677902244,Cloth and footwear
+88,10,7.454087199,Cloth and footwear
+89,1,1.672794335,Cloth and footwear
+89,2,2.397674825,Cloth and footwear
+89,3,4.872379152,Cloth and footwear
+89,4,3.302038117,Cloth and footwear
+89,5,6.43730339,Cloth and footwear
+89,6,4.420066758,Cloth and footwear
+89,7,4.719253518,Cloth and footwear
+89,8,5.509781707,Cloth and footwear
+89,9,6.313087187,Cloth and footwear
+89,10,7.406415879,Cloth and footwear
+90,1,1.4954203,Cloth and footwear
+90,2,2.299121292,Cloth and footwear
+90,3,2.928813138,Cloth and footwear
+90,4,3.134864577,Cloth and footwear
+90,5,3.421943333,Cloth and footwear
+90,6,3.841663519,Cloth and footwear
+90,7,4.547027048,Cloth and footwear
+90,8,4.990934071,Cloth and footwear
+90,9,5.475649362,Cloth and footwear
+90,10,7.020553146,Cloth and footwear
+91,1,1.50846802,Cloth and footwear
+91,2,2.211905568,Cloth and footwear
+91,3,2.61557209,Cloth and footwear
+91,4,2.953276748,Cloth and footwear
+91,5,3.861491515,Cloth and footwear
+91,6,2.963309961,Cloth and footwear
+91,7,4.324957492,Cloth and footwear
+91,8,5.050275961,Cloth and footwear
+91,9,5.791772944,Cloth and footwear
+91,10,7.449276737,Cloth and footwear
+92,1,1.475262648,Cloth and footwear
+92,2,2.106464465,Cloth and footwear
+92,3,2.482401846,Cloth and footwear
+92,4,3.157432149,Cloth and footwear
+92,5,3.539867645,Cloth and footwear
+92,6,4.231784438,Cloth and footwear
+92,7,4.68971678,Cloth and footwear
+92,8,5.301130169,Cloth and footwear
+92,9,6.032127194,Cloth and footwear
+92,10,7.837253973,Cloth and footwear
+93,1,1.331176895,Cloth and footwear
+93,2,2.045354622,Cloth and footwear
+93,3,2.514360202,Cloth and footwear
+93,4,2.91154832,Cloth and footwear
+93,5,3.483137637,Cloth and footwear
+93,6,3.696506782,Cloth and footwear
+93,7,4.5774567,Cloth and footwear
+93,8,4.949547727,Cloth and footwear
+93,9,5.914297537,Cloth and footwear
+93,10,7.41806361,Cloth and footwear
+94,1,1.511956706,Cloth and footwear
+94,2,2.083317509,Cloth and footwear
+94,3,2.449427411,Cloth and footwear
+94,4,2.738202407,Cloth and footwear
+94,5,2.814806084,Cloth and footwear
+94,6,3.309874384,Cloth and footwear
+94,7,4.019940129,Cloth and footwear
+94,8,4.833884969,Cloth and footwear
+94,9,5.829326664,Cloth and footwear
+94,10,6.911753162,Cloth and footwear
+95,1,1.100989716,Cloth and footwear
+95,2,1.793030606,Cloth and footwear
+95,3,2.307732705,Cloth and footwear
+95,4,2.914843795,Cloth and footwear
+95,5,3.19196739,Cloth and footwear
+95,6,3.688959661,Cloth and footwear
+95,7,3.931643275,Cloth and footwear
+95,8,3.740329417,Cloth and footwear
+95,9,5.113083234,Cloth and footwear
+95,10,6.601607778,Cloth and footwear
+96,1,1.455820396,Cloth and footwear
+96,2,1.76200144,Cloth and footwear
+96,3,2.475647384,Cloth and footwear
+96,4,2.882049122,Cloth and footwear
+96,5,3.167737378,Cloth and footwear
+96,6,3.322119756,Cloth and footwear
+96,7,4.133947056,Cloth and footwear
+96,8,4.493511798,Cloth and footwear
+96,9,5.253954013,Cloth and footwear
+96,10,6.121529027,Cloth and footwear
+87,1,1.270486975,Cigar
+87,2,1.189850804,Cigar
+87,3,1.140807727,Cigar
+87,4,0.997428169,Cigar
+87,5,0.925084151,Cigar
+87,6,0.846208796,Cigar
+87,7,0.830262195,Cigar
+87,8,0.609271974,Cigar
+87,9,0.511613051,Cigar
+87,10,0.383201942,Cigar
+88,1,1.312240949,Cigar
+88,2,1.230201804,Cigar
+88,3,1.050135798,Cigar
+88,4,1.076276522,Cigar
+88,5,1.040017968,Cigar
+88,6,0.756331855,Cigar
+88,7,0.769328593,Cigar
+88,8,0.58654124,Cigar
+88,9,0.544276656,Cigar
+88,10,0.40315177,Cigar
+89,1,1.208393897,Cigar
+89,2,1.099295956,Cigar
+89,3,1.091669292,Cigar
+89,4,0.965019158,Cigar
+89,5,0.657265179,Cigar
+89,6,0.717996893,Cigar
+89,7,0.75828502,Cigar
+89,8,0.600947911,Cigar
+89,9,0.642697962,Cigar
+89,10,0.376848185,Cigar
+90,1,0.92965809,Cigar
+90,2,0.932640552,Cigar
+90,3,0.913264645,Cigar
+90,4,0.739955035,Cigar
+90,5,0.701912893,Cigar
+90,6,0.674835367,Cigar
+90,7,0.575555675,Cigar
+90,8,0.614318831,Cigar
+90,9,0.45231951,Cigar
+90,10,0.445611989,Cigar
+91,1,1.026728843,Cigar
+91,2,0.921852661,Cigar
+91,3,0.979852465,Cigar
+91,4,0.951784166,Cigar
+91,5,0.84173527,Cigar
+91,6,0.875182518,Cigar
+91,7,0.774597123,Cigar
+91,8,0.694621161,Cigar
+91,9,0.601059315,Cigar
+91,10,0.500385652,Cigar
+92,1,1.356372717,Cigar
+92,2,1.148663956,Cigar
+92,3,1.006682296,Cigar
+92,4,0.903837934,Cigar
+92,5,0.873288562,Cigar
+92,6,0.814511027,Cigar
+92,7,0.533174775,Cigar
+92,8,0.692962404,Cigar
+92,9,0.584863449,Cigar
+92,10,0.572766052,Cigar
+93,1,1.187510457,Cigar
+93,2,1.075427006,Cigar
+93,3,0.975213285,Cigar
+93,4,0.927806174,Cigar
+93,5,0.831714039,Cigar
+93,6,0.743662742,Cigar
+93,7,0.675407724,Cigar
+93,8,0.596715871,Cigar
+93,9,0.563668949,Cigar
+93,10,0.462839573,Cigar
+94,1,0.964722325,Cigar
+94,2,0.992011749,Cigar
+94,3,0.89536276,Cigar
+94,4,0.912737601,Cigar
+94,5,0.837625006,Cigar
+94,6,0.781225698,Cigar
+94,7,0.703502988,Cigar
+94,8,0.774404441,Cigar
+94,9,0.570387553,Cigar
+94,10,0.420130146,Cigar
+95,1,1.052390457,Cigar
+95,2,0.894099761,Cigar
+95,3,0.816993004,Cigar
+95,4,0.820680813,Cigar
+95,5,0.773822084,Cigar
+95,6,0.683356823,Cigar
+95,7,0.754038741,Cigar
+95,8,0.555077938,Cigar
+95,9,0.589867364,Cigar
+95,10,0.444335291,Cigar
+96,1,1.102410305,Cigar
+96,2,0.950161848,Cigar
+96,3,0.871618298,Cigar
+96,4,0.867466583,Cigar
+96,5,0.789023315,Cigar
+96,6,0.796219209,Cigar
+96,7,0.724348047,Cigar
+96,8,0.583572824,Cigar
+96,9,0.591726951,Cigar
+96,10,0.458634399,Cigar
+87,1,41.48210526,"Housing, utilities, and energy"
+87,2,38.14421327,"Housing, utilities, and energy"
+87,3,35.68090941,"Housing, utilities, and energy"
+87,4,33.9905302,"Housing, utilities, and energy"
+87,5,31.84250269,"Housing, utilities, and energy"
+87,6,32.57864988,"Housing, utilities, and energy"
+87,7,29.65459786,"Housing, utilities, and energy"
+87,8,29.79889308,"Housing, utilities, and energy"
+87,9,25.84113944,"Housing, utilities, and energy"
+87,10,20.83708875,"Housing, utilities, and energy"
+88,1,40.71552196,"Housing, utilities, and energy"
+88,2,39.06939893,"Housing, utilities, and energy"
+88,3,35.72411039,"Housing, utilities, and energy"
+88,4,35.57084935,"Housing, utilities, and energy"
+88,5,30.11858418,"Housing, utilities, and energy"
+88,6,31.06477315,"Housing, utilities, and energy"
+88,7,29.32295052,"Housing, utilities, and energy"
+88,8,28.94305481,"Housing, utilities, and energy"
+88,9,27.82702066,"Housing, utilities, and energy"
+88,10,22.55790849,"Housing, utilities, and energy"
+89,1,41.05650363,"Housing, utilities, and energy"
+89,2,37.91169007,"Housing, utilities, and energy"
+89,3,45.34650548,"Housing, utilities, and energy"
+89,4,33.93563236,"Housing, utilities, and energy"
+89,5,42.11063856,"Housing, utilities, and energy"
+89,6,32.04361563,"Housing, utilities, and energy"
+89,7,30.20192197,"Housing, utilities, and energy"
+89,8,28.27873793,"Housing, utilities, and energy"
+89,9,25.63323509,"Housing, utilities, and energy"
+89,10,23.4650601,"Housing, utilities, and energy"
+90,1,39.42418079,"Housing, utilities, and energy"
+90,2,36.23900265,"Housing, utilities, and energy"
+90,3,36.9778448,"Housing, utilities, and energy"
+90,4,34.68619145,"Housing, utilities, and energy"
+90,5,33.6991308,"Housing, utilities, and energy"
+90,6,31.57792033,"Housing, utilities, and energy"
+90,7,31.28744649,"Housing, utilities, and energy"
+90,8,29.32439923,"Housing, utilities, and energy"
+90,9,27.27358422,"Housing, utilities, and energy"
+90,10,25.28085272,"Housing, utilities, and energy"
+91,1,38.26339373,"Housing, utilities, and energy"
+91,2,35.18519077,"Housing, utilities, and energy"
+91,3,34.41316977,"Housing, utilities, and energy"
+91,4,33.13142054,"Housing, utilities, and energy"
+91,5,30.6409985,"Housing, utilities, and energy"
+91,6,25.2579142,"Housing, utilities, and energy"
+91,7,27.82456934,"Housing, utilities, and energy"
+91,8,27.69474574,"Housing, utilities, and energy"
+91,9,27.28935195,"Housing, utilities, and energy"
+91,10,24.58396807,"Housing, utilities, and energy"
+92,1,37.8653257,"Housing, utilities, and energy"
+92,2,33.17743709,"Housing, utilities, and energy"
+92,3,33.40674002,"Housing, utilities, and energy"
+92,4,30.88620702,"Housing, utilities, and energy"
+92,5,30.91647664,"Housing, utilities, and energy"
+92,6,30.04441721,"Housing, utilities, and energy"
+92,7,26.41397389,"Housing, utilities, and energy"
+92,8,28.09241477,"Housing, utilities, and energy"
+92,9,25.71892157,"Housing, utilities, and energy"
+92,10,25.1463841,"Housing, utilities, and energy"
+93,1,38.8709215,"Housing, utilities, and energy"
+93,2,36.85072795,"Housing, utilities, and energy"
+93,3,73.35144306,"Housing, utilities, and energy"
+93,4,32.59893481,"Housing, utilities, and energy"
+93,5,32.92957321,"Housing, utilities, and energy"
+93,6,31.03320541,"Housing, utilities, and energy"
+93,7,30.68398617,"Housing, utilities, and energy"
+93,8,27.83385086,"Housing, utilities, and energy"
+93,9,27.7123615,"Housing, utilities, and energy"
+93,10,21.54534107,"Housing, utilities, and energy"
+94,1,38.26536049,"Housing, utilities, and energy"
+94,2,36.86648703,"Housing, utilities, and energy"
+94,3,32.92008446,"Housing, utilities, and energy"
+94,4,33.82075597,"Housing, utilities, and energy"
+94,5,32.15411623,"Housing, utilities, and energy"
+94,6,32.49224848,"Housing, utilities, and energy"
+94,7,31.30189615,"Housing, utilities, and energy"
+94,8,29.44455671,"Housing, utilities, and energy"
+94,9,28.45095424,"Housing, utilities, and energy"
+94,10,24.73605969,"Housing, utilities, and energy"
+95,1,37.49174706,"Housing, utilities, and energy"
+95,2,35.08378983,"Housing, utilities, and energy"
+95,3,34.06868715,"Housing, utilities, and energy"
+95,4,36.10707571,"Housing, utilities, and energy"
+95,5,32.36896976,"Housing, utilities, and energy"
+95,6,31.41911449,"Housing, utilities, and energy"
+95,7,30.75678746,"Housing, utilities, and energy"
+95,8,28.28692462,"Housing, utilities, and energy"
+95,9,28.14131434,"Housing, utilities, and energy"
+95,10,25.86238177,"Housing, utilities, and energy"
+96,1,37.27795417,"Housing, utilities, and energy"
+96,2,35.73898275,"Housing, utilities, and energy"
+96,3,33.99487665,"Housing, utilities, and energy"
+96,4,33.00707776,"Housing, utilities, and energy"
+96,5,32.0994413,"Housing, utilities, and energy"
+96,6,30.89489734,"Housing, utilities, and energy"
+96,7,29.4692797,"Housing, utilities, and energy"
+96,8,28.79115134,"Housing, utilities, and energy"
+96,9,26.48874849,"Housing, utilities, and energy"
+96,10,23.87227362,"Housing, utilities, and energy"
+87,1,2.508131512,Furniture and household appliances
+87,2,2.307921873,Furniture and household appliances
+87,3,2.53751888,Furniture and household appliances
+87,4,2.400453168,Furniture and household appliances
+87,5,2.418453533,Furniture and household appliances
+87,6,2.541113642,Furniture and household appliances
+87,7,2.630670578,Furniture and household appliances
+87,8,2.904279877,Furniture and household appliances
+87,9,2.675644619,Furniture and household appliances
+87,10,2.792635165,Furniture and household appliances
+88,1,2.363300372,Furniture and household appliances
+88,2,2.401091447,Furniture and household appliances
+88,3,2.280317659,Furniture and household appliances
+88,4,2.129633088,Furniture and household appliances
+88,5,2.306005995,Furniture and household appliances
+88,6,2.298308705,Furniture and household appliances
+88,7,2.593682833,Furniture and household appliances
+88,8,2.815076976,Furniture and household appliances
+88,9,2.806932908,Furniture and household appliances
+88,10,3.724241791,Furniture and household appliances
+89,1,2.159710294,Furniture and household appliances
+89,2,2.055759895,Furniture and household appliances
+89,3,2.282629873,Furniture and household appliances
+89,4,2.109672307,Furniture and household appliances
+89,5,2.319506021,Furniture and household appliances
+89,6,2.12378622,Furniture and household appliances
+89,7,2.291253036,Furniture and household appliances
+89,8,2.279892733,Furniture and household appliances
+89,9,2.531549538,Furniture and household appliances
+89,10,2.567785593,Furniture and household appliances
+90,1,1.918017029,Furniture and household appliances
+90,2,1.969704051,Furniture and household appliances
+90,3,1.84913462,Furniture and household appliances
+90,4,1.906345906,Furniture and household appliances
+90,5,1.993292279,Furniture and household appliances
+90,6,2.058260197,Furniture and household appliances
+90,7,2.119909953,Furniture and household appliances
+90,8,2.214171477,Furniture and household appliances
+90,9,2.245050397,Furniture and household appliances
+90,10,2.809944216,Furniture and household appliances
+91,1,1.821193452,Furniture and household appliances
+91,2,1.900880927,Furniture and household appliances
+91,3,1.910107849,Furniture and household appliances
+91,4,1.978213194,Furniture and household appliances
+91,5,2.094115214,Furniture and household appliances
+91,6,1.629943685,Furniture and household appliances
+91,7,2.086846052,Furniture and household appliances
+91,8,2.286298621,Furniture and household appliances
+91,9,2.382617044,Furniture and household appliances
+91,10,3.009123757,Furniture and household appliances
+92,1,1.928487653,Furniture and household appliances
+92,2,1.703860224,Furniture and household appliances
+92,3,2.144918961,Furniture and household appliances
+92,4,2.099985745,Furniture and household appliances
+92,5,2.158716613,Furniture and household appliances
+92,6,2.317330098,Furniture and household appliances
+92,7,2.163665907,Furniture and household appliances
+92,8,2.376569716,Furniture and household appliances
+92,9,2.536375019,Furniture and household appliances
+92,10,3.329017297,Furniture and household appliances
+93,1,2.071438886,Furniture and household appliances
+93,2,2.036302778,Furniture and household appliances
+93,3,3.533174302,Furniture and household appliances
+93,4,1.735547444,Furniture and household appliances
+93,5,2.133454358,Furniture and household appliances
+93,6,2.14357918,Furniture and household appliances
+93,7,2.220254213,Furniture and household appliances
+93,8,2.185761428,Furniture and household appliances
+93,9,2.403231392,Furniture and household appliances
+93,10,3.055260307,Furniture and household appliances
+94,1,2.093887539,Furniture and household appliances
+94,2,2.092905636,Furniture and household appliances
+94,3,1.986915525,Furniture and household appliances
+94,4,2.133227556,Furniture and household appliances
+94,5,2.031232962,Furniture and household appliances
+94,6,2.228202756,Furniture and household appliances
+94,7,2.253609599,Furniture and household appliances
+94,8,2.371735577,Furniture and household appliances
+94,9,2.355594683,Furniture and household appliances
+94,10,2.897407284,Furniture and household appliances
+95,1,1.962755307,Furniture and household appliances
+95,2,1.94993281,Furniture and household appliances
+95,3,2.009627384,Furniture and household appliances
+95,4,2.912516062,Furniture and household appliances
+95,5,2.026943983,Furniture and household appliances
+95,6,2.122372475,Furniture and household appliances
+95,7,2.142275895,Furniture and household appliances
+95,8,1.952402563,Furniture and household appliances
+95,9,2.170147907,Furniture and household appliances
+95,10,2.612783603,Furniture and household appliances
+96,1,2.102751008,Furniture and household appliances
+96,2,1.981309694,Furniture and household appliances
+96,3,1.890583604,Furniture and household appliances
+96,4,2.14566716,Furniture and household appliances
+96,5,1.981249849,Furniture and household appliances
+96,6,1.903595239,Furniture and household appliances
+96,7,2.110057121,Furniture and household appliances
+96,8,1.940086333,Furniture and household appliances
+96,9,2.067587412,Furniture and household appliances
+96,10,2.517868691,Furniture and household appliances
+87,1,0.010974217,Healthcare
+87,2,0.007072757,Healthcare
+87,3,0.010817785,Healthcare
+87,4,0.015813557,Healthcare
+87,5,0.012667156,Healthcare
+87,6,0.043362797,Healthcare
+87,7,0.061852171,Healthcare
+87,8,0.03929382,Healthcare
+87,9,0.034205283,Healthcare
+87,10,0.141979814,Healthcare
+88,1,0.063722382,Healthcare
+88,2,0.016259936,Healthcare
+88,3,0.011347207,Healthcare
+88,4,0.021130072,Healthcare
+88,5,0.020960843,Healthcare
+88,6,0.031694129,Healthcare
+88,7,0.032471424,Healthcare
+88,8,0.075109815,Healthcare
+88,9,0.075668539,Healthcare
+88,10,0.243382537,Healthcare
+89,1,0.030180423,Healthcare
+89,2,0.003466179,Healthcare
+89,3,0.01231467,Healthcare
+89,4,0.032909154,Healthcare
+89,5,0.055991584,Healthcare
+89,6,0.058089512,Healthcare
+89,7,0.093522592,Healthcare
+89,8,0.029351349,Healthcare
+89,9,0.067225181,Healthcare
+89,10,0.144651859,Healthcare
+90,1,0.006775032,Healthcare
+90,2,0.072444388,Healthcare
+90,3,0.042316879,Healthcare
+90,4,0.024201524,Healthcare
+90,5,0.056661892,Healthcare
+90,6,0.032839472,Healthcare
+90,7,0.090456965,Healthcare
+90,8,0.057239143,Healthcare
+90,9,0.115103833,Healthcare
+90,10,0.250521704,Healthcare
+91,1,0.001438567,Healthcare
+91,2,0.005579271,Healthcare
+91,3,0.013856093,Healthcare
+91,4,0.044381875,Healthcare
+91,5,0.020943259,Healthcare
+91,6,0.024591732,Healthcare
+91,7,0.071033831,Healthcare
+91,8,0.036475479,Healthcare
+91,9,0.075228033,Healthcare
+91,10,0.170680698,Healthcare
+92,1,0.086864819,Healthcare
+92,2,0.0379963,Healthcare
+92,3,0.021245219,Healthcare
+92,4,0.094758497,Healthcare
+92,5,0.02696707,Healthcare
+92,6,0.059626272,Healthcare
+92,7,0.093562908,Healthcare
+92,8,0.100210441,Healthcare
+92,9,0.28850334,Healthcare
+92,10,0.333007511,Healthcare
+93,1,0.016367966,Healthcare
+93,2,0.034120085,Healthcare
+93,3,0.041710281,Healthcare
+93,4,0.060458815,Healthcare
+93,5,0.029924296,Healthcare
+93,6,0.094591334,Healthcare
+93,7,0.079088652,Healthcare
+93,8,0.120261675,Healthcare
+93,9,0.128470262,Healthcare
+93,10,0.247994354,Healthcare
+94,1,0.031265383,Healthcare
+94,2,0.024944107,Healthcare
+94,3,0.036365961,Healthcare
+94,4,0.038638918,Healthcare
+94,5,0.020139041,Healthcare
+94,6,0.050341208,Healthcare
+94,7,0.042049481,Healthcare
+94,8,0.071176115,Healthcare
+94,9,0.06363128,Healthcare
+94,10,0.144202259,Healthcare
+95,1,1.965823422,Healthcare
+95,2,1.927775473,Healthcare
+95,3,1.893449706,Healthcare
+95,4,2.100578992,Healthcare
+95,5,1.932343935,Healthcare
+95,6,1.888592953,Healthcare
+95,7,2.151218539,Healthcare
+95,8,2.140602401,Healthcare
+95,9,1.989466583,Healthcare
+95,10,2.514252781,Healthcare
+96,1,1.86654653,Healthcare
+96,2,2.173998492,Healthcare
+96,3,2.014154174,Healthcare
+96,4,2.139726967,Healthcare
+96,5,2.18201748,Healthcare
+96,6,2.209811223,Healthcare
+96,7,2.152007328,Healthcare
+96,8,2.120525089,Healthcare
+96,9,2.663687301,Healthcare
+96,10,2.145582082,Healthcare
+87,1,0.073162806,Medical and surgical supplies
+87,2,0.102780844,Medical and surgical supplies
+87,3,0.091644626,Medical and surgical supplies
+87,4,0.164292463,Medical and surgical supplies
+87,5,0.167478894,Medical and surgical supplies
+87,6,0.162493406,Medical and surgical supplies
+87,7,0.155000207,Medical and surgical supplies
+87,8,0.059190516,Medical and surgical supplies
+87,9,0.251403862,Medical and surgical supplies
+87,10,0.29330413,Medical and surgical supplies
+88,1,0.141777576,Medical and surgical supplies
+88,2,0.095306176,Medical and surgical supplies
+88,3,0.055215091,Medical and surgical supplies
+88,4,0.119832353,Medical and surgical supplies
+88,5,0.253693083,Medical and surgical supplies
+88,6,0.117259341,Medical and surgical supplies
+88,7,0.159086304,Medical and surgical supplies
+88,8,0.219978605,Medical and surgical supplies
+88,9,0.429156752,Medical and surgical supplies
+88,10,0.737517065,Medical and surgical supplies
+89,1,0.047548515,Medical and surgical supplies
+89,2,0.07872126,Medical and surgical supplies
+89,3,0.04795102,Medical and surgical supplies
+89,4,0.095717041,Medical and surgical supplies
+89,5,0.133761431,Medical and surgical supplies
+89,6,0.126979991,Medical and surgical supplies
+89,7,0.196163143,Medical and surgical supplies
+89,8,0.216842067,Medical and surgical supplies
+89,9,0.293467506,Medical and surgical supplies
+89,10,0.550395195,Medical and surgical supplies
+90,1,0.028514654,Medical and surgical supplies
+90,2,0.023070724,Medical and surgical supplies
+90,3,0.075906233,Medical and surgical supplies
+90,4,0.083448894,Medical and surgical supplies
+90,5,0.070289296,Medical and surgical supplies
+90,6,0.194791631,Medical and surgical supplies
+90,7,0.14652903,Medical and surgical supplies
+90,8,0.209513714,Medical and surgical supplies
+90,9,0.28849315,Medical and surgical supplies
+90,10,0.646043046,Medical and surgical supplies
+91,1,0.05013792,Medical and surgical supplies
+91,2,0.090225016,Medical and surgical supplies
+91,3,0.042547959,Medical and surgical supplies
+91,4,0.122562171,Medical and surgical supplies
+91,5,0.076463642,Medical and surgical supplies
+91,6,0.138044618,Medical and surgical supplies
+91,7,0.16496851,Medical and surgical supplies
+91,8,0.194170318,Medical and surgical supplies
+91,9,0.258348251,Medical and surgical supplies
+91,10,0.523378656,Medical and surgical supplies
+92,1,0.051875601,Medical and surgical supplies
+92,2,0.05620389,Medical and surgical supplies
+92,3,0.056091276,Medical and surgical supplies
+92,4,0.051754768,Medical and surgical supplies
+92,5,0.07420654,Medical and surgical supplies
+92,6,0.076729675,Medical and surgical supplies
+92,7,0.105935764,Medical and surgical supplies
+92,8,0.175282098,Medical and surgical supplies
+92,9,0.259702356,Medical and surgical supplies
+92,10,0.440149087,Medical and surgical supplies
+93,1,0.050734184,Medical and surgical supplies
+93,2,0.160742668,Medical and surgical supplies
+93,3,0.038374156,Medical and surgical supplies
+93,4,0.090077171,Medical and surgical supplies
+93,5,0.093650008,Medical and surgical supplies
+93,6,0.142197722,Medical and surgical supplies
+93,7,0.088033875,Medical and surgical supplies
+93,8,0.134365681,Medical and surgical supplies
+93,9,0.112410199,Medical and surgical supplies
+93,10,0.446915801,Medical and surgical supplies
+94,1,0.113195193,Medical and surgical supplies
+94,2,0.066958578,Medical and surgical supplies
+94,3,0.055737194,Medical and surgical supplies
+94,4,0.087687367,Medical and surgical supplies
+94,5,0.179679052,Medical and surgical supplies
+94,6,0.079399538,Medical and surgical supplies
+94,7,0.153455239,Medical and surgical supplies
+94,8,0.194672063,Medical and surgical supplies
+94,9,0.185155685,Medical and surgical supplies
+94,10,0.553224992,Medical and surgical supplies
+95,1,0.047915335,Medical and surgical supplies
+95,2,0.148957381,Medical and surgical supplies
+95,3,0.03231214,Medical and surgical supplies
+95,4,0.115200753,Medical and surgical supplies
+95,5,0.090255849,Medical and surgical supplies
+95,6,0.086316191,Medical and surgical supplies
+95,7,0.15816496,Medical and surgical supplies
+95,8,0.176088517,Medical and surgical supplies
+95,9,0.213402195,Medical and surgical supplies
+95,10,0.334618275,Medical and surgical supplies
+96,1,0.05918465,Medical and surgical supplies
+96,2,0.074474117,Medical and surgical supplies
+96,3,0.061768614,Medical and surgical supplies
+96,4,0.084247459,Medical and surgical supplies
+96,5,0.099998206,Medical and surgical supplies
+96,6,0.087241257,Medical and surgical supplies
+96,7,0.121466251,Medical and surgical supplies
+96,8,0.19303686,Medical and surgical supplies
+96,9,0.325604507,Medical and surgical supplies
+96,10,0.519874291,Medical and surgical supplies
+87,1,1.024320316,Outpatient services
+87,2,1.395205921,Outpatient services
+87,3,1.22736561,Outpatient services
+87,4,1.263633337,Outpatient services
+87,5,1.417520646,Outpatient services
+87,6,1.545074574,Outpatient services
+87,7,1.390156285,Outpatient services
+87,8,1.123366499,Outpatient services
+87,9,1.427235959,Outpatient services
+87,10,1.488738716,Outpatient services
+88,1,1.041886095,Outpatient services
+88,2,1.254135293,Outpatient services
+88,3,1.087875192,Outpatient services
+88,4,1.445966285,Outpatient services
+88,5,1.710694238,Outpatient services
+88,6,1.717725042,Outpatient services
+88,7,1.562252641,Outpatient services
+88,8,1.495147127,Outpatient services
+88,9,1.570342913,Outpatient services
+88,10,1.929113488,Outpatient services
+89,1,1.103152356,Outpatient services
+89,2,1.182252688,Outpatient services
+89,3,1.429823918,Outpatient services
+89,4,1.542700173,Outpatient services
+89,5,3.538308357,Outpatient services
+89,6,1.528796614,Outpatient services
+89,7,1.898367227,Outpatient services
+89,8,1.93823053,Outpatient services
+89,9,2.073152076,Outpatient services
+89,10,2.065846261,Outpatient services
+90,1,0.915859031,Outpatient services
+90,2,1.006509215,Outpatient services
+90,3,2.285195009,Outpatient services
+90,4,1.304303321,Outpatient services
+90,5,1.290619424,Outpatient services
+90,6,1.473696312,Outpatient services
+90,7,1.296867981,Outpatient services
+90,8,1.628995446,Outpatient services
+90,9,1.890890641,Outpatient services
+90,10,1.95913585,Outpatient services
+91,1,1.009123447,Outpatient services
+91,2,1.228709188,Outpatient services
+91,3,1.314382163,Outpatient services
+91,4,1.129732663,Outpatient services
+91,5,1.511830079,Outpatient services
+91,6,1.55574771,Outpatient services
+91,7,1.565699412,Outpatient services
+91,8,1.42282552,Outpatient services
+91,9,1.695020467,Outpatient services
+91,10,1.837689701,Outpatient services
+92,1,1.563930428,Outpatient services
+92,2,1.176288178,Outpatient services
+92,3,1.332571901,Outpatient services
+92,4,1.545756278,Outpatient services
+92,5,1.39971821,Outpatient services
+92,6,1.332372307,Outpatient services
+92,7,1.629992004,Outpatient services
+92,8,1.705682267,Outpatient services
+92,9,2.02837463,Outpatient services
+92,10,2.093131096,Outpatient services
+93,1,1.455500667,Outpatient services
+93,2,1.533058221,Outpatient services
+93,3,5.618692049,Outpatient services
+93,4,0.40504411,Outpatient services
+93,5,1.50025802,Outpatient services
+93,6,0.817568587,Outpatient services
+93,7,1.797725503,Outpatient services
+93,8,1.966964716,Outpatient services
+93,9,2.052157063,Outpatient services
+93,10,1.940057935,Outpatient services
+94,1,1.610404298,Outpatient services
+94,2,1.80714554,Outpatient services
+94,3,1.450162278,Outpatient services
+94,4,1.665811966,Outpatient services
+94,5,1.70285653,Outpatient services
+94,6,1.628942321,Outpatient services
+94,7,1.680922374,Outpatient services
+94,8,1.89197833,Outpatient services
+94,9,1.970793387,Outpatient services
+94,10,2.228824336,Outpatient services
+95,1,2.396299765,Outpatient services
+95,2,2.36182195,Outpatient services
+95,3,2.323797818,Outpatient services
+95,4,2.331602321,Outpatient services
+95,5,2.31726666,Outpatient services
+95,6,2.19491981,Outpatient services
+95,7,2.551692391,Outpatient services
+95,8,3.025560381,Outpatient services
+95,9,2.942060595,Outpatient services
+95,10,2.768673945,Outpatient services
+96,1,1.896362006,Outpatient services
+96,2,2.342013554,Outpatient services
+96,3,2.427157716,Outpatient services
+96,4,2.273329303,Outpatient services
+96,5,2.548632059,Outpatient services
+96,6,2.662697791,Outpatient services
+96,7,3.060508651,Outpatient services
+96,8,2.902317998,Outpatient services
+96,9,2.915185013,Outpatient services
+96,10,2.969069277,Outpatient services
+87,1,4.02390504,Transportation
+87,2,4.018851447,Transportation
+87,3,4.083815475,Transportation
+87,4,3.874034704,Transportation
+87,5,3.93460555,Transportation
+87,6,4.096653233,Transportation
+87,7,4.03245314,Transportation
+87,8,4.271181093,Transportation
+87,9,3.208597368,Transportation
+87,10,3.724727258,Transportation
+88,1,4.246801048,Transportation
+88,2,5.046018316,Transportation
+88,3,4.207319457,Transportation
+88,4,4.085628113,Transportation
+88,5,3.780041044,Transportation
+88,6,3.918763207,Transportation
+88,7,4.148537106,Transportation
+88,8,4.09977906,Transportation
+88,9,4.201054889,Transportation
+88,10,4.11420465,Transportation
+89,1,3.988702247,Transportation
+89,2,4.1478276,Transportation
+89,3,4.800427786,Transportation
+89,4,4.028410694,Transportation
+89,5,4.308575356,Transportation
+89,6,4.386962476,Transportation
+89,7,4.510754751,Transportation
+89,8,4.46054028,Transportation
+89,9,4.376818783,Transportation
+89,10,4.389897754,Transportation
+90,1,4.276644339,Transportation
+90,2,4.721289773,Transportation
+90,3,4.88554126,Transportation
+90,4,4.847872225,Transportation
+90,5,4.842069708,Transportation
+90,6,5.083662978,Transportation
+90,7,5.002510271,Transportation
+90,8,5.228340705,Transportation
+90,9,5.391954239,Transportation
+90,10,5.068406232,Transportation
+91,1,4.044935497,Transportation
+91,2,4.310867582,Transportation
+91,3,4.495713254,Transportation
+91,4,4.641570058,Transportation
+91,5,4.8543035,Transportation
+91,6,4.687999621,Transportation
+91,7,4.778219365,Transportation
+91,8,4.779266874,Transportation
+91,9,4.764454578,Transportation
+91,10,4.469672951,Transportation
+92,1,3.764229104,Transportation
+92,2,3.522626664,Transportation
+92,3,4.33235698,Transportation
+92,4,4.214054051,Transportation
+92,5,4.489482343,Transportation
+92,6,4.588990465,Transportation
+92,7,4.361046033,Transportation
+92,8,4.693627801,Transportation
+92,9,4.653536913,Transportation
+92,10,4.326664852,Transportation
+93,1,4.043236163,Transportation
+93,2,4.608358951,Transportation
+93,3,12.20242683,Transportation
+93,4,4.374792218,Transportation
+93,5,4.568050304,Transportation
+93,6,4.689207874,Transportation
+93,7,5.171031841,Transportation
+93,8,4.941276803,Transportation
+93,9,5.159660875,Transportation
+93,10,4.597205078,Transportation
+94,1,3.882464759,Transportation
+94,2,4.348755372,Transportation
+94,3,4.431122837,Transportation
+94,4,4.861184157,Transportation
+94,5,4.838355202,Transportation
+94,6,5.250587575,Transportation
+94,7,5.182158503,Transportation
+94,8,5.164255944,Transportation
+94,9,5.158932176,Transportation
+94,10,4.886930862,Transportation
+95,1,4.093194071,Transportation
+95,2,4.569552993,Transportation
+95,3,4.760308082,Transportation
+95,4,5.084549025,Transportation
+95,5,5.018990952,Transportation
+95,6,5.103197967,Transportation
+95,7,5.307674179,Transportation
+95,8,5.372699968,Transportation
+95,9,5.238768021,Transportation
+95,10,4.907060835,Transportation
+96,1,3.985059357,Transportation
+96,2,4.313101581,Transportation
+96,3,4.34691666,Transportation
+96,4,4.78580443,Transportation
+96,5,4.706493519,Transportation
+96,6,4.887633963,Transportation
+96,7,5.219608901,Transportation
+96,8,5.047492407,Transportation
+96,9,5.083990931,Transportation
+96,10,4.261623639,Transportation
+87,1,2.971812992,Telecommunications
+87,2,3.518024329,Telecommunications
+87,3,3.556446949,Telecommunications
+87,4,3.574726397,Telecommunications
+87,5,3.475040822,Telecommunications
+87,6,3.951169416,Telecommunications
+87,7,3.797507396,Telecommunications
+87,8,3.858423574,Telecommunications
+87,9,3.394947551,Telecommunications
+87,10,2.733538724,Telecommunications
+88,1,3.264238011,Telecommunications
+88,2,3.725516559,Telecommunications
+88,3,3.319011569,Telecommunications
+88,4,3.389022755,Telecommunications
+88,5,3.321340133,Telecommunications
+88,6,3.272334881,Telecommunications
+88,7,3.595109419,Telecommunications
+88,8,3.406274271,Telecommunications
+88,9,3.771135237,Telecommunications
+88,10,3.474452819,Telecommunications
+89,1,3.110334897,Telecommunications
+89,2,3.364739575,Telecommunications
+89,3,3.991970412,Telecommunications
+89,4,3.129355136,Telecommunications
+89,5,3.237384937,Telecommunications
+89,6,3.145681157,Telecommunications
+89,7,3.342152756,Telecommunications
+89,8,3.286834483,Telecommunications
+89,9,3.09440621,Telecommunications
+89,10,2.350402049,Telecommunications
+90,1,3.225060113,Telecommunications
+90,2,3.355237598,Telecommunications
+90,3,3.590560471,Telecommunications
+90,4,3.744082098,Telecommunications
+90,5,3.570645872,Telecommunications
+90,6,3.444248812,Telecommunications
+90,7,3.470160849,Telecommunications
+90,8,3.39109742,Telecommunications
+90,9,3.237038194,Telecommunications
+90,10,3.003109028,Telecommunications
+91,1,2.833701444,Telecommunications
+91,2,2.978388742,Telecommunications
+91,3,3.250779128,Telecommunications
+91,4,2.983768906,Telecommunications
+91,5,3.133133508,Telecommunications
+91,6,2.192796384,Telecommunications
+91,7,3.092696885,Telecommunications
+91,8,2.946183986,Telecommunications
+91,9,2.807597082,Telecommunications
+91,10,2.54162558,Telecommunications
+92,1,2.667561621,Telecommunications
+92,2,2.311753914,Telecommunications
+92,3,2.726636399,Telecommunications
+92,4,2.406422137,Telecommunications
+92,5,2.670119169,Telecommunications
+92,6,2.824758241,Telecommunications
+92,7,2.583544116,Telecommunications
+92,8,2.792978584,Telecommunications
+92,9,2.538364832,Telecommunications
+92,10,2.471336013,Telecommunications
+93,1,2.817631172,Telecommunications
+93,2,2.892031586,Telecommunications
+93,3,4.522014493,Telecommunications
+93,4,2.576732654,Telecommunications
+93,5,2.733019756,Telecommunications
+93,6,2.614814096,Telecommunications
+93,7,2.677657033,Telecommunications
+93,8,2.41479466,Telecommunications
+93,9,2.472758757,Telecommunications
+93,10,2.008213347,Telecommunications
+94,1,2.640373232,Telecommunications
+94,2,2.75666766,Telecommunications
+94,3,2.304783085,Telecommunications
+94,4,2.613418119,Telecommunications
+94,5,2.474868371,Telecommunications
+94,6,2.597416605,Telecommunications
+94,7,2.450490551,Telecommunications
+94,8,2.534562559,Telecommunications
+94,9,2.429629232,Telecommunications
+94,10,2.121999548,Telecommunications
+95,1,2.599104931,Telecommunications
+95,2,2.514004346,Telecommunications
+95,3,2.601351049,Telecommunications
+95,4,2.911480896,Telecommunications
+95,5,2.533671147,Telecommunications
+95,6,2.563285257,Telecommunications
+95,7,2.507121903,Telecommunications
+95,8,2.413088394,Telecommunications
+95,9,2.288927083,Telecommunications
+95,10,2.016564144,Telecommunications
+96,1,2.5089631,Telecommunications
+96,2,2.668446395,Telecommunications
+96,3,2.532436659,Telecommunications
+96,4,2.659875949,Telecommunications
+96,5,2.58860641,Telecommunications
+96,6,2.440749532,Telecommunications
+96,7,2.428925267,Telecommunications
+96,8,2.325609235,Telecommunications
+96,9,2.236197431,Telecommunications
+96,10,1.838217965,Telecommunications
+87,1,0.428678617,Cultural and recreational services
+87,2,0.453594805,Cultural and recreational services
+87,3,0.428971647,Cultural and recreational services
+87,4,0.484106173,Cultural and recreational services
+87,5,0.585649777,Cultural and recreational services
+87,6,0.617500883,Cultural and recreational services
+87,7,0.592826077,Cultural and recreational services
+87,8,0.630361901,Cultural and recreational services
+87,9,0.671072338,Cultural and recreational services
+87,10,0.547001155,Cultural and recreational services
+88,1,0.394554564,Cultural and recreational services
+88,2,0.405546569,Cultural and recreational services
+88,3,0.399595769,Cultural and recreational services
+88,4,0.484419082,Cultural and recreational services
+88,5,0.520534252,Cultural and recreational services
+88,6,0.52600668,Cultural and recreational services
+88,7,0.548403051,Cultural and recreational services
+88,8,0.738609975,Cultural and recreational services
+88,9,0.65517429,Cultural and recreational services
+88,10,0.827411178,Cultural and recreational services
+89,1,0.315809106,Cultural and recreational services
+89,2,0.432222137,Cultural and recreational services
+89,3,0.47317853,Cultural and recreational services
+89,4,0.508774605,Cultural and recreational services
+89,5,0.539424666,Cultural and recreational services
+89,6,0.52970565,Cultural and recreational services
+89,7,0.551760651,Cultural and recreational services
+89,8,0.645403606,Cultural and recreational services
+89,9,0.656282516,Cultural and recreational services
+89,10,0.920693424,Cultural and recreational services
+90,1,0.356932709,Cultural and recreational services
+90,2,0.352852337,Cultural and recreational services
+90,3,0.400385923,Cultural and recreational services
+90,4,0.367933548,Cultural and recreational services
+90,5,0.419893482,Cultural and recreational services
+90,6,0.48950981,Cultural and recreational services
+90,7,0.490759214,Cultural and recreational services
+90,8,0.571436165,Cultural and recreational services
+90,9,0.583337328,Cultural and recreational services
+90,10,0.671215815,Cultural and recreational services
+91,1,0.30305013,Cultural and recreational services
+91,2,0.338742344,Cultural and recreational services
+91,3,0.40848666,Cultural and recreational services
+91,4,0.441438311,Cultural and recreational services
+91,5,0.482477716,Cultural and recreational services
+91,6,-1.142985434,Cultural and recreational services
+91,7,0.528270269,Cultural and recreational services
+91,8,0.579893697,Cultural and recreational services
+91,9,0.531409597,Cultural and recreational services
+91,10,0.666339298,Cultural and recreational services
+92,1,0.36454862,Cultural and recreational services
+92,2,0.410960868,Cultural and recreational services
+92,3,0.413914992,Cultural and recreational services
+92,4,0.484586613,Cultural and recreational services
+92,5,0.49097855,Cultural and recreational services
+92,6,0.57854055,Cultural and recreational services
+92,7,0.461036723,Cultural and recreational services
+92,8,0.71827955,Cultural and recreational services
+92,9,0.655870871,Cultural and recreational services
+92,10,0.772633862,Cultural and recreational services
+93,1,0.335449416,Cultural and recreational services
+93,2,0.402321544,Cultural and recreational services
+93,3,1.158030849,Cultural and recreational services
+93,4,0.304333491,Cultural and recreational services
+93,5,0.470617637,Cultural and recreational services
+93,6,0.504366093,Cultural and recreational services
+93,7,0.575693525,Cultural and recreational services
+93,8,0.560827699,Cultural and recreational services
+93,9,0.570525546,Cultural and recreational services
+93,10,0.704301579,Cultural and recreational services
+94,1,0.313529096,Cultural and recreational services
+94,2,0.374856013,Cultural and recreational services
+94,3,0.407977321,Cultural and recreational services
+94,4,0.46578863,Cultural and recreational services
+94,5,0.452098745,Cultural and recreational services
+94,6,0.482911942,Cultural and recreational services
+94,7,0.520393545,Cultural and recreational services
+94,8,0.584566391,Cultural and recreational services
+94,9,0.545806665,Cultural and recreational services
+94,10,0.677675593,Cultural and recreational services
+95,1,0.350295775,Cultural and recreational services
+95,2,0.384050327,Cultural and recreational services
+95,3,0.417562999,Cultural and recreational services
+95,4,0.879594171,Cultural and recreational services
+95,5,0.448429696,Cultural and recreational services
+95,6,0.48336716,Cultural and recreational services
+95,7,0.470470458,Cultural and recreational services
+95,8,0.512333449,Cultural and recreational services
+95,9,0.571865,Cultural and recreational services
+95,10,0.60940653,Cultural and recreational services
+96,1,0.316507604,Cultural and recreational services
+96,2,0.352621416,Cultural and recreational services
+96,3,0.438405525,Cultural and recreational services
+96,4,0.507993224,Cultural and recreational services
+96,5,0.492494356,Cultural and recreational services
+96,6,0.532814286,Cultural and recreational services
+96,7,0.538504367,Cultural and recreational services
+96,8,0.599313899,Cultural and recreational services
+96,9,0.574700489,Cultural and recreational services
+96,10,0.82300259,Cultural and recreational services
+87,1,0.637388055,Education services
+87,2,0.98158215,Education services
+87,3,1.117473655,Education services
+87,4,1.12623505,Education services
+87,5,1.24424665,Education services
+87,6,1.341081568,Education services
+87,7,1.643385615,Education services
+87,8,1.592749034,Education services
+87,9,1.91031762,Education services
+87,10,1.768281617,Education services
+88,1,0.627749472,Education services
+88,2,0.943352231,Education services
+88,3,0.958051388,Education services
+88,4,1.408321453,Education services
+88,5,1.397759945,Education services
+88,6,1.463463974,Education services
+88,7,1.646606474,Education services
+88,8,1.923242125,Education services
+88,9,2.062415022,Education services
+88,10,1.999916678,Education services
+89,1,0.744375486,Education services
+89,2,0.99825695,Education services
+89,3,1.118464455,Education services
+89,4,1.289835065,Education services
+89,5,1.531825722,Education services
+89,6,1.683913771,Education services
+89,7,1.801836079,Education services
+89,8,1.97321774,Education services
+89,9,2.146284752,Education services
+89,10,1.836572778,Education services
+90,1,0.662273619,Education services
+90,2,1.059065465,Education services
+90,3,1.119853318,Education services
+90,4,1.346620118,Education services
+90,5,1.436250162,Education services
+90,6,1.512818146,Education services
+90,7,1.362553507,Education services
+90,8,1.860218867,Education services
+90,9,1.83978894,Education services
+90,10,1.758893724,Education services
+91,1,0.948982972,Education services
+91,2,0.979550841,Education services
+91,3,1.197549183,Education services
+91,4,1.322893971,Education services
+91,5,1.398140131,Education services
+91,6,-2.519828004,Education services
+91,7,1.473854868,Education services
+91,8,1.473532367,Education services
+91,9,1.696924088,Education services
+91,10,1.655124303,Education services
+92,1,0.95795558,Education services
+92,2,0.987564866,Education services
+92,3,1.148484017,Education services
+92,4,1.134276748,Education services
+92,5,1.111001759,Education services
+92,6,1.166522189,Education services
+92,7,1.227081399,Education services
+92,8,1.397921036,Education services
+92,9,1.724631667,Education services
+92,10,1.458803366,Education services
+93,1,0.797632487,Education services
+93,2,0.994659542,Education services
+93,3,0.897167794,Education services
+93,4,1.025384681,Education services
+93,5,1.183855109,Education services
+93,6,1.214286258,Education services
+93,7,1.487374843,Education services
+93,8,1.408674548,Education services
+93,9,1.496561988,Education services
+93,10,1.520665405,Education services
+94,1,0.96260986,Education services
+94,2,0.858013619,Education services
+94,3,0.692871665,Education services
+94,4,1.111458687,Education services
+94,5,1.146505015,Education services
+94,6,1.571005374,Education services
+94,7,1.355710589,Education services
+94,8,1.743221948,Education services
+94,9,1.575904072,Education services
+94,10,1.128736461,Education services
+95,1,0.831798242,Education services
+95,2,0.872528623,Education services
+95,3,0.851457902,Education services
+95,4,1.038937234,Education services
+95,5,1.178301035,Education services
+95,6,1.176761742,Education services
+95,7,1.238238174,Education services
+95,8,1.445004325,Education services
+95,9,1.430503439,Education services
+95,10,1.326553261,Education services
+96,1,0.793122711,Education services
+96,2,0.874971681,Education services
+96,3,1.087735295,Education services
+96,4,1.082948432,Education services
+96,5,1.105796951,Education services
+96,6,1.206980319,Education services
+96,7,1.194690162,Education services
+96,8,1.335663037,Education services
+96,9,1.193220183,Education services
+96,10,1.611235285,Education services
+87,1,0.521764345,Food services and catering
+87,2,0.712953231,Food services and catering
+87,3,0.777846058,Food services and catering
+87,4,0.762843925,Food services and catering
+87,5,0.919383463,Food services and catering
+87,6,0.936124426,Food services and catering
+87,7,1.025099142,Food services and catering
+87,8,1.161011667,Food services and catering
+87,9,0.985691435,Food services and catering
+87,10,1.35471568,Food services and catering
+88,1,0.468041942,Food services and catering
+88,2,1.162451238,Food services and catering
+88,3,0.699187176,Food services and catering
+88,4,0.624983666,Food services and catering
+88,5,0.738246942,Food services and catering
+88,6,0.770269064,Food services and catering
+88,7,0.808101643,Food services and catering
+88,8,1.033931988,Food services and catering
+88,9,1.124478557,Food services and catering
+88,10,1.353695634,Food services and catering
+89,1,0.456729404,Food services and catering
+89,2,0.539052647,Food services and catering
+89,3,0.795272782,Food services and catering
+89,4,0.559619914,Food services and catering
+89,5,0.676473291,Food services and catering
+89,6,0.738016516,Food services and catering
+89,7,0.856864166,Food services and catering
+89,8,0.772009228,Food services and catering
+89,9,0.96275092,Food services and catering
+89,10,1.459414633,Food services and catering
+90,1,0.370273111,Food services and catering
+90,2,0.489346488,Food services and catering
+90,3,0.58534656,Food services and catering
+90,4,0.587523362,Food services and catering
+90,5,0.583179231,Food services and catering
+90,6,0.695852812,Food services and catering
+90,7,0.776434708,Food services and catering
+90,8,0.870135669,Food services and catering
+90,9,0.925592743,Food services and catering
+90,10,1.322612131,Food services and catering
+91,1,0.317190214,Food services and catering
+91,2,0.453574641,Food services and catering
+91,3,0.58778818,Food services and catering
+91,4,0.5728974,Food services and catering
+91,5,0.699020881,Food services and catering
+91,6,0.798075562,Food services and catering
+91,7,0.559168678,Food services and catering
+91,8,0.846168349,Food services and catering
+91,9,0.970072873,Food services and catering
+91,10,1.264573285,Food services and catering
+92,1,0.325219931,Food services and catering
+92,2,0.127523054,Food services and catering
+92,3,0.494014071,Food services and catering
+92,4,0.691211788,Food services and catering
+92,5,0.628830091,Food services and catering
+92,6,0.785024872,Food services and catering
+92,7,0.749622068,Food services and catering
+92,8,0.888624845,Food services and catering
+92,9,0.903005948,Food services and catering
+92,10,1.360509536,Food services and catering
+93,1,0.246180464,Food services and catering
+93,2,0.410588371,Food services and catering
+93,3,0.583241047,Food services and catering
+93,4,0.563859542,Food services and catering
+93,5,0.627572035,Food services and catering
+93,6,0.67480517,Food services and catering
+93,7,0.727294513,Food services and catering
+93,8,0.739229245,Food services and catering
+93,9,0.895682514,Food services and catering
+93,10,1.080680383,Food services and catering
+94,1,0.263311614,Food services and catering
+94,2,0.340773918,Food services and catering
+94,3,0.426166275,Food services and catering
+94,4,0.580653715,Food services and catering
+94,5,0.571982222,Food services and catering
+94,6,0.660868462,Food services and catering
+94,7,0.702155118,Food services and catering
+94,8,0.747379417,Food services and catering
+94,9,0.893042486,Food services and catering
+94,10,1.193238379,Food services and catering
+95,1,0.262438591,Food services and catering
+95,2,0.412025819,Food services and catering
+95,3,0.458405238,Food services and catering
+95,4,0.495128118,Food services and catering
+95,5,0.595099195,Food services and catering
+95,6,0.613049079,Food services and catering
+95,7,0.711653466,Food services and catering
+95,8,0.61594748,Food services and catering
+95,9,0.811062996,Food services and catering
+95,10,1.203609575,Food services and catering
+96,1,0.337010585,Food services and catering
+96,2,0.429368538,Food services and catering
+96,3,0.466242512,Food services and catering
+96,4,0.563727622,Food services and catering
+96,5,0.644335926,Food services and catering
+96,6,0.616734005,Food services and catering
+96,7,0.761627346,Food services and catering
+96,8,0.787925397,Food services and catering
+96,9,0.854994159,Food services and catering
+96,10,1.325678982,Food services and catering
+87,1,0.002284595,Lodging services
+87,2,0.000799577,Lodging services
+87,3,0.026728472,Lodging services
+87,4,0.025941442,Lodging services
+87,5,0.04971379,Lodging services
+87,6,0.047782267,Lodging services
+87,7,0.047157478,Lodging services
+87,8,0.108296701,Lodging services
+87,9,0.056432172,Lodging services
+87,10,0.210277675,Lodging services
+88,1,0.056160803,Lodging services
+88,2,0.008272851,Lodging services
+88,3,0.011876986,Lodging services
+88,4,0.111725243,Lodging services
+88,5,0.022918835,Lodging services
+88,6,0.080033181,Lodging services
+88,7,0.031396997,Lodging services
+88,8,0.125033258,Lodging services
+88,9,0.081841206,Lodging services
+88,10,0.664054091,Lodging services
+89,1,0.014589195,Lodging services
+89,2,0.070170695,Lodging services
+89,3,0.017886602,Lodging services
+89,4,0.018500979,Lodging services
+89,5,0.038015221,Lodging services
+89,6,0.024494256,Lodging services
+89,7,0.047045819,Lodging services
+89,8,0.07226318,Lodging services
+89,9,0.068175214,Lodging services
+89,10,0.429013202,Lodging services
+90,1,0.003107188,Lodging services
+90,2,0.015699233,Lodging services
+90,3,0.005417536,Lodging services
+90,4,0.020688799,Lodging services
+90,5,0.025210973,Lodging services
+90,6,0.015009962,Lodging services
+90,7,0.061529977,Lodging services
+90,8,0.069742789,Lodging services
+90,9,0.087147237,Lodging services
+90,10,0.518987882,Lodging services
+91,1,0.005734627,Lodging services
+91,2,0.003005753,Lodging services
+91,3,0.002774758,Lodging services
+91,4,0.002788245,Lodging services
+91,5,0.045345611,Lodging services
+91,6,0.054333406,Lodging services
+91,7,0.029217635,Lodging services
+91,8,-0.031933176,Lodging services
+91,9,0.163765617,Lodging services
+91,10,0.400641695,Lodging services
+92,1,0.001504679,Lodging services
+92,2,0.000251897,Lodging services
+92,3,0.00966512,Lodging services
+92,4,0.024966621,Lodging services
+92,5,0.004264473,Lodging services
+92,6,0.018923655,Lodging services
+92,7,0.027741543,Lodging services
+92,8,0.085265418,Lodging services
+92,9,0.062403805,Lodging services
+92,10,0.232415931,Lodging services
+93,1,0.001341301,Lodging services
+93,2,0.026030302,Lodging services
+93,3,0.008948325,Lodging services
+93,4,0.018187916,Lodging services
+93,5,0.003982149,Lodging services
+93,6,0.055953148,Lodging services
+93,7,0.021288314,Lodging services
+93,8,0.071389212,Lodging services
+93,9,0.063268072,Lodging services
+93,10,0.557298909,Lodging services
+94,1,0,Lodging services
+94,2,0.000950006,Lodging services
+94,3,0.015078994,Lodging services
+94,4,0.013423781,Lodging services
+94,5,0.009624649,Lodging services
+94,6,0.041257634,Lodging services
+94,7,0.038377272,Lodging services
+94,8,0.040986614,Lodging services
+94,9,0.0425273,Lodging services
+94,10,0.323299638,Lodging services
+95,1,0.00339817,Lodging services
+95,2,0.008670307,Lodging services
+95,3,0.039576156,Lodging services
+95,4,0.023408745,Lodging services
+95,5,0.037968026,Lodging services
+95,6,0.017588152,Lodging services
+95,7,0.043487219,Lodging services
+95,8,0.052250899,Lodging services
+95,9,0.042248487,Lodging services
+95,10,0.540709564,Lodging services
+96,1,0.001013867,Lodging services
+96,2,0.024157898,Lodging services
+96,3,0.00861002,Lodging services
+96,4,0.040437771,Lodging services
+96,5,0.00655079,Lodging services
+96,6,0.039802407,Lodging services
+96,7,0.023125452,Lodging services
+96,8,0.056136665,Lodging services
+96,9,0.066878975,Lodging services
+96,10,0.408192842,Lodging services
+87,1,1.749160606,Miscellaneous personal goods and services
+87,2,1.750951609,Miscellaneous personal goods and services
+87,3,1.797079016,Miscellaneous personal goods and services
+87,4,1.734274393,Miscellaneous personal goods and services
+87,5,1.799182479,Miscellaneous personal goods and services
+87,6,1.798514681,Miscellaneous personal goods and services
+87,7,1.784508131,Miscellaneous personal goods and services
+87,8,1.744828772,Miscellaneous personal goods and services
+87,9,1.383868436,Miscellaneous personal goods and services
+87,10,1.495102381,Miscellaneous personal goods and services
+88,1,1.636697948,Miscellaneous personal goods and services
+88,2,1.949485521,Miscellaneous personal goods and services
+88,3,1.92195424,Miscellaneous personal goods and services
+88,4,1.843164404,Miscellaneous personal goods and services
+88,5,2.009820742,Miscellaneous personal goods and services
+88,6,1.879552239,Miscellaneous personal goods and services
+88,7,1.902305652,Miscellaneous personal goods and services
+88,8,1.965046596,Miscellaneous personal goods and services
+88,9,2.041431046,Miscellaneous personal goods and services
+88,10,1.996575043,Miscellaneous personal goods and services
+89,1,2.005246087,Miscellaneous personal goods and services
+89,2,2.180450104,Miscellaneous personal goods and services
+89,3,2.490087002,Miscellaneous personal goods and services
+89,4,1.984396157,Miscellaneous personal goods and services
+89,5,2.238405656,Miscellaneous personal goods and services
+89,6,1.882623409,Miscellaneous personal goods and services
+89,7,1.882816957,Miscellaneous personal goods and services
+89,8,1.83838914,Miscellaneous personal goods and services
+89,9,1.874141174,Miscellaneous personal goods and services
+89,10,1.878335938,Miscellaneous personal goods and services
+90,1,1.715909239,Miscellaneous personal goods and services
+90,2,1.887708766,Miscellaneous personal goods and services
+90,3,2.00034266,Miscellaneous personal goods and services
+90,4,1.985557704,Miscellaneous personal goods and services
+90,5,1.853186764,Miscellaneous personal goods and services
+90,6,1.840200402,Miscellaneous personal goods and services
+90,7,1.844024528,Miscellaneous personal goods and services
+90,8,1.848118704,Miscellaneous personal goods and services
+90,9,1.854422316,Miscellaneous personal goods and services
+90,10,1.940091957,Miscellaneous personal goods and services
+91,1,1.854963352,Miscellaneous personal goods and services
+91,2,2.036911383,Miscellaneous personal goods and services
+91,3,2.07106162,Miscellaneous personal goods and services
+91,4,2.032128807,Miscellaneous personal goods and services
+91,5,2.016385276,Miscellaneous personal goods and services
+91,6,2.037994556,Miscellaneous personal goods and services
+91,7,1.865364006,Miscellaneous personal goods and services
+91,8,1.884972745,Miscellaneous personal goods and services
+91,9,1.944757132,Miscellaneous personal goods and services
+91,10,1.865790224,Miscellaneous personal goods and services
+92,1,2.183796921,Miscellaneous personal goods and services
+92,2,2.052516018,Miscellaneous personal goods and services
+92,3,2.290233681,Miscellaneous personal goods and services
+92,4,2.233306038,Miscellaneous personal goods and services
+92,5,2.254972324,Miscellaneous personal goods and services
+92,6,2.379172306,Miscellaneous personal goods and services
+92,7,2.216366608,Miscellaneous personal goods and services
+92,8,2.271487095,Miscellaneous personal goods and services
+92,9,2.163706628,Miscellaneous personal goods and services
+92,10,2.271396185,Miscellaneous personal goods and services
+93,1,2.063171182,Miscellaneous personal goods and services
+93,2,2.395052384,Miscellaneous personal goods and services
+93,3,3.058998758,Miscellaneous personal goods and services
+93,4,2.24352883,Miscellaneous personal goods and services
+93,5,2.327797674,Miscellaneous personal goods and services
+93,6,2.296353219,Miscellaneous personal goods and services
+93,7,2.385073397,Miscellaneous personal goods and services
+93,8,2.105213446,Miscellaneous personal goods and services
+93,9,2.127395827,Miscellaneous personal goods and services
+93,10,1.890343171,Miscellaneous personal goods and services
+94,1,2.190951568,Miscellaneous personal goods and services
+94,2,2.420095338,Miscellaneous personal goods and services
+94,3,2.390727033,Miscellaneous personal goods and services
+94,4,2.429790966,Miscellaneous personal goods and services
+94,5,2.3258552,Miscellaneous personal goods and services
+94,6,2.264978459,Miscellaneous personal goods and services
+94,7,2.329786607,Miscellaneous personal goods and services
+94,8,2.456754236,Miscellaneous personal goods and services
+94,9,2.206425441,Miscellaneous personal goods and services
+94,10,2.205654361,Miscellaneous personal goods and services
+95,1,2.154264397,Miscellaneous personal goods and services
+95,2,2.251217714,Miscellaneous personal goods and services
+95,3,2.325475631,Miscellaneous personal goods and services
+95,4,2.934417925,Miscellaneous personal goods and services
+95,5,2.356941773,Miscellaneous personal goods and services
+95,6,2.185825385,Miscellaneous personal goods and services
+95,7,2.277164683,Miscellaneous personal goods and services
+95,8,2.007775402,Miscellaneous personal goods and services
+95,9,2.124245825,Miscellaneous personal goods and services
+95,10,2.169642825,Miscellaneous personal goods and services
+96,1,2.275990048,Miscellaneous personal goods and services
+96,2,2.375076642,Miscellaneous personal goods and services
+96,3,2.314351186,Miscellaneous personal goods and services
+96,4,2.403142748,Miscellaneous personal goods and services
+96,5,2.252970715,Miscellaneous personal goods and services
+96,6,2.220366744,Miscellaneous personal goods and services
+96,7,2.273014463,Miscellaneous personal goods and services
+96,8,2.156305301,Miscellaneous personal goods and services
+96,9,2.092122489,Miscellaneous personal goods and services
+96,10,2.108371668,Miscellaneous personal goods and services
+87,1,7.95751978,Durable
+87,2,10.65555065,Durable
+87,3,11.56179699,Durable
+87,4,14.00375201,Durable
+87,5,16.64994792,Durable
+87,6,15.02189081,Durable
+87,7,17.37048578,Durable
+87,8,17.32346453,Durable
+87,9,25.81138623,Durable
+87,10,34.24893885,Durable
+88,1,9.311749544,Durable
+88,2,4.784371561,Durable
+88,3,13.01332143,Durable
+88,4,14.06264897,Durable
+88,5,19.42419564,Durable
+88,6,18.69001165,Durable
+88,7,17.26501882,Durable
+88,8,17.35985816,Durable
+88,9,17.87628023,Durable
+88,10,23.05608361,Durable
+89,1,8.207409616,Durable
+89,2,9.799451367,Durable
+89,3,-7.67732113,Durable
+89,4,15.39772072,Durable
+89,5,-4.116325528,Durable
+89,6,16.30362664,Durable
+89,7,17.09348996,Durable
+89,8,19.46567557,Durable
+89,9,20.72922839,Durable
+89,10,24.82700477,Durable
+90,1,6.749093879,Durable
+90,2,9.584335121,Durable
+90,3,6.945832244,Durable
+90,4,10.05702116,Durable
+90,5,13.37189601,Durable
+90,6,15.92828027,Durable
+90,7,15.86813911,Durable
+90,8,17.10402983,Durable
+90,9,19.14647409,Durable
+90,10,20.97058957,Durable
+91,1,9.365499954,Durable
+91,2,10.53939602,Durable
+91,3,10.47086617,Durable
+91,4,12.4726141,Durable
+91,5,14.21487298,Durable
+91,6,36.97246858,Durable
+91,7,18.52820502,Durable
+91,8,18.9838621,Durable
+91,9,16.9388885,Durable
+91,10,18.4766881,Durable
+92,1,9.16783888,Durable
+92,2,16.96275921,Durable
+92,3,13.13447082,Durable
+92,4,15.26370147,Durable
+92,5,14.65029161,Durable
+92,6,14.19953967,Durable
+92,7,20.47683809,Durable
+92,8,15.19018284,Durable
+92,9,18.09240231,Durable
+92,10,16.23210707,Durable
+93,1,7.799033272,Durable
+93,2,9.03961309,Durable
+93,3,-61.30895165,Durable
+93,4,19.43579835,Durable
+93,5,14.75019357,Durable
+93,6,17.82828459,Durable
+93,7,15.88705382,Durable
+93,8,20.64926197,Durable
+93,9,18.43183586,Durable
+93,10,26.99732759,Durable
+94,1,10.29280227,Durable
+94,2,10.96994127,Durable
+94,3,18.39045716,Durable
+94,4,14.84299883,Durable
+94,5,18.03414782,Durable
+94,6,16.13394743,Durable
+94,7,17.35236331,Durable
+94,8,16.17780889,Durable
+94,9,19.27630564,Durable
+94,10,22.70032508,Durable
+95,1,9.677787674,Durable
+95,2,13.75425057,Durable
+95,3,14.41550807,Durable
+95,4,5.253900021,Durable
+95,5,14.65569551,Durable
+95,6,16.65510107,Durable
+95,7,15.70390587,Durable
+95,8,19.82806901,Durable
+95,9,19.57742409,Durable
+95,10,21.11423705,Durable
+96,1,9.601353847,Durable
+96,2,12.04954937,Durable
+96,3,15.35315464,Durable
+96,4,14.25558631,Durable
+96,5,16.38069319,Durable
+96,6,17.83108048,Durable
+96,7,17.76593248,Durable
+96,8,19.97729923,Durable
+96,9,20.68855479,Durable
+96,10,24.88999719,Durable

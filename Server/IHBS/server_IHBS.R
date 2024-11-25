@@ -259,6 +259,49 @@ server_IHBS <- function(input, output){
     
   })  
   
+
   
+  #---- ExpSeries
+  output$IHBS_ExpSeries <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_ExpSeries_data(df_IHBS_ExpSeries,  input$IHBS_ExpSeries_Year , input$IHBS_ExpSeries_Category1,  input$IHBS_ExpSeries_Category2)
+    p <- ggplot(data, aes(x = value1 , y=value2 ,color=as.factor(Dcil_Gen_Cons_Nominal))) +
+      geom_point(size=3)+
+      scale_color_manual(values = c("1" = "red", "2" = "blue", "3" = "green", "4"="yellow",
+                                    "5"="black","6"="orange","7"="pink","8"="purple","9"="brown","10"="grey"))+ 
+    
+
+      labs(title = "Household Expenditure divided by subgroup",
+           x = "Value of Category1 (10000 Rials per month)",
+          y = "Value of Category2 (10000 Rials per month)",
+          color="Decile") +
+
+       theme_minimal()
+
+    
+    ggplotly(p)
+    
+  })  
+  
+  # Expenditure Share trend by each decile and subgroup ----
+  output$IHBS_ExpShareRDecSeries <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_ExpShareRDecSeries_data(df_IHBS_ExpShareRDecSeries,  input$IHBS_ExpShareRDecSeries_Decile ,input$IHBS_ExpShareRDecSeries_Variable)
+    p <- ggplot(data, aes(x = Year , y=value ,fill=Year)) +
+      geom_bar(stat = "identity", position = "dodge") +
+      scale_x_continuous(breaks = seq(87, 96, by = 1))  +
+      
+      labs(title = "Expenditure Share trend",
+           x = "Year",
+           y = "Expenditure Share") +
+      theme_minimal()
+    
+    
+    ggplotly(p)
+    
+  })  
+  
+  
+      
   
 }
