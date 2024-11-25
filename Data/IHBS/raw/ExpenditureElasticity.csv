@@ -1,9 +1,3 @@
-GEO,UOM,Time,Category,value
-Iran,Expenditure Elasticity,1387-1396,Meat,1.466115408
-Iran,Expenditure Elasticity,1387-1396,Fish,1.381005377
-Iran,Expenditure Elasticity,1387-1396,Yogurt,0.785296303
-Iran,Expenditure Elasticity,1387-1396,Fruit,1.033898191
-Iran,Expenditure Elasticity,1387-1396,Chicken,0.873847945
-Iran,Expenditure Elasticity,1387-1396,Bread,0.381711504
-Iran,Expenditure Elasticity,1387-1396,Milk,0.88714414
-Iran,Expenditure Elasticity,1387-1396,Rice,1.111510519
+version https://git-lfs.github.com/spec/v1
+oid sha256:8dd50b7c51777be749c3258e58a58678fe069505f512ba8de61cc4cfb1780bcd
+size 483
