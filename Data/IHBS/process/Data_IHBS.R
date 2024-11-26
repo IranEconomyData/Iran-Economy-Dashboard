@@ -147,7 +147,7 @@ data2$value2 <- data2$value2/10000
 
 
 library(dplyr)
-df_IHBS_ExpSeries <- left_join(data1,data2,by=c("Year","HHID"))
+df_IHBS_ExpSeries <- left_join(data1,data2,by=c("Year","HHID"), relationship = "many-to-many")
 
 
 IHBS_ExpSeries_data <- function(df, year,category1,category2) {
@@ -161,37 +161,50 @@ IHBS_ExpSeries_data <- function(df, year,category1,category2) {
 
 
 # Expenditure Share trend by each decile and subgroup ----
-df_IHBS_ExpShareRDecSeries <- read.csv(here("Data/IHBS/raw/ExpShareRDecSeries.csv"))
+
+df_IHBS_ExpShareRDecSeries <-  read.csv(here("Data/IHBS/raw/ExpShareRDecSeries.csv"))
 
 IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
-  
   df |>
     filter(Decile == decile,
            Variable == variable)
 }
 
 # IHBS_DecileDistinciton
-df_IHBS_DecileDistinction <- read.csv(here("Data/IHBS/raw/ExpSeries2.csv"))
 
-data1 <- df_IHBS_DecileDistinction %>%
-  pivot_longer(cols = ends_with("_Exp.x"), names_to = "Category1", values_to = "value1")
-data1 <- data1[,c("HHID","Dcil_Gen_Cons_Nominal","Category1","value1","Year")]
-data1$Category1 <- substr(data1$Category1, 1, (nchar(data1$Category1)-6))
+ 
+  
+  df <-  read.csv(here("Data/IHBS/raw/ExpSeries2.csv"))
+  data1 <- df %>%
+    pivot_longer(cols = ends_with("_Exp.x"), names_to = "Category1", values_to = "value1")
+  data1 <- data1[,c("HHID","Dcil_Gen_Cons_Nominal","Category1","value1","Year")]
+  data1$Category1 <- substr(data1$Category1, 1, (nchar(data1$Category1)-6))
+  
+  data2 <- data1 |>
+    group_by(HHID, Year) |>
+    summarise(
+      value1 = sum(value1)/10000,
+      Category1 = "Total Expenditure",
+      Dcil_Gen_Cons_Nominal = mean(Dcil_Gen_Cons_Nominal),
+      .groups = "drop"
+    ) |>
+    select (HHID, Dcil_Gen_Cons_Nominal, Category1, value1, Year)
+  
+  df_IHBS_DecileDistinction <- rbind(data1, data2) |>
+    filter(Category1 %in% c("FoodBeverage",
+                            "HouseEnergy",
+                            "Healthcare",
+                            "Education",
+                            "Investment",
+                            "Total Expenditure"))
 
-data2 <- data1 |>
-  group_by(HHID, Year) |>
-  summarise(
-    value1 = sum(value1),
-    Category1 = "Total Expenditure",
-    Dcil_Gen_Cons_Nominal = mean(Dcil_Gen_Cons_Nominal)
-  ) |>
-  select (HHID, Dcil_Gen_Cons_Nominal, Category1, value1, Year)
 
-data <- rbind(data1, data2)
+
 
 IHBS_DecileDistinction_data <- function(df, year , variable) {
   
+    
   df |>
     filter(Year == year,
-           Category1 == Category1)
+           Category1 == variable)
 }

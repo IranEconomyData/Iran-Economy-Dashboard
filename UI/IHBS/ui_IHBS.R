@@ -233,7 +233,7 @@ ui_IHBS_DecileDistinction <- function(df){
                  selectInput("IHBS_DecileDistinction_year", "Year", choices = unique(df$Year))
           ),
           column(4,
-                 selectInput("IHBS_DecileDistinction_Category", "Category", choices = unique(df$Category1))
+                 selectInput("IHBS_DecileDistinction_Category", "Category", choices = unique(df$Category1), selected = "Total Expenditure")
           )
         )
     )
