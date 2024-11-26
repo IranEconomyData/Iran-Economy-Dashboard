@@ -176,6 +176,7 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
   
   df <-  read.csv(here("Data/IHBS/raw/ExpSeries2.csv"))
   data1 <- df %>%
+    filter (Year == 96) %>%
     pivot_longer(cols = ends_with("_Exp.x"), names_to = "Category1", values_to = "value1")
   data1 <- data1[,c("HHID","Dcil_Gen_Cons_Nominal","Category1","value1","Year")]
   data1$Category1 <- substr(data1$Category1, 1, (nchar(data1$Category1)-6))
