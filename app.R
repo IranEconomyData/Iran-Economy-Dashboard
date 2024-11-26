@@ -68,6 +68,8 @@ ui <- fluidPage(
              ui_IHBS_priceelastisitynew(df_IHBS_PriceElastisityNew),
              ui_IHBS_expseries(df_IHBS_ExpSeries),
              ui_IHBS_expsharerdecseries(df_IHBS_ExpShareRDecSeries),
+             ui_IHBS_DecileDistinction(df_IHBS_DecileDistinction),
+             
              
              
              ui_IHBS_blank(),

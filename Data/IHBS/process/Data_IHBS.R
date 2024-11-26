@@ -170,5 +170,28 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
            Variable == variable)
 }
 
+# IHBS_DecileDistinciton
+df_IHBS_DecileDistinction <- read.csv(here("Data/IHBS/raw/ExpSeries2.csv"))
 
+data1 <- df_IHBS_DecileDistinction %>%
+  pivot_longer(cols = ends_with("_Exp.x"), names_to = "Category1", values_to = "value1")
+data1 <- data1[,c("HHID","Dcil_Gen_Cons_Nominal","Category1","value1","Year")]
+data1$Category1 <- substr(data1$Category1, 1, (nchar(data1$Category1)-6))
 
+data2 <- data1 |>
+  group_by(HHID, Year) |>
+  summarise(
+    value1 = sum(value1),
+    Category1 = "Total Expenditure",
+    Dcil_Gen_Cons_Nominal = mean(Dcil_Gen_Cons_Nominal)
+  ) |>
+  select (HHID, Dcil_Gen_Cons_Nominal, Category1, value1, Year)
+
+data <- rbind(data1, data2)
+
+IHBS_DecileDistinction_data <- function(df, year , variable) {
+  
+  df |>
+    filter(Year == year,
+           Category1 == Category1)
+}
