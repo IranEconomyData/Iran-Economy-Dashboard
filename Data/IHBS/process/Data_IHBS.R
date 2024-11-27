@@ -192,11 +192,12 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
     select (HHID, Dcil_Gen_Cons_Nominal, Category1, value1, Year)
   
   df_IHBS_DecileDistinction <- rbind(data1, data2) |>
-    filter(Category1 %in% c("FoodBeverage",
-                            "HouseEnergy",
-                            "Healthcare",
-                            "Education",
-                            "Investment",
+    filter(Category1 %in% c(
+                            # "FoodBeverage",
+                            # "HouseEnergy",
+                            # "Healthcare",
+                            # "Education",
+                            # "Investment",
                             "Total Expenditure"))
 
 
