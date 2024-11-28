@@ -198,7 +198,8 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
                             # "Healthcare",
                             # "Education",
                             # "Investment",
-                            "Total Expenditure"))
+                            "Total Expenditure"))|>
+    rename(Decile = Dcil_Gen_Cons_Nominal)
 
 
 write.csv(df_IHBS_DecileDistinction, here("Data/IHBS/raw/DecileDistinction.csv"))
