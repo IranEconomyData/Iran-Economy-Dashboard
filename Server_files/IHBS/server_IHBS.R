@@ -34,8 +34,6 @@ server_IHBS <- function(input, output){
   })  
   
   
-  
-  
   #----
   output$IHBS_ExpInc_series <- renderPlotly({
     # Get the filtered data
@@ -262,27 +260,27 @@ server_IHBS <- function(input, output){
 
   
   #---- ExpSeries
-  # output$IHBS_ExpSeries <- renderPlotly({
-  #   # Get the filtered data
-  #   data <- IHBS_ExpSeries_data(df_IHBS_ExpSeries,  input$IHBS_ExpSeries_Year , input$IHBS_ExpSeries_Category1,  input$IHBS_ExpSeries_Category2)
-  # 
-  #   p <- ggplot(data, aes(x = value1 , y=value2 ,color=as.factor(Dcil_Gen_Cons_Nominal))) +
-  #     geom_point(size=0.5, alpha = 0.4)+
-  #     scale_color_manual(values = c("1" = "red", "2" = "blue", "3" = "green", "4"="yellow",
-  #                                   "5"="black","6"="orange","7"="pink","8"="purple","9"="brown","10"="grey"))+
-  # 
-  # 
-  #     labs(title = "Household Expenditure divided by subgroup",
-  #          x = "Value of Category1 (10000 Rials per month)",
-  #         y = "Value of Category2 (10000 Rials per month)",
-  #         color="Decile") +
-  # 
-  #      theme_minimal()
-  # 
-  # 
-  #   ggplotly(p)
-  # 
-  # })
+  output$IHBS_ExpSeries <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_ExpSeries_data(df_IHBS_ExpSeries,  input$IHBS_ExpSeries_Year , input$IHBS_ExpSeries_Category1,  input$IHBS_ExpSeries_Category2)
+
+    p <- ggplot(data, aes(x = value1 , y=value2 ,color=as.factor(Dcil_Gen_Cons_Nominal))) +
+      geom_point(size=0.5, alpha = 0.4)+
+      scale_color_manual(values = c("1" = "red", "2" = "blue", "3" = "green", "4"="yellow",
+                                    "5"="black","6"="orange","7"="pink","8"="purple","9"="brown","10"="grey"))+
+
+
+      labs(title = "Household Expenditure divided by subgroup",
+           x = "Value of Category1 (10000 Rials per month)",
+          y = "Value of Category2 (10000 Rials per month)",
+          color="Decile") +
+
+       theme_minimal()
+
+
+    ggplotly(p)
+
+  })
 
   # Expenditure Share trend by each decile and subgroup ----
   output$IHBS_ExpShareRDecSeries <- renderPlotly({
@@ -303,24 +301,24 @@ server_IHBS <- function(input, output){
   })  
   
   #DecileDistinction---- 
-  # output$IHBS_DecileDistinction <- renderPlotly({
-  #   # Get the filtered data
-  #   data <- IHBS_DecileDistinction_data(df_IHBS_DecileDistinction,  input$IHBS_DecileDistinction_year , input$IHBS_DecileDistinction_Category)
-  #   
-  #   p <- ggplot(data, aes(x = as.factor(Dcil_Gen_Cons_Nominal), y = value1, color = as.factor(Dcil_Gen_Cons_Nominal))) +
-  #     geom_jitter(size = 0.1, width = 0.4) +
-  #     labs(title = "Household Expenditure divided by subgroup",
-  #          x = "Decile",
-  #          y = "Value of Category2 (10000 Rials per month)",
-  #          color = "Decile") +
-  #     
-  #     theme_minimal()+
-  #     ylim(0, 20000)
-  #   
-  #   
-  #   ggplotly(p)
-  #   
-  # })  
+  output$IHBS_DecileDistinction <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_DecileDistinction_data(df_IHBS_DecileDistinction,  input$IHBS_DecileDistinction_year , input$IHBS_DecileDistinction_Category)
+
+    p <- ggplot(data, aes(x = as.factor(Dcil_Gen_Cons_Nominal), y = value1, color = as.factor(Dcil_Gen_Cons_Nominal))) +
+      geom_jitter(size = 0.1, width = 0.4) +
+      labs(title = "Household Expenditure divided by subgroup",
+           x = "Decile",
+           y = "Value of Category2 (10000 Rials per month)",
+           color = "Decile") +
+
+      theme_minimal()+
+      ylim(0, 20000)
+
+
+    ggplotly(p)
+
+  })
   
       
   

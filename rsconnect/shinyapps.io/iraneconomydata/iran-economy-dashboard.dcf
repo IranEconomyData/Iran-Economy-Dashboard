@@ -5,9 +5,9 @@ account: iraneconomydata
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13468645
-bundleId: 9428171
+bundleId: 9428452
 url: https://iraneconomydata.shinyapps.io/iran-economy-dashboard/
 version: 1
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: README.md|IHBS
+ignoredFiles: .RData|data.R|README.md|Data|IHBS

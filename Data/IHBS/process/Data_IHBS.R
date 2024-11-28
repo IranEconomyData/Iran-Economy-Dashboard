@@ -141,7 +141,7 @@ data2 <- data2[,c("HHID","Category2","value2","Year")]
 data2$Category2 <- substr(data2$Category2, 1, (nchar(data2$Category2)-6))
 
 
-## Expenditure reported 10000 Rls per month 
+## Expenditure reported 10000 Rls per month
 data1$value1 <- data1$value1/10000
 data2$value2 <- data2$value2/10000
 
@@ -151,7 +151,7 @@ df_IHBS_ExpSeries <- left_join(data1,data2,by=c("Year","HHID"), relationship = "
 
 
 IHBS_ExpSeries_data <- function(df, year,category1,category2) {
-  
+
   df |>
     filter(Year == year,
            Category1 == category1,
@@ -173,14 +173,14 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
 # IHBS_DecileDistinciton
 
  
-  
+  # Temporary
   df <-  read.csv(here("Data/IHBS/raw/ExpSeries2.csv"))
   data1 <- df %>%
     filter (Year == 96) %>%
     pivot_longer(cols = ends_with("_Exp.x"), names_to = "Category1", values_to = "value1")
   data1 <- data1[,c("HHID","Dcil_Gen_Cons_Nominal","Category1","value1","Year")]
   data1$Category1 <- substr(data1$Category1, 1, (nchar(data1$Category1)-6))
-  
+
   data2 <- data1 |>
     group_by(HHID, Year) |>
     summarise(
@@ -190,7 +190,7 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
       .groups = "drop"
     ) |>
     select (HHID, Dcil_Gen_Cons_Nominal, Category1, value1, Year)
-  
+
   df_IHBS_DecileDistinction <- rbind(data1, data2) |>
     filter(Category1 %in% c(
                             # "FoodBeverage",
@@ -201,7 +201,7 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
                             "Total Expenditure"))
 
 
-
+write.csv(df_IHBS_DecileDistinction, here("Data/IHBS/raw/DecileDistinction.csv"))
 
 IHBS_DecileDistinction_data <- function(df, year , variable) {
   
