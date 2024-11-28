@@ -12,6 +12,8 @@ library(rnaturalearthdata)
 source(here("UI_files/IHBS/ui_IHBS.R"))
 source(here("Server_files/IHBS/server_IHBS.R"))
 source(here("Data/IHBS/process/Data_IHBS.R"))
+source(here("Data/IHBS/process/DecileDistinction.R"))
+
 source(here("Data/Iran_map.R"))
 
 # Credentials----

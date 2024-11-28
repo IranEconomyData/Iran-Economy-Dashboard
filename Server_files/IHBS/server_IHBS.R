@@ -305,7 +305,7 @@ server_IHBS <- function(input, output){
     # Get the filtered data
     data <- IHBS_DecileDistinction_data(df_IHBS_DecileDistinction,  input$IHBS_DecileDistinction_year , input$IHBS_DecileDistinction_Category)
 
-    p <- ggplot(data, aes(x = as.factor(Dcil_Gen_Cons_Nominal), y = value1, color = as.factor(Dcil_Gen_Cons_Nominal))) +
+    p <- ggplot(data, aes(x = as.factor(Decile), y = value1, color = as.factor(Decile))) +
       geom_jitter(size = 0.1, width = 0.4) +
       labs(title = "Household Expenditure divided by subgroup",
            x = "Decile",
