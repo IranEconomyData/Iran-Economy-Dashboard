@@ -300,25 +300,25 @@ server_IHBS <- function(input, output){
     
   })  
   
-  #DecileDistinction---- 
-  output$IHBS_DecileDistinction <- renderPlotly({
-    # Get the filtered data
-    data <- IHBS_DecileDistinction_data(df_IHBS_DecileDistinction,  input$IHBS_DecileDistinction_year , input$IHBS_DecileDistinction_Category)
-
-    p <- ggplot(data, aes(x = as.factor(Decile), y = value1, color = as.factor(Decile))) +
-      geom_jitter(size = 0.1, width = 0.4) +
-      labs(title = "Household Expenditure divided by subgroup",
-           x = "Decile",
-           y = "Value of Category2 (10000 Rials per month)",
-           color = "Decile") +
-
-      theme_minimal()+
-      ylim(0, 20000)
-
-
-    ggplotly(p)
-
-  })
+  # #DecileDistinction---- 
+  # output$IHBS_DecileDistinction <- renderPlotly({
+  #   # Get the filtered data
+  #   data <- IHBS_DecileDistinction_data(df_IHBS_DecileDistinction,  input$IHBS_DecileDistinction_year)
+  # 
+  #   p <- ggplot(data, aes(x = as.factor(Decile), y = value1, color = as.factor(Decile))) +
+  #     geom_jitter(size = 0.1, width = 0.4) +
+  #     labs(title = "Household Expenditure divided by subgroup",
+  #          x = "Decile",
+  #          y = "Value of Category2 (10000 Rials per month)",
+  #          color = "Decile") +
+  # 
+  #     theme_minimal()+
+  #     ylim(0, 20000)
+  # 
+  # 
+  #   ggplotly(p)
+  # 
+  # })
   
       
   

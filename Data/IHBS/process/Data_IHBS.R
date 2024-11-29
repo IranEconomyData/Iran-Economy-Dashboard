@@ -149,13 +149,13 @@ IHBS_ExpShareRDecSeries_data <- function(df, decile,variable) {
 }
 
 # IHBS_DecileDistinciton
-
-df_IHBS_DecileDistinction <-  read.csv(here("Data/IHBS/raw/DecileDistinction.csv"))
-
-IHBS_DecileDistinction_data <- function(df, year , variable) {
-  
-    
-  df |>
-    filter(Year == year,
-           Category1 == variable)
-}
+# 
+# df_IHBS_DecileDistinction <-  read.csv(here("Data/IHBS/raw/DecileDistinction.csv"))
+# df_IHBS_DecileDistinction <- df_IHBS_DecileDistinction |>
+#   select(Decile, value1, Year)
+# 
+# IHBS_DecileDistinction_data <- function(df, year , variable) {
+#   
+#   df |>
+#     filter(Year == year)
+# }
