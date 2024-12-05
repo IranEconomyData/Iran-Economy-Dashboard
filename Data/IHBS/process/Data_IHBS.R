@@ -210,3 +210,10 @@ IHBS_DecileDistinction_data <- function(df, year , variable) {
     filter(Year == year,
            Category1 == variable)
 }
+
+
+
+
+
+
+
