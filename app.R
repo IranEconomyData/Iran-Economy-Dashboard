@@ -71,6 +71,7 @@ ui <- fluidPage(
              # ui_IHBS_expseries(df_IHBS_ExpSeries),
              ui_IHBS_expsharerdecseries(df_IHBS_ExpShareRDecSeries),
              # ui_IHBS_DecileDistinction(df_IHBS_DecileDistinction),
+             ui_IHBS_realexpincprov(df_IHBS_RealExpIncProv),
              
              
              
@@ -109,5 +110,5 @@ server <- function(input, output, session) {
 }
 
 # Run the application
-shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
-# shinyApp(ui = ui, server = server)
+#shinyApp(ui = fluidPage(uiOutput("ui")), server = server)
+shinyApp(ui = ui, server = server)

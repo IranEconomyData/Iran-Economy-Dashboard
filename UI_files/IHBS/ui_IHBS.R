@@ -241,6 +241,25 @@ ui_IHBS_expsharerdecseries <- function(df){
 
 
 
+ui_IHBS_realexpincprov <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 16"),
+        plotlyOutput("IHBS_RealExpIncProv", width = "1600px", height = "700px"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_RealExpIncProv_year", "year", choices = unique(df$Year), selected = 96)
+          ),
+          column(4,
+                 selectInput("IHBS_RealExpIncProv_Type", "Type", choices = unique(df$Type))
+          )
+        )
+    )
+  )}
+
+
+
+
 
 
 ui_IHBS_blank <- function(df){

@@ -320,6 +320,55 @@ server_IHBS <- function(input, output){
   # 
   # })
   
+  
+  #----
+  output$IHBS_RealExpIncProv  <- renderPlotly({
+    # Get the filtered data
+    data <- iran_map |> select(geometry, Province) %>%
+      left_join(IHBS_RealExpIncProv_data(df_IHBS_RealExpIncProv, input$IHBS_RealExpIncProv_year, input$IHBS_RealExpIncProv_Type) |> select (Province, Value),
+                by = "Province")
+    centroids <- st_centroid(iran_map)
+    
+    p <- ggplot() +
+      geom_sf(data = world, fill = "lightblue", color = NA) + # background for ocean
+      # Plot surrounding countries
+      geom_sf(data = world, fill = "grey80", color = "white") +
+      # Plot water bodies
+      geom_sf(data = water, fill = "lightblue", color = "lightblue") +
+      # Plot Iran provinces with sample data
+      geom_sf(data = data, aes(fill = Value)) + 
+      scale_fill_gradient(low = "lightgreen", high = "darkgreen") + 
+      # Add country names at centroids
+      geom_text(data = neighboring_countries_centroids, 
+                aes(x = st_coordinates(geometry)[,1], y = st_coordinates(geometry)[,2], 
+                    label = admin), color = "darkblue", size = 3) +
+      geom_text(data = centroids, 
+                aes(x = st_coordinates(geometry)[,1], 
+                    y = st_coordinates(geometry)[,2], 
+                    label = Province), 
+                size = 2, color = "darkred")+
+      #scale_fill_viridis_c(option = "C", name = "Value") +
+      labs(
+        title = "Sample Values by Province",
+        caption = "Source: Sample Data"
+      ) +
+      theme_minimal() +
+      theme(
+        panel.background = element_rect(fill = "lightblue", color = NA),  # Ocean background
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank()
+      )+
+      coord_sf(xlim = c(42, 64), ylim = c(25, 40)) # Adjust xlim and ylim as needed
+    
+    
+    # Convert to interactive plotly plot
+    ggplotly(p)
+    
+    
+    
+  })
+  
       
   
 }
