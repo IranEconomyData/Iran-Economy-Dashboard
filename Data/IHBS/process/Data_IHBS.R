@@ -230,3 +230,15 @@ IHBS_RealExpIncProv_data <- function(df, year,type) {
     filter(Year == year,
            Type == type)
 }
+
+
+
+# Real Exp Income per decile----
+df_IHBS_RealExpIncDec <- read.csv(here("Data/IHBS/raw/RealExpIncDecSeries.csv"))
+
+IHBS_RealExpIncDec_data <- function(df, year, type) {
+  df |>
+    filter(Year == year,
+           Type == type)
+}
+

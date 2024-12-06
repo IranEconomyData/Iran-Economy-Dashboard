@@ -245,6 +245,7 @@ ui_IHBS_realexpincprov <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
         h3("Chart for Header 16"),
+        h6("Data Source: RealExpIncProvSeries"),
         plotlyOutput("IHBS_RealExpIncProv", width = "1600px", height = "700px"),
         fluidRow(
           column(4,
@@ -257,6 +258,24 @@ ui_IHBS_realexpincprov <- function(df){
     )
   )}
 
+
+
+ui_IHBS_realexpincdec <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 17"),
+        h6("Data Source: RealExpIncDecSeries"),
+        plotlyOutput("IHBS_RealExpIncDec", width = "1600px", height = "700px"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_RealExpIncDec_Year", "Year", choices = unique(df$Year), selected = 96)
+          ),
+          column(4,
+                 selectInput("IHBS_RealExpIncDec_Type", "Type", choices = unique(df$Type))
+          )
+        )
+    )
+  )}
 
 
 

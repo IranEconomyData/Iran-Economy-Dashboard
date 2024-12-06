@@ -349,7 +349,7 @@ server_IHBS <- function(input, output){
                 size = 2, color = "darkred")+
       #scale_fill_viridis_c(option = "C", name = "Value") +
       labs(
-        title = "Sample Values by Province",
+        title = "Real Expenditure & Income per month per capita Unit: 1000 Tomans ",
         caption = "Source: Sample Data"
       ) +
       theme_minimal() +
@@ -369,6 +369,25 @@ server_IHBS <- function(input, output){
     
   })
   
+  #---- Real Exp Inc per decile
+  output$IHBS_RealExpIncDec <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_RealExpIncDec_data(df_IHBS_RealExpIncDec,  input$IHBS_RealExpIncDec_Year ,input$IHBS_RealExpIncDec_Type)
+    p <- ggplot(data, aes(x = Decile , y=Value , fill=Decile )) +
+      geom_bar(stat = "identity", position = "dodge") +
+      scale_x_continuous(breaks = seq(0, 10, by = 1)) +
+      #scale_y_continuous(breaks = seq(0, 10, by = 1)) +
       
+      labs(title = "Real Expenditure & Income per capita",
+           x = "Decile",
+           y = "Expenditure (Income) 1000 Tomans per month per capita") +
+      theme_minimal()+
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+    
+    
+    ggplotly(p)
+    
+  })  
+  
   
 }
