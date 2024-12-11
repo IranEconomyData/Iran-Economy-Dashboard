@@ -1,0 +1,12 @@
+name: Iran-Economy-Dashboard-V1
+title: Iran-Economy-Dashboard
+username: saberpv-eco
+account: saberpv-eco
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13574718
+bundleId:
+url: https://saberpv-eco.shinyapps.io/Iran-Economy-Dashboard-V1/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
