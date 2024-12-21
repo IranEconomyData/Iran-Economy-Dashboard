@@ -242,3 +242,25 @@ IHBS_RealExpIncDec_data <- function(df, year, type) {
            Type == type)
 }
 
+
+
+
+
+#Expenditure Share of each groups----
+df_IHBS_ExpShareProv <- read.csv(here("Data/IHBS/raw/ExpShareProvSeries.csv"))
+df_IHBS_ExpShareProv <- df_IHBS_ExpShareProv %>%
+  mutate(Province = recode(Province,
+                           "East Azarbaijan" = "East Azerbaijan",
+                           "West Azarbaijan" = "West Azerbaijan",
+                           "Esfahan" = "Isfahan",
+                           "Kohkiluyeh and Buyer Ahmad" = "Kohgiluyeh and Boyer-Ahmad",
+                           "Sistan and Baluchistan" = "Sistan and Baluchestan",
+                           "Chahar Mahaal and Bakhtiari" = "Chaharmahal and Bakhtiari"))
+
+
+IHBS_ExpShareProv_data <- function(df, year,variable) {
+  df |>
+    filter(Year == year,
+           Variable == variable)
+}
+

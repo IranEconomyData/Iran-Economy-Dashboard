@@ -281,6 +281,27 @@ ui_IHBS_realexpincdec <- function(df){
 
 
 
+
+ui_IHBS_expshareprov <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 18"),
+        h6("Data Source: ExpShareProvSeries"),
+        plotlyOutput("IHBS_ExpShareProv", width = "1600px", height = "700px"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_ExpShareProv_year", "year", choices = unique(df$Year), selected = 96)
+          ),
+          column(4,
+                 selectInput("IHBS_ExpShareProv_Variable", "Variable", choices = unique(df$Variable))
+          )
+        )
+    )
+  )}
+
+
+
+
 ui_IHBS_blank <- function(df){
   fluidRow(div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
                h3("Footer"))
