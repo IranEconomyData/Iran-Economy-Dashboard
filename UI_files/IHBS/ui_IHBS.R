@@ -302,6 +302,26 @@ ui_IHBS_expshareprov <- function(df){
 
 
 
+
+ui_IHBS_metadata  <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 19"),
+        plotlyOutput("IHBS_MetaData"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_MetaData_Year", "Year", choices = unique(df$Year))
+          )
+        )
+    )
+  )}
+
+
+
+
+
+
+
 ui_IHBS_blank <- function(df){
   fluidRow(div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
                h3("Footer"))

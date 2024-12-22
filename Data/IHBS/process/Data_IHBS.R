@@ -264,3 +264,18 @@ IHBS_ExpShareProv_data <- function(df, year,variable) {
            Variable == variable)
 }
 
+
+
+
+
+#=======
+
+df_IHBS_MetaData <-  read.csv(here("Data/IHBS/raw/MetaDataSeriesExp.csv"))
+
+
+IHBS_MetaData_data <- function(df, year) {
+
+  df |>
+    filter(Year == year)
+}
+#----

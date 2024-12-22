@@ -74,6 +74,7 @@ ui <- fluidPage(
              ui_IHBS_realexpincprov(df_IHBS_RealExpIncProv),
              ui_IHBS_realexpincdec(df_IHBS_RealExpIncDec),
              ui_IHBS_expshareprov(df_IHBS_ExpShareProv),
+             ui_IHBS_metadata(df_IHBS_MetaData),
              
              
              

@@ -439,4 +439,48 @@ server_IHBS <- function(input, output){
   
   
   
+  
+  
+  
+  #---- Real Exp Inc per decile
+  output$IHBS_RealExpIncDec <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_RealExpIncDec_data(df_IHBS_RealExpIncDec,  input$IHBS_RealExpIncDec_Year ,input$IHBS_RealExpIncDec_Type)
+    p <- ggplot(data, aes(x = Decile , y=Value , fill=Decile )) +
+      geom_bar(stat = "identity", position = "dodge") +
+      scale_x_continuous(breaks = seq(0, 10, by = 1)) +
+      #scale_y_continuous(breaks = seq(0, 10, by = 1)) +
+      
+      labs(title = "Real Expenditure & Income per capita",
+           x = "Decile",
+           y = "Expenditure (Income) 1000 Tomans per month per capita") +
+      theme_minimal()+
+      theme(axis.text.x = element_text(angle = 45, hjust = 1))
+    
+    
+    ggplotly(p)
+    
+  })  
+  
+
+  # Total Exp for each Household---- 
+  output$IHBS_MetaData <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_MetaData_data(df_IHBS_MetaData,input$IHBS_MetaData_Year)
+
+    p <- ggplot(data, aes(x = as.factor(Decile), y =Value, color = as.factor(Decile))) +
+      geom_jitter(size = 0.1, width = 0.4) +
+      labs(title = "Household Expenditure per Capita",
+           x = "Decile",
+           y = "Value (10000 Rials per month)",
+           color = "Decile")+
+      theme_minimal()+
+     ylim(-20000, 50000)
+
+
+    ggplotly(p)
+
+  })
+
+  
 }
