@@ -245,7 +245,7 @@ ui_IHBS_realexpincprov <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
         h3("Chart for Header 16"),
-        h6("Data Source: RealExpIncProvSeries"),
+        h6("Data Source: RealExpIncProvSeries.csv"),
         plotlyOutput("IHBS_RealExpIncProv", width = "1600px", height = "700px"),
         fluidRow(
           column(4,
@@ -264,7 +264,7 @@ ui_IHBS_realexpincdec <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
         h3("Chart for Header 17"),
-        h6("Data Source: RealExpIncDecSeries"),
+        h6("Data Source: RealExpIncDecSeries.csv"),
         plotlyOutput("IHBS_RealExpIncDec", width = "1600px", height = "700px"),
         fluidRow(
           column(4,
@@ -286,7 +286,7 @@ ui_IHBS_expshareprov <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
         h3("Chart for Header 18"),
-        h6("Data Source: ExpShareProvSeries"),
+        h6("Data Source: ExpShareProvSeries.csv"),
         plotlyOutput("IHBS_ExpShareProv", width = "1600px", height = "700px"),
         fluidRow(
           column(4,
@@ -307,6 +307,7 @@ ui_IHBS_metadata  <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
         h3("Chart for Header 19"),
+        h6("Data Source: MetaDataSeriesExp.csv"),
         plotlyOutput("IHBS_MetaData"),
         fluidRow(
           column(4,
@@ -323,6 +324,7 @@ ui_IHBS_metadatatotal  <- function(df){
   fluidRow(
     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
         h3("Chart for Header 20"),
+        h6("Data Source: MetaDataTotal.csv"),
         plotlyOutput("IHBS_MetaDataTotal"),
         fluidRow(
           column(4,
