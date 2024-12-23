@@ -319,6 +319,24 @@ ui_IHBS_metadata  <- function(df){
 
 
 
+ui_IHBS_metadatatotal  <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 20"),
+        plotlyOutput("IHBS_MetaDataTotal"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_MetaDataTotal_Year", "Year", choices = unique(df$Year))
+          ),
+          column(4,
+                 selectInput("IHBS_MetaDataTotal_Variable", "Variable", choices = unique(df$Variable))
+          )
+        )
+    )
+  )}
+
+
+
 
 
 
