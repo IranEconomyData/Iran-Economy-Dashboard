@@ -285,13 +285,13 @@ IHBS_MetaData_data <- function(df, year) {
 
 #=======
 
-df_IHBS_MetaDataTotal <-  read.csv(here("Data/IHBS/raw/MetaDataTotal.csv"))
-
-
-IHBS_MetaDataTotal_data <- function(df, year, variable) {
-  
-  df |>
-    filter(Year == year,
-           Variable == variable)
-}
+# df_IHBS_MetaDataTotal <-  read.csv(here("Data/IHBS/raw/MetaDataTotal.csv"))
+# 
+# 
+# IHBS_MetaDataTotal_data <- function(df, year, variable) {
+#   
+#   df |>
+#     filter(Year == year,
+#            Variable == variable)
+# }
 #----

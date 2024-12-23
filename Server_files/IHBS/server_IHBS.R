@@ -484,25 +484,25 @@ server_IHBS <- function(input, output){
 
   
   
-  # Total Exp for each Household---- 
-  output$IHBS_MetaDataTotal <- renderPlotly({
-    # Get the filtered data
-    data <- IHBS_MetaDataTotal_data(df_IHBS_MetaDataTotal,input$IHBS_MetaDataTotal_Year,input$IHBS_MetaDataTotal_Variable)
-    
-    p <- ggplot(data, aes(x = as.factor(Decile), y =Value, color = as.factor(Decile))) +
-      geom_jitter(size = 0.1, width = 0.4) +
-      labs(title = "Household Expenditure per Capita",
-           x = "Decile",
-           y = "Value (10000000 Rials per month)",
-           color = "Decile")+
-      theme_minimal()
-      #ylim(-20000, 50000)
-    
-    
-    ggplotly(p)
-    
-  })
-  
+  # # Total Exp for each Household---- 
+  # output$IHBS_MetaDataTotal <- renderPlotly({
+  #   # Get the filtered data
+  #   data <- IHBS_MetaDataTotal_data(df_IHBS_MetaDataTotal,input$IHBS_MetaDataTotal_Year,input$IHBS_MetaDataTotal_Variable)
+  #   
+  #   p <- ggplot(data, aes(x = as.factor(Decile), y =Value, color = as.factor(Decile))) +
+  #     geom_jitter(size = 0.1, width = 0.4) +
+  #     labs(title = "Household Expenditure per Capita",
+  #          x = "Decile",
+  #          y = "Value (10000000 Rials per month)",
+  #          color = "Decile")+
+  #     theme_minimal()
+  #     #ylim(-20000, 50000)
+  #   
+  #   
+  #   ggplotly(p)
+  #   
+  # })
+  # 
   
     
 }
