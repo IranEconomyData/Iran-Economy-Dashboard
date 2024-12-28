@@ -507,7 +507,7 @@ server_IHBS <- function(input, output){
   
   output$IHBS_TenureDec <- renderPlotly({
     # Get the filtered data
-    data <- IHBS_TenureDec_data(df_IHBS_TenureDec, input$IHBS_TenureDec_Year) %>%
+    data <- IHBS_TenureDec_data(df_IHBS_TenureDec, input$IHBS_TenureDec_Year, input$IHBS_TenureDec_Region) %>%
       group_by(Decile) %>%
       arrange(desc(Value)) %>%   # Sort by value in descending order within each Decile
       mutate(Tenure = factor(Tenure, levels = unique(Tenure))) %>% # Update factor levels

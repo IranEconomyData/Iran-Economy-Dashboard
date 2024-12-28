@@ -348,7 +348,11 @@ ui_IHBS_tenuredec  <- function(df){
         fluidRow(
           column(4,
                  selectInput("IHBS_TenureDec_Year", "Year", choices = unique(df$Year), selected = 1402)
+          ),
+          column(4,
+                 selectInput("IHBS_TenureDec_Region", "Region", choices = unique(df$Region))
           )
+          
         )
     )
   )}

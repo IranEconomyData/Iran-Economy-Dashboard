@@ -303,9 +303,10 @@ IHBS_MetaDataTotal_data <- function(df, year, variable) {
 df_IHBS_TenureDec <-  read.csv(here("Data/IHBS/raw/TenureDecSeries.csv"))
 
 
-IHBS_TenureDec_data <- function(df, year) {
+IHBS_TenureDec_data <- function(df, year,region) {
   
   df |>
-    filter(Year == year)
+    filter(Year == year,
+           Region == region)
 }
 #----
