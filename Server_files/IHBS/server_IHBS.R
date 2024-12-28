@@ -484,25 +484,50 @@ server_IHBS <- function(input, output){
 
   
   
-  # # Total Exp for each Household---- 
-  # output$IHBS_MetaDataTotal <- renderPlotly({
-  #   # Get the filtered data
-  #   data <- IHBS_MetaDataTotal_data(df_IHBS_MetaDataTotal,input$IHBS_MetaDataTotal_Year,input$IHBS_MetaDataTotal_Variable)
-  #   
-  #   p <- ggplot(data, aes(x = as.factor(Decile), y =Value, color = as.factor(Decile))) +
-  #     geom_jitter(size = 0.1, width = 0.4) +
-  #     labs(title = "Household Expenditure per Capita",
-  #          x = "Decile",
-  #          y = "Value (10000000 Rials per month)",
-  #          color = "Decile")+
-  #     theme_minimal()
-  #     #ylim(-20000, 50000)
-  #   
-  #   
-  #   ggplotly(p)
-  #   
-  # })
-  # 
+  # Total Exp for each Household----
+  output$IHBS_MetaDataTotal <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_MetaDataTotal_data(df_IHBS_MetaDataTotal,input$IHBS_MetaDataTotal_Year,input$IHBS_MetaDataTotal_Variable)
+
+    p <- ggplot(data, aes(x = as.factor(Decile), y =Value, color = as.factor(Decile))) +
+      geom_jitter(size = 0.1, width = 0.4) +
+      labs(title = "Household Expenditure per Capita",
+           x = "Decile",
+           y = "Value (10000000 Rials per month)",
+           color = "Decile")+
+      theme_minimal()
+      #ylim(-20000, 50000)
+
+
+    ggplotly(p)
+
+  })
+
+
+  
+  output$IHBS_TenureDec <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_TenureDec_data(df_IHBS_TenureDec, input$IHBS_TenureDec_Year) %>%
+      group_by(decile) %>%
+      arrange(desc(value)) %>%   # Sort by value in descending order within each Decile
+      mutate(variable = factor(variable, levels = unique(variable))) %>% # Update factor levels
+      ungroup()
+    
+    
+    plot_ly(data,
+            x = ~decile,
+            y = ~value,
+            color = ~variable,
+            type = 'bar',
+            hovertext = ~paste(variable, "=", round(value,1), "Grams"),
+            hoverinfo = "text") %>%
+      layout(title = "Food Consumption by Decile",
+             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$decile)),
+             yaxis = list(title = "Grams per month per capita", tickformat = ",", tickmode = "auto", nticks = 10), 
+             #barmode = 'stack',
+             legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
+      ) 
+  })
   
     
 }
