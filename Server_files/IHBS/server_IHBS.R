@@ -508,23 +508,23 @@ server_IHBS <- function(input, output){
   output$IHBS_TenureDec <- renderPlotly({
     # Get the filtered data
     data <- IHBS_TenureDec_data(df_IHBS_TenureDec, input$IHBS_TenureDec_Year) %>%
-      group_by(decile) %>%
-      arrange(desc(value)) %>%   # Sort by value in descending order within each Decile
-      mutate(variable = factor(variable, levels = unique(variable))) %>% # Update factor levels
+      group_by(Decile) %>%
+      arrange(desc(Value)) %>%   # Sort by value in descending order within each Decile
+      mutate(Tenure = factor(Tenure, levels = unique(Tenure))) %>% # Update factor levels
       ungroup()
     
     
     plot_ly(data,
-            x = ~decile,
-            y = ~value,
-            color = ~variable,
+            x = ~Decile,
+            y = ~Value,
+            color = ~Tenure,
             type = 'bar',
-            hovertext = ~paste(variable, "=", round(value,1), "Grams"),
+            hovertext = ~paste(Tenure, "=", round(Value,1), "%"),
             hoverinfo = "text") %>%
-      layout(title = "Food Consumption by Decile",
-             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$decile)),
-             yaxis = list(title = "Grams per month per capita", tickformat = ",", tickmode = "auto", nticks = 10), 
-             #barmode = 'stack',
+      layout(title = "Tenure Status",
+             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$Decile)),
+             yaxis = list(title = "Tenure Status", tickformat = ",", tickmode = "auto", nticks = 10), 
+             barmode = 'stack',
              legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
       ) 
   })

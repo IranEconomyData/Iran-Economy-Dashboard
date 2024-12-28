@@ -347,7 +347,7 @@ ui_IHBS_tenuredec  <- function(df){
         plotlyOutput("IHBS_TenureDec"),
         fluidRow(
           column(4,
-                 selectInput("IHBS_TenureDec_Year", "Year", choices = unique(df$Year))
+                 selectInput("IHBS_TenureDec_Year", "Year", choices = unique(df$Year), selected = 1402)
           )
         )
     )
