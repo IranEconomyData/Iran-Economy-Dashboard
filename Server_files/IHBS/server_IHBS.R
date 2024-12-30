@@ -529,5 +529,29 @@ server_IHBS <- function(input, output){
       ) 
   })
   
+  
+  output$IHBS_SizeDec <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_TenureDec_data(df_IHBS_SizeDec, input$IHBS_SizeDec_Year, input$IHBS_SizeDec_Region) %>%
+      group_by(Decile) %>%
+      arrange(desc(Value)) %>%   # Sort by value in descending order within each Decile
+      mutate(Size = factor(Size, levels = unique(Size)[order(Size)])) %>% # Update factor levels
+      ungroup()
     
+    
+    plot_ly(data,
+            x = ~Decile,
+            y = ~Value,
+            color = ~Size,
+            type = 'bar',
+            hovertext = ~paste(Size, "=", round(Value,0)),
+            hoverinfo = "text") %>%
+      layout(title = "Size Status",
+             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$Decile)),
+             yaxis = list(title = "Size Status", tickformat = ",", tickmode = "auto", nticks = 10), 
+             barmode = 'stack',
+             legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
+      ) 
+  })
+  
 }

@@ -310,3 +310,18 @@ IHBS_TenureDec_data <- function(df, year,region) {
            Region == region)
 }
 #----
+
+
+
+#=======
+
+df_IHBS_SizeDec <-  read.csv(here("Data/IHBS/raw/SizeDecSeries.csv"))
+
+
+IHBS_SizeDec_data <- function(df, year,region) {
+  
+  df |>
+    filter(Year == year,
+           Region == region)
+}
+#----

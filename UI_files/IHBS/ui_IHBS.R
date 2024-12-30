@@ -358,6 +358,24 @@ ui_IHBS_tenuredec  <- function(df){
   )}
 
 
+ui_IHBS_sizedec  <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 22"),
+        h6("Data Source: SizeDecSeries.csv"),
+        plotlyOutput("IHBS_SizeDec"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_SizeDec_Year", "Year", choices = unique(df$Year), selected = 1402)
+          ),
+          column(4,
+                 selectInput("IHBS_SizeDec_Region", "Region", choices = unique(df$Region))
+          )
+          
+        )
+    )
+  )}
+
 
 
 

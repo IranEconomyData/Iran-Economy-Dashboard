@@ -77,7 +77,7 @@ ui <- fluidPage(
              ui_IHBS_metadata(df_IHBS_MetaData),
              #ui_IHBS_metadatatotal(df_IHBS_MetaDataTotal),
              ui_IHBS_tenuredec(df_IHBS_TenureDec),
-             
+             ui_IHBS_sizedec(df_IHBS_SizeDec),
              
              
              ui_IHBS_blank(),
