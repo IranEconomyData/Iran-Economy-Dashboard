@@ -379,6 +379,29 @@ ui_IHBS_sizedec  <- function(df){
 
 
 
+ui_IHBS_heduprov  <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 23"),
+        h6("Data Source: HEduProvSeries.csv"),
+        plotlyOutput("IHBS_HEduProv"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_HEduProv_Year", "Year", choices = unique(df$Year), selected = 1402)
+          ),
+          column(4,
+                 selectInput("IHBS_HEduProv_Region", "Region", choices = unique(df$Region))
+          ),
+          column(4,
+                 selectInput("IHBS_HEduProv_Category", "Category", choices = unique(df$Category))
+          )
+          
+        )
+    )
+  )}
+
+
+
 
 
 ui_IHBS_blank <- function(df){

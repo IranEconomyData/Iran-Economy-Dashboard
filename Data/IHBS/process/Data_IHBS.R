@@ -325,3 +325,18 @@ IHBS_SizeDec_data <- function(df, year,region) {
            Region == region)
 }
 #----
+
+
+#=======
+
+df_IHBS_HEduProv <-  read.csv(here("Data/IHBS/raw/HEduProvSeries.csv"))
+
+
+IHBS_HEduProv_data <- function(df, year,region , category) {
+  
+  df |>
+    filter(Year == year,
+           Region == region,
+           Category== category)
+}
+#----
