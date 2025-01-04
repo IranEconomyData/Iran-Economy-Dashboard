@@ -331,6 +331,14 @@ IHBS_SizeDec_data <- function(df, year,region) {
 
 df_IHBS_HEduProv <-  read.csv(here("Data/IHBS/raw/HEduProvSeries.csv"))
 
+df_IHBS_HEduProv <- df_IHBS_HEduProv %>%
+  mutate(Province = recode(Province,
+                           "East Azarbaijan" = "East Azerbaijan",
+                           "West Azarbaijan" = "West Azerbaijan",
+                           "Esfahan" = "Isfahan",
+                           "Kohkiluyeh and Buyer Ahmad" = "Kohgiluyeh and Boyer-Ahmad",
+                           "Sistan and Baluchistan" = "Sistan and Baluchestan",
+                           "Chahar Mahaal and Bakhtiari" = "Chaharmahal and Bakhtiari"))
 
 IHBS_HEduProv_data <- function(df, year,region , category) {
   

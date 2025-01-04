@@ -390,10 +390,10 @@ ui_IHBS_heduprov  <- function(df){
                  selectInput("IHBS_HEduProv_Year", "Year", choices = unique(df$Year), selected = 1402)
           ),
           column(4,
-                 selectInput("IHBS_HEduProv_Region", "Region", choices = unique(df$Region))
+                 selectInput("IHBS_HEduProv_Region", "Region", choices = unique(df$Region), selected = "Urban")
           ),
           column(4,
-                 selectInput("IHBS_HEduProv_Category", "Category", choices = unique(df$Category))
+                 selectInput("IHBS_HEduProv_Category", "Category", choices = unique(df$Category),selected = "Illiterate")
           )
           
         )

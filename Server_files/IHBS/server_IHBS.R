@@ -585,15 +585,15 @@ server_IHBS <- function(input, output){
                 size = 2, color = "darkred")+
       #scale_fill_viridis_c(option = "C", name = "Value") +
       labs(
-        title = "Education Status % ") +
+        title = "Education Status of head % ") +
       theme_minimal() +
       theme(
         panel.background = element_rect(fill = "lightblue", color = NA),  # Ocean background
         axis.text = element_blank(),
         axis.ticks = element_blank(),
         panel.grid = element_blank()
-      )
-      #coord_sf(xlim = c(42, 64), ylim = c(25, 40)) # Adjust xlim and ylim as needed
+      )+
+      coord_sf(xlim = c(42, 64), ylim = c(25, 40)) # Adjust xlim and ylim as needed
     
     
     # Convert to interactive plotly plot
