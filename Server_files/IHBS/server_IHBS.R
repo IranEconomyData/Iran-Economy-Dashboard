@@ -607,6 +607,33 @@ server_IHBS <- function(input, output){
   
   
   
+  output$IHBS_HActivityState <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_HActivityState_data(df_IHBS_HActivityState, input$IHBS_HActivityState_Year, input$IHBS_HActivityState_Region) %>%
+      group_by(Decile) %>%
+      arrange(desc(Value)) %>%   # Sort by value in descending order within each Decile
+      mutate(Category = factor(Category, levels = unique(Category))) %>% # Update factor levels
+      ungroup()
+    
+    
+    plot_ly(data,
+            x = ~Decile,
+            y = ~Value,
+            color = ~Category,
+            type = 'bar',
+            hovertext = ~paste(Category, "=", round(Value,1), "%"),
+            hoverinfo = "text") %>%
+      layout(title = "Activity Status of Head's Household",
+             xaxis = list(title = "", tickmode = "array", tickvals = unique(data$Decile)),
+             yaxis = list(title = "Activity Status of Head", tickformat = ",", tickmode = "auto", nticks = 10), 
+             barmode = 'stack',
+             legend = list(orientation = "h", x = 0.5, y = -0.4, xanchor = "center")
+      ) 
+  })
+  
+  
+  
+  
   
   
 }

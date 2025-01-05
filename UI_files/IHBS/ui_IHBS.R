@@ -402,6 +402,24 @@ ui_IHBS_heduprov  <- function(df){
 
 
 
+ui_IHBS_hactivitystate  <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 24"),
+        h6("Data Source: HActivityStateSeries.csv"),
+        plotlyOutput("IHBS_HActivityState"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_HActivityState_Year", "Year", choices = unique(df$Year), selected = 1402)
+          ),
+          column(4,
+                 selectInput("IHBS_HActivityState_Region", "Region", choices = unique(df$Region), selected = "Urban")
+          )
+          
+        )
+    )
+  )}
+
 
 
 ui_IHBS_blank <- function(df){

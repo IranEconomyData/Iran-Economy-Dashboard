@@ -348,3 +348,18 @@ IHBS_HEduProv_data <- function(df, year,region , category) {
            Category== category)
 }
 #----
+
+
+
+#=======
+
+df_IHBS_HActivityState <-  read.csv(here("Data/IHBS/raw/HActivityStateSeries.csv"))
+
+
+IHBS_HActivityState_data <- function(df, year,region) {
+  
+  df |>
+    filter(Year == year,
+           Region == region)
+}
+#----
