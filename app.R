@@ -82,7 +82,7 @@ ui <- fluidPage(
             # ui_IHBS_hactivitystate(df_IHBS_HActivityState),
             #ui_IHBS_correlexpsharemeterprice(df_IHBS_CorrelExpShareMeterPrice),
             
-            
+          
              
              ui_IHBS_blank(),
              
