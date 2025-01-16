@@ -279,6 +279,18 @@ IHBS_MetaData_data <- function(df, year, type) {
     filter(Year == year,
            Type == type)
 }
+
+
+
+df_IHBS_MetaData2 <-  read.csv(here("Data/IHBS/raw/MetaData2SeriesExpInc.csv"))
+
+
+IHBS_MetaData2_data <- function(df, year, type) {
+  
+  df |>
+    filter(Year == year,
+           Type == type)
+}
 #----
 
 
@@ -369,14 +381,14 @@ IHBS_MetaData_data <- function(df, year, type) {
 # 
 # 
 # #=======
-# 
-# df_IHBS_CorrelExpShareMeterPrice <-  read.csv(here("Data/IHBS/raw/CorrelExpShareMeterPriceSeries.csv"))
-# 
-# 
-# IHBS_CorrelExpShareMeterPrice_data <- function(df, year,variable) {
-#   
-#   df |>
-#     filter(Year == year,
-#            Variable == variable)
-# }
+
+df_IHBS_CorrelExpShareMeterPrice <-  read.csv(here("Data/IHBS/raw/CorrelExpShareMeterPriceSeries.csv"))
+
+
+IHBS_CorrelExpShareMeterPrice_data <- function(df, year,variable) {
+
+  df |>
+    filter(Year == year,
+           Variable == variable)
+}
 #----

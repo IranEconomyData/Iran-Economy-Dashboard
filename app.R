@@ -2,6 +2,7 @@
 library(shiny)
 library(dplyr)
 library(ggplot2)
+library(patchwork)
 library(sf)
 library(purrr)
 library(plotly)
@@ -74,13 +75,15 @@ ui <- fluidPage(
              # ui_IHBS_realexpincprov(df_IHBS_RealExpIncProv),
              # ui_IHBS_realexpincdec(df_IHBS_RealExpIncDec),
              # ui_IHBS_expshareprov(df_IHBS_ExpShareProv),
-             ui_IHBS_metadata(df_IHBS_MetaData),
+             #ui_IHBS_metadata(df_IHBS_MetaData),
+             #ui_IHBS_metadata2(df_IHBS_MetaData2),
+             
              # #ui_IHBS_metadatatotal(df_IHBS_MetaDataTotal),
             #  ui_IHBS_tenuredec(df_IHBS_TenureDec),
             # ui_IHBS_sizedec(df_IHBS_SizeDec),
             # ui_IHBS_heduprov(df_IHBS_HEduProv),
             # ui_IHBS_hactivitystate(df_IHBS_HActivityState),
-            #ui_IHBS_correlexpsharemeterprice(df_IHBS_CorrelExpShareMeterPrice),
+            ui_IHBS_correlexpsharemeterprice(df_IHBS_CorrelExpShareMeterPrice),
             
           
              
