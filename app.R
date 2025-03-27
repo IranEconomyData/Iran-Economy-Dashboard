@@ -72,7 +72,7 @@ ui <- fluidPage(
              # # ui_IHBS_expseries(df_IHBS_ExpSeries),
              # ui_IHBS_expsharerdecseries(df_IHBS_ExpShareRDecSeries),
              # # ui_IHBS_DecileDistinction(df_IHBS_DecileDistinction),
-             # ui_IHBS_realexpincprov(df_IHBS_RealExpIncProv),
+              ui_IHBS_realexpincprov(df_IHBS_RealExpIncProv),
              # ui_IHBS_realexpincdec(df_IHBS_RealExpIncDec),
              # ui_IHBS_expshareprov(df_IHBS_ExpShareProv),
              #ui_IHBS_metadata(df_IHBS_MetaData),
@@ -83,7 +83,7 @@ ui <- fluidPage(
             # ui_IHBS_sizedec(df_IHBS_SizeDec),
             # ui_IHBS_heduprov(df_IHBS_HEduProv),
             # ui_IHBS_hactivitystate(df_IHBS_HActivityState),
-            ui_IHBS_correlexpsharemeterprice(df_IHBS_CorrelExpShareMeterPrice),
+            #ui_IHBS_correlexpsharemeterprice(df_IHBS_CorrelExpShareMeterPrice),
             
           
              

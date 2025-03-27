@@ -1,0 +1,12 @@
+name: Head-Education-Province
+title: Head-Education-Province
+username: saberpv-eco
+account: saberpv-eco
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13662680
+bundleId: 9605215
+url: https://saberpv-eco.shinyapps.io/Head-Education-Province/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

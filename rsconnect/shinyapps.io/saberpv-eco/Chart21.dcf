@@ -1,0 +1,12 @@
+name: Chart21
+title: Chart21
+username: saberpv-eco
+account: saberpv-eco
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13652622
+bundleId: 9635559
+url: https://saberpv-eco.shinyapps.io/Chart21/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

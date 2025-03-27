@@ -110,7 +110,7 @@
 #         )
 #     )
 #   )}
-# 
+
 # 
 # 
 # ui_IHBS_changefooditems <- function(df){
@@ -145,7 +145,7 @@
 #         )
 #     )
 #   )}
-# 
+
 # 
 # 
 # ui_IHBS_expenditureelasticity <- function(df){
@@ -241,24 +241,24 @@
 # 
 # 
 # 
-# ui_IHBS_realexpincprov <- function(df){
-#   fluidRow(
-#     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
-#         h3("Chart for Header 16"),
-#         h6("Data Source: RealExpIncProvSeries.csv"),
-#         plotlyOutput("IHBS_RealExpIncProv", width = "1600px", height = "700px"),
-#         fluidRow(
-#           column(4,
-#                  selectInput("IHBS_RealExpIncProv_year", "year", choices = unique(df$Year), selected = 96)
-#           ),
-#           column(4,
-#                  selectInput("IHBS_RealExpIncProv_Type", "Type", choices = unique(df$Type))
-#           )
-#         )
-#     )
-#   )}
-# 
-# 
+ui_IHBS_realexpincprov <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 16"),
+        h6("Data Source: RealExpIncProvSeries.csv"),
+        plotlyOutput("IHBS_RealExpIncProv", width = "1600px", height = "700px"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_RealExpIncProv_year", "year", choices = unique(df$Year), selected = 96)
+          ),
+          column(4,
+                 selectInput("IHBS_RealExpIncProv_Type", "Type", choices = unique(df$Type))
+          )
+        )
+    )
+  )}
+
+
 # 
 # ui_IHBS_realexpincdec <- function(df){
 #   fluidRow(
@@ -302,25 +302,25 @@
 # 
 
 
-# 
-# ui_IHBS_metadata  <- function(df){
-#   fluidRow(
-#     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
-#         h3("Chart for Header 19"),
-#         h6("Data Source: MetaDataSeriesExpInc.csv"),
-#         plotlyOutput("IHBS_MetaData"),
-#         fluidRow(
-#           column(4,
-#                  selectInput("IHBS_MetaData_Year", "Year", choices = unique(df$Year))
-#           ),
-#           column(4,
-#                  selectInput("IHBS_MetaData_Type", "Type", choices = unique(df$Type))
-#           )
-#         )
-#     )
-#   )}
-# 
-# 
+
+ui_IHBS_metadata  <- function(df){
+  fluidRow(
+    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+        h3("Chart for Header 19"),
+        h6("Data Source: MetaDataSeriesExpInc.csv"),
+        plotlyOutput("IHBS_MetaData"),
+        fluidRow(
+          column(4,
+                 selectInput("IHBS_MetaData_Year", "Year", choices = unique(df$Year))
+          ),
+          column(4,
+                 selectInput("IHBS_MetaData_Type", "Type", choices = unique(df$Type))
+          )
+        )
+    )
+  )}
+
+
 # 
 # ui_IHBS_metadata2  <- function(df){
 #   fluidRow(
@@ -338,7 +338,7 @@
 #         )
 #     )
 #   )}
-
+# 
 
 # # 
 # ui_IHBS_metadatatotal  <- function(df){
@@ -444,24 +444,24 @@
 # 
 # 
 
-ui_IHBS_correlexpsharemeterprice  <- function(df){
-  fluidRow(
-    div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
-        h3("Chart for Header 25"),
-        h6("Data Source: CorrelExpShareMeterPriceSeries.csv"),
-        plotlyOutput("IHBS_CorrelExpShareMeterPrice"),
-        fluidRow(
-          column(4,
-                 selectInput("IHBS_CorrelExpShareMeterPrice_Year", "Year", choices = unique(df$Year), selected = 1402)
-          ),
-          column(4,
-                 selectInput("IHBS_CorrelExpShareMeterPrice_Variable", "Variable", choices = unique(df$Variable))
-          )
-
-        )
-    )
-  )}
-
+# ui_IHBS_correlexpsharemeterprice  <- function(df){
+#   fluidRow(
+#     div(style = "margin: 20px; padding: 20px; border: 1px solid #ccc; background-color: #f9f9f9;",
+#         h3("Chart for Header 25"),
+#         h6("Data Source: CorrelExpShareMeterPriceSeries.csv"),
+#         plotlyOutput("IHBS_CorrelExpShareMeterPrice"),
+#         fluidRow(
+#           column(4,
+#                  selectInput("IHBS_CorrelExpShareMeterPrice_Year", "Year", choices = unique(df$Year), selected = 1402)
+#           ),
+#           column(4,
+#                  selectInput("IHBS_CorrelExpShareMeterPrice_Variable", "Variable", choices = unique(df$Variable))
+#           )
+# 
+#         )
+#     )
+#   )}
+# 
 
 
 ui_IHBS_blank <- function(df){

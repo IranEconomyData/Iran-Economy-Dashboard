@@ -72,7 +72,7 @@ library(here)
 # }
 # 
 # 
-# # Cumulative Share of food items----
+# Cumulative Share of food items----
 # df_IHBS_Cumulative_Share <- read.csv(here("Data/IHBS/raw/Cumulative Expenditure Food Share Dec Series.csv"))
 # 
 # IHBS_Cumulative_Share_data <- function(df, variable, year) {
@@ -80,7 +80,7 @@ library(here)
 #     filter(Variable == variable,
 #            Year == year)
 # }
-# 
+
 # 
 # # Change price and consumption of food items based on year 1387----
 # df_IHBS_ChangeFoodItems <- read.csv(here("Data/IHBS/raw/ChangeFoodItems.csv"))
@@ -214,22 +214,22 @@ library(here)
 # 
 # 
 # #Real Expenditure & Income Province----
-# df_IHBS_RealExpIncProv <- read.csv(here("Data/IHBS/raw/RealExpIncProvSeries.csv"))
-# df_IHBS_RealExpIncProv <- df_IHBS_RealExpIncProv %>%
-#   mutate(Province = recode(Province,
-#                            "East Azarbaijan" = "East Azerbaijan",
-#                            "West Azarbaijan" = "West Azerbaijan",
-#                            "Esfahan" = "Isfahan",
-#                            "Kohkiluyeh and Buyer Ahmad" = "Kohgiluyeh and Boyer-Ahmad",
-#                            "Sistan and Baluchistan" = "Sistan and Baluchestan",
-#                            "Chahar Mahaal and Bakhtiari" = "Chaharmahal and Bakhtiari"))
-# 
-# 
-# IHBS_RealExpIncProv_data <- function(df, year,type) {
-#   df |>
-#     filter(Year == year,
-#            Type == type)
-# }
+df_IHBS_RealExpIncProv <- read.csv(here("Data/IHBS/raw/RealExpIncProvSeries.csv"))
+df_IHBS_RealExpIncProv <- df_IHBS_RealExpIncProv %>%
+  mutate(Province = recode(Province,
+                           "East Azarbaijan" = "East Azerbaijan",
+                           "West Azarbaijan" = "West Azerbaijan",
+                           "Esfahan" = "Isfahan",
+                           "Kohkiluyeh and Buyer Ahmad" = "Kohgiluyeh and Boyer-Ahmad",
+                           "Sistan and Baluchistan" = "Sistan and Baluchestan",
+                           "Chahar Mahaal and Bakhtiari" = "Chaharmahal and Bakhtiari"))
+
+
+IHBS_RealExpIncProv_data <- function(df, year,type) {
+  df |>
+    filter(Year == year,
+           Type == type)
+}
 # 
 # 
 # 
@@ -382,13 +382,13 @@ IHBS_MetaData2_data <- function(df, year, type) {
 # 
 # #=======
 
-df_IHBS_CorrelExpShareMeterPrice <-  read.csv(here("Data/IHBS/raw/CorrelExpShareMeterPriceSeries.csv"))
-
-
-IHBS_CorrelExpShareMeterPrice_data <- function(df, year,variable) {
-
-  df |>
-    filter(Year == year,
-           Variable == variable)
-}
+# df_IHBS_CorrelExpShareMeterPrice <-  read.csv(here("Data/IHBS/raw/CorrelExpShareMeterPriceSeries.csv"))
+# 
+# 
+# IHBS_CorrelExpShareMeterPrice_data <- function(df, year,variable) {
+# 
+#   df |>
+#     filter(Year == year,
+#            Variable == variable)
+# }
 #----

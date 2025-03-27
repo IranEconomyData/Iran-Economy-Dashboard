@@ -151,11 +151,11 @@ server_IHBS <- function(input, output){
   #          x = "Cumulative Share of Decile",
   #          y = "Lorenz Curve") +
   #     theme_minimal()
-  #   
-  #   ggplotly(p)
-  #   
-  # })  
   # 
+  #   ggplotly(p)
+  # 
+  # })
+
   # 
   # 
   # #---- Cumulative Expenditure Share
@@ -185,17 +185,17 @@ server_IHBS <- function(input, output){
   #     geom_bar(stat = "identity", position = "dodge",fill = "darkgreen") +
   #     #scale_x_continuous(breaks = seq(87, 96, by = 1)) +
   #     #scale_y_continuous(breaks = seq(0, 10, by = 1)) +
-  #     
+  # 
   #     labs(title = "Price Elasticity of food items",
   #          x = "Items",
   #          y = "Elasticity") +
   #     theme_minimal()
-  #   
-  #   
-  #   ggplotly(p)
-  #   
-  # })  
   # 
+  # 
+  #   ggplotly(p)
+  # 
+  # })
+
   # #---- Expenditure Elasticity
   # output$IHBS_ExpenditureElasticity <- renderPlotly({
   #   # Get the filtered data
@@ -322,52 +322,52 @@ server_IHBS <- function(input, output){
   # 
   # 
   # #----
-  # output$IHBS_RealExpIncProv  <- renderPlotly({
-  #   # Get the filtered data
-  #   data <- iran_map |> select(geometry, Province) %>%
-  #     left_join(IHBS_RealExpIncProv_data(df_IHBS_RealExpIncProv, input$IHBS_RealExpIncProv_year, input$IHBS_RealExpIncProv_Type) |> select (Province, Value),
-  #               by = "Province")
-  #   centroids <- st_centroid(iran_map)
-  #   
-  #   p <- ggplot() +
-  #     geom_sf(data = world, fill = "lightblue", color = NA) + # background for ocean
-  #     # Plot surrounding countries
-  #     geom_sf(data = world, fill = "grey80", color = "white") +
-  #     # Plot water bodies
-  #     geom_sf(data = water, fill = "lightblue", color = "lightblue") +
-  #     # Plot Iran provinces with sample data
-  #     geom_sf(data = data, aes(fill = Value)) + 
-  #     scale_fill_gradient(low = "lightgreen", high = "darkgreen") + 
-  #     # Add country names at centroids
-  #     geom_text(data = neighboring_countries_centroids, 
-  #               aes(x = st_coordinates(geometry)[,1], y = st_coordinates(geometry)[,2], 
-  #                   label = admin), color = "darkblue", size = 3) +
-  #     geom_text(data = centroids, 
-  #               aes(x = st_coordinates(geometry)[,1], 
-  #                   y = st_coordinates(geometry)[,2], 
-  #                   label = Province), 
-  #               size = 2, color = "darkred")+
-  #     #scale_fill_viridis_c(option = "C", name = "Value") +
-  #     labs(
-  #       title = "Real Expenditure & Income per month per capita Unit: 1000 Tomans ",
-  #       caption = "Source: Sample Data"
-  #     ) +
-  #     theme_minimal() +
-  #     theme(
-  #       panel.background = element_rect(fill = "lightblue", color = NA),  # Ocean background
-  #       axis.text = element_blank(),
-  #       axis.ticks = element_blank(),
-  #       panel.grid = element_blank()
-  #     )+
-  #     coord_sf(xlim = c(42, 64), ylim = c(25, 40)) # Adjust xlim and ylim as needed
-  #   
-  #   
-  #   # Convert to interactive plotly plot
-  #   ggplotly(p)
-  #   
-  #   
-  #   
-  # })
+  output$IHBS_RealExpIncProv  <- renderPlotly({
+    # Get the filtered data
+    data <- iran_map |> select(geometry, Province) %>%
+      left_join(IHBS_RealExpIncProv_data(df_IHBS_RealExpIncProv, input$IHBS_RealExpIncProv_year, input$IHBS_RealExpIncProv_Type) |> select (Province, Value),
+                by = "Province")
+    centroids <- st_centroid(iran_map)
+
+    p <- ggplot() +
+      geom_sf(data = world, fill = "lightblue", color = NA) + # background for ocean
+      # Plot surrounding countries
+      geom_sf(data = world, fill = "grey80", color = "white") +
+      # Plot water bodies
+      geom_sf(data = water, fill = "lightblue", color = "lightblue") +
+      # Plot Iran provinces with sample data
+      geom_sf(data = data, aes(fill = Value)) +
+      scale_fill_gradient(low = "lightgreen", high = "darkgreen") +
+      # Add country names at centroids
+      geom_text(data = neighboring_countries_centroids,
+                aes(x = st_coordinates(geometry)[,1], y = st_coordinates(geometry)[,2],
+                    label = admin), color = "darkblue", size = 3) +
+      geom_text(data = centroids,
+                aes(x = st_coordinates(geometry)[,1],
+                    y = st_coordinates(geometry)[,2],
+                    label = Province),
+                size = 2, color = "darkred")+
+      #scale_fill_viridis_c(option = "C", name = "Value") +
+      labs(
+        title = "Real Expenditure & Income per month per capita Unit: 1000 Tomans ",
+        caption = "Source: Sample Data"
+      ) +
+      theme_minimal() +
+      theme(
+        panel.background = element_rect(fill = "lightblue", color = NA),  # Ocean background
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank()
+      )+
+      coord_sf(xlim = c(42, 64), ylim = c(25, 40)) # Adjust xlim and ylim as needed
+
+
+    # Convert to interactive plotly plot
+    ggplotly(p)
+
+
+
+  })
   # 
   # #---- Real Exp Inc per decile
   # output$IHBS_RealExpIncDec <- renderPlotly({
@@ -463,39 +463,39 @@ server_IHBS <- function(input, output){
   # })  
   # 
 
-  # Total Exp for each Household---- 
-  # output$IHBS_MetaData <- renderPlotly({
-  #   # Get the filtered data
-  #   data <- IHBS_MetaData_data(df_IHBS_MetaData,input$IHBS_MetaData_Year,input$IHBS_MetaData_Type)
-  #   y_na_mean <- mean(data$Value[is.na(data$Decile)])
+#  Total Exp for each Household----
+  output$IHBS_MetaData <- renderPlotly({
+    # Get the filtered data
+    data <- IHBS_MetaData_data(df_IHBS_MetaData,input$IHBS_MetaData_Year,input$IHBS_MetaData_Type)
+    y_na_mean <- mean(data$Value[is.na(data$Decile)])
+
+
+    p <- ggplot(data, aes(x = as.factor(Decile), y =Value, color = as.factor(Decile))) +
+      geom_jitter(size = 0.1, width = 0.4) +
+      scale_x_discrete(na.translate = FALSE)+
+      labs(title = "Household Expenditure per Capita",
+           x = "Decile",
+           y = "Value (10000 Rials per month)",
+           color = "Decile")+
+      theme_minimal()+
+     ylim(-20000, 50000)+
+    geom_hline(aes(yintercept = y_na_mean, color = "Mean"), color = "red", linetype = "dashed", size = 0.5)
+
+
+
+
+    ggplotly(p)
+
+  })
+
   # 
-  # 
-  #   p <- ggplot(data, aes(x = as.factor(Decile), y =Value, color = as.factor(Decile))) +
-  #     geom_jitter(size = 0.1, width = 0.4) +
-  #     scale_x_discrete(na.translate = FALSE)+
-  #     labs(title = "Household Expenditure per Capita",
-  #          x = "Decile",
-  #          y = "Value (10000 Rials per month)",
-  #          color = "Decile")+
-  #     theme_minimal()+
-  #    ylim(-20000, 50000)+
-  #   geom_hline(aes(yintercept = y_na_mean, color = "Mean"), color = "red", linetype = "dashed", size = 0.5)
-  # 
-  # 
-  # 
-  # 
-  #   ggplotly(p)
-  # 
-  # })
-  # 
-  # 
-  # # Total Exp for each Household---- 
+  # # Total Exp for each Household----
   # output$IHBS_MetaData2 <- renderPlotly({
   #   # Get the filtered data
   #   data <- IHBS_MetaData2_data(df_IHBS_MetaData2,input$IHBS_MetaData2_Year,input$IHBS_MetaData2_Type)
   #   #y_na_mean <- mean(data$Value[is.na(data$Decile)])
-  #   
-  #   
+  # 
+  # 
   #   p <- ggplot(data, aes(x = as.factor(Decile), y =Value, fill = as.factor(Decile))) +
   #     geom_boxplot(outlier.shape = NA) +
   #     #scale_x_discrete(na.translate = FALSE)+
@@ -506,16 +506,16 @@ server_IHBS <- function(input, output){
   #     theme_minimal()+
   #     ylim(-10000, 30000)
   #     #geom_hline(aes(yintercept = y_na_mean, color = "Mean"), color = "red", linetype = "dashed", size = 0.5)
-  #   
-  #   
-  #   
-  #   
+  # 
+  # 
+  # 
+  # 
   #   ggplotly(p)
-  #   
+  # 
   # })
   # 
   # 
-  
+
   
   # 
   # # Total Exp for each Household----
@@ -668,100 +668,100 @@ server_IHBS <- function(input, output){
   # 
   # 
 
-  output$IHBS_CorrelExpShareMeterPrice <- renderPlotly({
-      # Get the filtered data
-      data <- IHBS_CorrelExpShareMeterPrice_data(df_IHBS_CorrelExpShareMeterPrice,input$IHBS_CorrelExpShareMeterPrice_Year,input$IHBS_CorrelExpShareMeterPrice_Variable)
-      
-      
-      
-      correlations <- data %>%
-        summarise(correlation = round(cor(Value, Value2, method = "pearson"), 2))  # همبستگی گروهی
-      
-      
-      
-      
-      p2 <- ggplot(data, aes(x = ProvinceName , y=Value ,fill=ProvinceName)) +
-        geom_bar(stat = "identity", position = "dodge")+
-        coord_flip()+
-        # geom_label(data = correlations, aes(x = 30, y = 50, label = paste("Correlation:", correlations)),
-        #           inherit.aes = FALSE, color = "darkred", size = 3)+
-        theme_minimal()+
-        labs(title = "",
-             x = NULL,
-             y = "Share Expanditure") 
-      
-      
-      p1 <- ggplot(data, aes(x = ProvinceName , y=Value2 ,fill=ProvinceName)) +
-        geom_bar(stat = "identity", position = "dodge")+
-        coord_flip()+
-        scale_y_reverse() +
-        theme(legend.position = "none")+
-        theme_minimal()+
-        labs(
-          x = NULL ,
-          y = "Rent price per square meter (Rial / m2)") 
-      
-      #p2+p1
-      # combined_plot <- (p1 + p2) +
-      #   plot_layout(guides = "collect")
-      # interactive_plot <- ggplotly(combined_plot)
-      # interactive_plot
-      # 
-      interactive_plot1 <- ggplotly(p1) %>% layout(showlegend = FALSE)
-      interactive_plot2 <- ggplotly(p2) %>% layout(showlegend = FALSE)
-      
-      
-      legend_plot <- ggplotly(
-        ggplot(data, aes(x = ProvinceName, y = Value2, fill = ProvinceName)) +
-          geom_bar(stat = "identity", position = "dodge") +
-          theme_minimal()
-      ) %>% layout(legend = list(orientation = "v", x = 0.5, y = -0.2, xanchor = "center"))
-      
-      
-      
-      
-      # ایجاد یک لیست از annotations با استفاده از aes
-      annotations <- lapply(1:nrow(correlations), function(i) {
-        list(
-          x = 0.05, # مقدار x برای هر annotation
-          y = 1.01, # مقدار y برای هر annotation
-          text = paste0("Correlation= " ,correlations$correlation), # متن پویا
-          xref = "paper",  # موقعیت بر اساس درصد فضای نمودار (محور x)
-          yref = "paper",  # موقعیت بر اساس درصد فضای نمودار (محور y)
-          showarrow = FALSE, # عدم نمایش فلش
-          font = list(size = 16, color = "blue"),
-          bgcolor = "lightblue", # رنگ پس‌زمینه کادر
-          bordercolor = "darkblue", # رنگ حاشیه کادر
-          borderwidth = 2, # ضخامت حاشیه
-          borderpad = 6  # فاصله متن از حاشیه کادر
-        )
-      })
-      combined_plot <- subplot(
-        interactive_plot1,
-        interactive_plot2,
-        shareY = TRUE,
-        titleY = TRUE
-      ) %>%  layout(
-        xaxis = list(title = "Rent price (Rials per square meter)"),  
-        xaxis2 = list(title = "Expenditure Share"),
-        annotations = annotations
-        
-      )
-      
-      # layout(
-      #   legend = list(orientation = "v", x = 0.5, y = -0.2, xanchor = "center")
-      # )
-      combined_plot
-      
-
-
-
-    # Convert to interactive plotly plot
-    #ggplotly(p2)
-
-
-
-  })
+  # output$IHBS_CorrelExpShareMeterPrice <- renderPlotly({
+  #     # Get the filtered data
+  #     data <- IHBS_CorrelExpShareMeterPrice_data(df_IHBS_CorrelExpShareMeterPrice,input$IHBS_CorrelExpShareMeterPrice_Year,input$IHBS_CorrelExpShareMeterPrice_Variable)
+  #     
+  #     
+  #     
+  #     correlations <- data %>%
+  #       summarise(correlation = round(cor(Value, Value2, method = "pearson"), 2))  # همبستگی گروهی
+  #     
+  #     
+  #     
+  #     
+  #     p2 <- ggplot(data, aes(x = ProvinceName , y=Value ,fill=ProvinceName)) +
+  #       geom_bar(stat = "identity", position = "dodge")+
+  #       coord_flip()+
+  #       # geom_label(data = correlations, aes(x = 30, y = 50, label = paste("Correlation:", correlations)),
+  #       #           inherit.aes = FALSE, color = "darkred", size = 3)+
+  #       theme_minimal()+
+  #       labs(title = "",
+  #            x = NULL,
+  #            y = "Share Expanditure") 
+  #     
+  #     
+  #     p1 <- ggplot(data, aes(x = ProvinceName , y=Value2 ,fill=ProvinceName)) +
+  #       geom_bar(stat = "identity", position = "dodge")+
+  #       coord_flip()+
+  #       scale_y_reverse() +
+  #       theme(legend.position = "none")+
+  #       theme_minimal()+
+  #       labs(
+  #         x = NULL ,
+  #         y = "Rent price per square meter (Rial / m2)") 
+  #     
+  #     #p2+p1
+  #     # combined_plot <- (p1 + p2) +
+  #     #   plot_layout(guides = "collect")
+  #     # interactive_plot <- ggplotly(combined_plot)
+  #     # interactive_plot
+  #     # 
+  #     interactive_plot1 <- ggplotly(p1) %>% layout(showlegend = FALSE)
+  #     interactive_plot2 <- ggplotly(p2) %>% layout(showlegend = FALSE)
+  #     
+  #     
+  #     legend_plot <- ggplotly(
+  #       ggplot(data, aes(x = ProvinceName, y = Value2, fill = ProvinceName)) +
+  #         geom_bar(stat = "identity", position = "dodge") +
+  #         theme_minimal()
+  #     ) %>% layout(legend = list(orientation = "v", x = 0.5, y = -0.2, xanchor = "center"))
+  #     
+  #     
+  #     
+  #     
+  #     # ایجاد یک لیست از annotations با استفاده از aes
+  #     annotations <- lapply(1:nrow(correlations), function(i) {
+  #       list(
+  #         x = 0.05, # مقدار x برای هر annotation
+  #         y = 1.01, # مقدار y برای هر annotation
+  #         text = paste0("Correlation= " ,correlations$correlation), # متن پویا
+  #         xref = "paper",  # موقعیت بر اساس درصد فضای نمودار (محور x)
+  #         yref = "paper",  # موقعیت بر اساس درصد فضای نمودار (محور y)
+  #         showarrow = FALSE, # عدم نمایش فلش
+  #         font = list(size = 16, color = "blue"),
+  #         bgcolor = "lightblue", # رنگ پس‌زمینه کادر
+  #         bordercolor = "darkblue", # رنگ حاشیه کادر
+  #         borderwidth = 2, # ضخامت حاشیه
+  #         borderpad = 6  # فاصله متن از حاشیه کادر
+  #       )
+  #     })
+  #     combined_plot <- subplot(
+  #       interactive_plot1,
+  #       interactive_plot2,
+  #       shareY = TRUE,
+  #       titleY = TRUE
+  #     ) %>%  layout(
+  #       xaxis = list(title = "Rent price (Rials per square meter)"),  
+  #       xaxis2 = list(title = "Expenditure Share"),
+  #       annotations = annotations
+  #       
+  #     )
+  #     
+  #     # layout(
+  #     #   legend = list(orientation = "v", x = 0.5, y = -0.2, xanchor = "center")
+  #     # )
+  #     combined_plot
+  #     
+  # 
+  # 
+  # 
+  #   # Convert to interactive plotly plot
+  #   #ggplotly(p2)
+  # 
+  # 
+  # 
+  # })
 
   
   
