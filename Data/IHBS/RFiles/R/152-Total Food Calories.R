@@ -18,7 +18,7 @@ library(data.table)
 for(year in (Settings$startyear:Settings$endyear)){
   cat(paste0("\n------------------------------\nYear:",year,"\n"))
  
-  load(file=paste0(Settings$HEISProcessedPath,"Y",year,"BigFDataTotalNutrition.rda"))
+  load(file=paste0(Settings$HEISProcessedPath,"Y",year,"BigFData.rda"))
   FoodNutritionData <- BigFData[,.(FoodKCaloriesHH=sum(FoodKCalories),
                        FoodProteinHH=sum(FoodProtein),
                        FoodVitaminAHH=sum(FoodVitaminA),
