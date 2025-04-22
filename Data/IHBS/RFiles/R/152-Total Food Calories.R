@@ -20,11 +20,7 @@ for(year in (Settings$startyear:Settings$endyear)){
  
   load(file=paste0(Settings$HEISProcessedPath,"Y",year,"BigFData.rda"))
   FoodNutritionData <- BigFData[,.(FoodKCaloriesHH=sum(FoodKCalories),
-                       FoodProteinHH=sum(FoodProtein),
-                       FoodVitaminAHH=sum(FoodVitaminA),
-                       FoodRiboflavinHH=sum(FoodRiboflavin),
-                       FoodFeHH=sum(FoodFe),
-                       FoodCalciumHH=sum(FoodCalcium)),by=HHID]
+                       FoodProteinHH=sum(FoodProtein)),by=HHID]
   
   FoodNutritionData <- FoodNutritionData[FoodKCaloriesHH<100000] # arbitrary removal of outliers 
   # TODO: remove households that had some event (religious, weddings, ...) instead of this arbitrary removal
