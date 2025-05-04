@@ -107,7 +107,7 @@ MDNonFood[is.na(MDNonFood)] <- 0
 
 
 MDNonFood <- merge(MD[,.(HHID,Weight,Size,EqSizeOECD,EqSizeCalory,Dcil_Gen_Cons_PAdj,Dcil_Gen_Cons_Nominal,Region,ProvinceName,
-                         PovertyLine,FinalPoor,FGT1M,FGT2M)],MDNonFood,by=c("HHID"),all.x = T)
+                         PovertyLine,FinalPoor,FGT1M,FGT2M,TFoodKCaloriesHH_Per)],MDNonFood,by=c("HHID"),all.x = T)
 
 
 
@@ -150,7 +150,7 @@ MDNonFood <- MDNonFood[,.(HHID,Weight,Size,EqSizeOECD,EqSizeCalory,Dcil_Gen_Cons
             EnergyNew_Exp,Furniture_HouseAppliance_Exp,Medicine_MedicalProducts_Exp,MedicalServices_Exp,DentalServices_Exp,ParamedicalServices_Exp,
             OwnTransportation_Exp,PublicTransportation_Exp,CommunicationNew_Exp,Amusement_Exp,PreparedFoods_Exp,HotelNew_Exp,MiscellGoodsSerivces_Exp,CosmeticMedical_Exp,
             OtherCommunication_Exp,Phone_Exp,Computer_Exp,EducationNew_Exp,Jewelry_Stocks_Exp,Insurance_Exp,Loans_Exp,OtherFinancials_Exp,InvestmentApartment_Exp,
-            InvestmentOther_Exp,TotalNonFood_Exp,PovertyLine,FinalPoor,FGT1M,FGT2M)]
+            InvestmentOther_Exp,TotalNonFood_Exp,PovertyLine,FinalPoor,FGT1M,FGT2M,TFoodKCaloriesHH_Per)]
 
 MDNonFood[,Cloth_Exp := Reduce(`+`, .SD), .SDcols= c("MenCloth_Exp" , "WomenCloth_Exp","KidsCloth_Exp","OtherCloth_Exp") ]
 MDNonFood[,Shelter_Exp := Reduce(`+`, .SD), .SDcols= c("ActualRent_Exp","ImputedRent_Exp","Water_WasteWater_Exp","OtherHouse_Exp","EnergyNew_Exp") ]
@@ -167,11 +167,14 @@ MDNonFood[,Financial_Exp := Reduce(`+`, .SD), .SDcols= c("Insurance_Exp","Loans_
 
 load(file=paste0(Settings$HEISProcessedPath,"Y",year,"BigFDataTotalNew.rda"))
 
-BigFDataNew <- BigFDataNew[,.(HHID,FoodType,Expenditure)]
+BigFDataNew <- BigFDataNew[,.(HHID,FoodType,Expenditure,FGrams)]
 
-BigFDataNew <- BigFDataNew[,.(Expenditure=sum(Expenditure)),by=c("HHID","FoodType")]
-BigFDataWide <- dcast(BigFDataNew, HHID ~ FoodType, value.var = "Expenditure")
+BigFDataNew <- BigFDataNew[,.(Expenditure=sum(Expenditure),
+                              grams=sum(FGrams)),by=c("HHID","FoodType")]
+BigFDataWide <- dcast(BigFDataNew, HHID ~ FoodType, value.var = c("Expenditure","grams"))
 BigFDataWide[is.na(BigFDataWide)] <- 0
+names(BigFDataWide) <- sub("^Expenditure_", "", names(BigFDataWide))
+
 
 MDExp <- merge(MDNonFood,BigFDataWide,by=c("HHID"),all.x = T)
 MDExp[is.na(MDExp)] <- 0
@@ -271,6 +274,18 @@ setnames(MDExp,old = "Total",new = "TotalExp")
 
       
     MD <- merge(MD,HHHouseProperties,by=c("HHID"),all.x = T)
+    
+    gram_cols <- grep("^grams_", names(MD), value = TRUE)
+    
+    gram_cols <- sort(gram_cols)
+    
+    other_cols <- setdiff(names(MD), gram_cols)
+    
+    setcolorder(MD, c(other_cols, gram_cols))
+    
+    
+    setcolorder(MD, c(setdiff(names(MD), "TFoodKCaloriesHH_Per"), "TFoodKCaloriesHH_Per"))
+    
 
 
     if (year %in% c(90,91,92,93,94,95)) {
@@ -333,7 +348,13 @@ setnames(MDExp,old = "Total",new = "TotalExp")
                      
                      "z_pipegas" , "z_phone" , "z_internet" , "z_bathroom" , "z_kitchen" , "z_cooler" , "z_central.cooler", "z_central.heat","z_package" , "z_cooler.gas" ,
                      
-                     "z_sewerage.network" , "z_cook.fuel" , "z_heat.fuel" , "z_hotwater"
+                     "z_sewerage.network" , "z_cook.fuel" , "z_heat.fuel" , "z_hotwater",
+                     
+                     "grams_food_cereals_bread" , "grams_food_chicken" , "grams_food_dairy" , "grams_food_egg" , "grams_food_fruit" , "grams_food_meat" ,
+                     
+                     "grams_food_nuts" , "grams_food_oil", "grams_food_cereals_other" , "grams_food_cereals_rice" , "grams_food_spice.other.ingredients" , "grams_food_sugar",
+                     
+                     "grams_food_tea.coffee" , "grams_food_vegetable", "calc_kcal.per"
                      
                      
       )  
@@ -394,7 +415,13 @@ setnames(MDExp,old = "Total",new = "TotalExp")
                      
                      "z_pipegas" , "z_phone" , "z_internet" , "z_bathroom" , "z_kitchen" , "z_cooler" , "z_central.cooler", "z_central.heat","z_package" , "z_cooler.gas" ,
                      
-                     "z_sewerage.network" , "z_cook.fuel" , "z_heat.fuel" , "z_hotwater"
+                     "z_sewerage.network" , "z_cook.fuel" , "z_heat.fuel" , "z_hotwater",
+                     
+                     "grams_food_cereals_bread" , "grams_food_chicken" , "grams_food_dairy" , "grams_food_egg" , "grams_food_fruit" , "grams_food_meat" ,
+                     
+                     "grams_food_nuts" , "grams_food_oil", "grams_food_cereals_other" , "grams_food_cereals_rice" , "grams_food_spice.other.ingredients" , "grams_food_sugar",
+                     
+                     "grams_food_tea.coffee" , "grams_food_vegetable", "calc_kcal.per"
                      
                      
       )  
